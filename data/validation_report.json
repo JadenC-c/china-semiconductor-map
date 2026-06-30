@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-06-29T16:06:44+08:00",
+  "summary": {
+    "nodes": 20,
+    "screenshotSlots": 80,
+    "uniqueCompanies": 79,
+    "resolvedListings": 79,
+    "fullFinancials": 79,
+    "partialFinancials": 0,
+    "unresolved": 0
+  },
+  "marketErrors": [],
+  "fetchErrors": [],
+  "unresolvedCompanies": [],
+  "missingYears": {
+    "南网数字": [
+      2021
+    ],
+    "摩尔线程": [
+      2021
+    ],
+    "沐曦股份": [
+      2021
+    ]
+  }
+}

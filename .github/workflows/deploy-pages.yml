@@ -1,0 +1,117 @@
+name: 更新并发布研究网页
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - data/research_data.json
+      - data/validation_report.json
+  workflow_dispatch:
+    inputs:
+      refresh_mode:
+        description: 数据更新方式
+        required: true
+        default: full
+        type: choice
+        options:
+          - full
+          - valuation
+          - build-only
+  schedule:
+    # 北京时间工作日 17:20 更新代码、名称与估值快照。
+    - cron: "20 9 * * 1-5"
+    # 北京时间每周日 06:30 完整刷新五年财务。
+    - cron: "30 22 * * 6"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: 检出项目
+        uses: actions/checkout@v4
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安装数据依赖
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: 选择刷新方式
+        id: mode
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          MANUAL_MODE: ${{ inputs.refresh_mode }}
+        run: |
+          if [[ "$EVENT_NAME" == "schedule" && "$EVENT_SCHEDULE" == "20 9 * * 1-5" ]]; then
+            mode="valuation"
+          elif [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            mode="${MANUAL_MODE:-full}"
+          else
+            mode="full"
+          fi
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "本次更新方式：$mode"
+
+      - name: 完整刷新财务与估值
+        if: steps.mode.outputs.mode == 'full'
+        run: python scripts/update_data.py
+
+      - name: 仅刷新代码与估值
+        if: steps.mode.outputs.mode == 'valuation'
+        run: python scripts/update_data.py --skip-financials
+
+      - name: 校验并构建网站
+        run: |
+          python scripts/validate_data.py
+          python tests/update_fallback.py
+          python scripts/build.py
+          test -s dist/index.html
+
+      - name: 保存最新成功数据快照
+        if: steps.mode.outputs.mode != 'build-only'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/research_data.json data/validation_report.json
+          if git diff --cached --quiet; then
+            echo "数据快照没有变化。"
+            exit 0
+          fi
+          git commit -m "chore(data): 更新自动数据快照 [skip ci]"
+          git push origin HEAD:main
+
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传网站文件
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 发布到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

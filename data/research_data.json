@@ -1,0 +1,7223 @@
+{
+  "meta": {
+    "title": "中国半导体与 AI 算力产业链",
+    "subtitle": "从材料、光互连到数据中心与算力运营",
+    "updatedAt": "2026-06-29T16:06:44+08:00",
+    "financialYears": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "screenshotNodeCount": 20,
+    "screenshotSlotCount": 80,
+    "uniqueCompanyCount": 79,
+    "currencyNote": "金额统一为亿元，并保留公司报告币种；本页公司主体财务均以人民币披露口径为主。",
+    "disclaimer": "仅用于产业研究与信息整理，不构成任何投资建议。"
+  },
+  "chains": [
+    {
+      "id": "materials",
+      "name": "材料与器件",
+      "eyebrow": "上游 · 物理底座",
+      "summary": "决定信号能否被生成、存储和高速传输。材料先进入 PCB 与连接系统，芯片则提供计算与存储能力。",
+      "nodeIds": [
+        "copper-foil",
+        "resin",
+        "electronic-cloth",
+        "pcb",
+        "optical-chip",
+        "storage-chip",
+        "ai-chip",
+        "high-speed-connection"
+      ]
+    },
+    {
+      "id": "optical",
+      "name": "光互连",
+      "eyebrow": "中游 · 数据高速公路",
+      "summary": "把芯片间和服务器间的电信号转成光信号。CPO 解决近距离高带宽密度，OCS 负责动态切换光路。",
+      "nodeIds": [
+        "fiber-cable",
+        "optical-module-equipment",
+        "cpo",
+        "ocs"
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "name": "算力基础设施",
+      "eyebrow": "中下游 · 算力工厂",
+      "summary": "服务器把芯片、存储与互连装进系统；供电、备电与液冷保证高功率机柜持续运行，最终汇入 AIDC。",
+      "nodeIds": [
+        "ai-server",
+        "power",
+        "solid-transformer",
+        "gas-turbine",
+        "liquid-cooling",
+        "aidc"
+      ]
+    },
+    {
+      "id": "operations",
+      "name": "算力运营",
+      "eyebrow": "下游 · 能力变现",
+      "summary": "将数据中心、能源和算力资源组织成可调度服务。算电协同优化能源约束，算力租赁把设备转化为按需服务。",
+      "nodeIds": [
+        "compute-power",
+        "compute-rental"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "copper-foil",
+      "name": "铜箔",
+      "chainId": "materials",
+      "stage": "原材料",
+      "description": "覆铜板与高频高速 PCB 的导电层。更薄、更低轮廓的铜箔有助于降低高速信号损耗。",
+      "coreProducts": "电子电路铜箔、锂电铜箔、低轮廓铜箔",
+      "valuePosition": "材料价格和高端规格认证决定盈利弹性。",
+      "upstream": "铜原料、电解设备",
+      "downstream": "覆铜板、PCB",
+      "companies": [
+        "诺德股份",
+        "铜冠铜箔",
+        "嘉元科技",
+        "德福科技"
+      ]
+    },
+    {
+      "id": "resin",
+      "name": "树脂",
+      "chainId": "materials",
+      "stage": "原材料",
+      "description": "覆铜板的绝缘与粘结基体。低介电、低损耗和耐高温性能决定高频板材上限。",
+      "coreProducts": "环氧树脂、特种树脂、低介电材料",
+      "valuePosition": "高端电子级产品配方与客户认证构成壁垒。",
+      "upstream": "基础化工原料",
+      "downstream": "覆铜板、电子封装",
+      "companies": [
+        "东材科技",
+        "圣泉集团",
+        "美联新材",
+        "宏昌电子"
+      ]
+    },
+    {
+      "id": "electronic-cloth",
+      "name": "电子布",
+      "chainId": "materials",
+      "stage": "原材料",
+      "description": "由电子级玻璃纤维织成，是覆铜板的增强骨架；薄型化和低介电性能直接影响高速 PCB。",
+      "coreProducts": "电子级玻纤布、玻纤纱、低介电玻纤",
+      "valuePosition": "上游玻纤成本与高端布供需共同决定盈利。",
+      "upstream": "玻璃纤维纱",
+      "downstream": "覆铜板、PCB",
+      "companies": [
+        "宏和科技",
+        "中国巨石",
+        "中材科技",
+        "国际复材"
+      ]
+    },
+    {
+      "id": "pcb",
+      "name": "PCB",
+      "chainId": "materials",
+      "stage": "核心器件",
+      "description": "承载并连接芯片、存储、连接器和电源器件，是 AI 服务器与交换机内部的电气骨架。",
+      "coreProducts": "高多层板、HDI、服务器板、交换机板",
+      "valuePosition": "层数、材料等级、良率和客户认证决定单机价值量。",
+      "upstream": "铜箔、树脂、电子布、覆铜板",
+      "downstream": "AI 服务器、交换机、光模块",
+      "companies": [
+        "胜宏科技",
+        "东山精密",
+        "深南电路",
+        "沪电股份"
+      ]
+    },
+    {
+      "id": "optical-chip",
+      "name": "光芯片",
+      "chainId": "materials",
+      "stage": "核心器件",
+      "description": "完成激光发射、探测与调制，是光模块和 CPO 的核心有源器件。",
+      "coreProducts": "激光器芯片、探测器芯片、调制器、PLC 芯片",
+      "valuePosition": "高速率、高功率和良率决定国产替代价值。",
+      "upstream": "III-V 族材料、晶圆制造",
+      "downstream": "光模块、CPO、光通信设备",
+      "companies": [
+        "源杰科技",
+        "仕佳光子",
+        "光迅科技",
+        "长光华芯"
+      ]
+    },
+    {
+      "id": "storage-chip",
+      "name": "存储芯片",
+      "chainId": "materials",
+      "stage": "核心器件",
+      "description": "为 AI 训练、推理和服务器提供数据缓存与持久化能力，容量、带宽与功耗共同决定系统效率。",
+      "coreProducts": "DRAM、NAND、NOR Flash、存储模组与控制器",
+      "valuePosition": "芯片设计、封测、模组与渠道周期属性不同，应分开观察。",
+      "upstream": "晶圆制造、封装测试",
+      "downstream": "服务器、终端、数据中心",
+      "companies": [
+        "德明利",
+        "兆易创新",
+        "佰维存储",
+        "江波龙"
+      ]
+    },
+    {
+      "id": "ai-chip",
+      "name": "AI 芯片",
+      "chainId": "materials",
+      "stage": "核心器件",
+      "description": "执行大规模矩阵计算，是训练和推理服务器的算力核心；生态、带宽和能效与峰值算力同样重要。",
+      "coreProducts": "GPU、GPGPU、AI 加速卡、DCU",
+      "valuePosition": "研发投入高，产品迭代、软件生态与量产能力是关键。",
+      "upstream": "EDA、IP、晶圆制造、先进封装",
+      "downstream": "AI 服务器、算力集群",
+      "companies": [
+        "海光信息",
+        "寒武纪",
+        "沐曦股份",
+        "摩尔线程"
+      ]
+    },
+    {
+      "id": "high-speed-connection",
+      "name": "高速连接",
+      "chainId": "materials",
+      "stage": "核心器件",
+      "description": "包括高速线缆、连接器与铜缆组件，负责机内、机柜内和短距离数据传输。",
+      "coreProducts": "高速连接器、DAC/AEC、背板连接、线束",
+      "valuePosition": "速率升级带动材料、精密制造和测试难度提升。",
+      "upstream": "铜材、塑胶、精密结构件",
+      "downstream": "服务器、交换机、数据中心",
+      "companies": [
+        "立讯精密",
+        "兆龙互连",
+        "沃尔核材",
+        "鼎通科技"
+      ]
+    },
+    {
+      "id": "fiber-cable",
+      "name": "光纤光缆",
+      "chainId": "optical",
+      "stage": "传输介质",
+      "description": "承担园区、数据中心和机房内部的长距离低损耗传输，是光网络的物理通道。",
+      "coreProducts": "光纤预制棒、光纤、光缆、特种光缆",
+      "valuePosition": "规模制造、预制棒自给和特种产品结构决定利润。",
+      "upstream": "石英材料、光纤预制棒",
+      "downstream": "运营商网络、数据中心互联",
+      "companies": [
+        "长飞光纤",
+        "亨通光电",
+        "中天科技",
+        "烽火通信"
+      ]
+    },
+    {
+      "id": "optical-module-equipment",
+      "name": "光模块设备",
+      "chainId": "optical",
+      "stage": "制造支撑",
+      "description": "为光模块、硅光和 CPO 提供耦合、贴装、测试与自动化设备，不等同于光模块成品厂。",
+      "coreProducts": "耦合设备、贴装设备、测试设备、自动化产线",
+      "valuePosition": "受益于高速光模块扩产，但订单与客户资本开支相关。",
+      "upstream": "运动控制、视觉、精密零部件",
+      "downstream": "光模块、硅光、CPO 厂商",
+      "companies": [
+        "罗博特科",
+        "科瑞技术",
+        "博杰股份",
+        "德龙激光"
+      ]
+    },
+    {
+      "id": "cpo",
+      "name": "CPO",
+      "chainId": "optical",
+      "stage": "光互连方案",
+      "description": "共封装光学把光引擎靠近交换芯片，缩短电连接距离，以降低高带宽网络的功耗和损耗。",
+      "coreProducts": "高速光模块、光引擎、光器件、耦合封装",
+      "valuePosition": "截图公司多为 CPO 相关组件或光模块供应商，并非都已形成 CPO 规模收入。",
+      "upstream": "光芯片、光器件、封装设备",
+      "downstream": "AI 交换机、集群网络",
+      "companies": [
+        "中际旭创",
+        "新易盛",
+        "天孚通信",
+        "华工科技"
+      ],
+      "auditNote": "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。"
+    },
+    {
+      "id": "ocs",
+      "name": "OCS",
+      "chainId": "optical",
+      "stage": "光路交换",
+      "description": "光路交换机直接切换光纤路径，可在不经过光电转换的情况下重构数据中心网络拓扑。",
+      "coreProducts": "光开关、准直器、晶体光学、微光学组件",
+      "valuePosition": "国内上市公司多是关键光学器件供应商，纯 OCS 整机收入披露有限。",
+      "upstream": "微光学、晶体、光纤器件",
+      "downstream": "AI 数据中心网络",
+      "companies": [
+        "腾景科技",
+        "福晶科技",
+        "光库科技",
+        "德科立"
+      ],
+      "auditNote": "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。"
+    },
+    {
+      "id": "ai-server",
+      "name": "AI 服务器",
+      "chainId": "infrastructure",
+      "stage": "系统集成",
+      "description": "把 AI 芯片、存储、PCB、高速连接和网络装入可部署系统，是算力从器件走向集群的关键环节。",
+      "coreProducts": "训练服务器、推理服务器、整机柜、交换机",
+      "valuePosition": "规模、供应链整合、客户结构与毛利率需要一起观察。",
+      "upstream": "AI 芯片、存储、PCB、连接器",
+      "downstream": "AIDC、云与行业客户",
+      "companies": [
+        "工业富联",
+        "浪潮信息",
+        "紫光股份",
+        "中科曙光"
+      ]
+    },
+    {
+      "id": "power",
+      "name": "电源",
+      "chainId": "infrastructure",
+      "stage": "机房基础设施",
+      "description": "完成市电到机柜的变换、稳压与备电。AI 机柜功率密度提升推动高效率、高功率电源升级。",
+      "coreProducts": "UPS、服务器电源、HVDC、储能与配电",
+      "valuePosition": "效率、功率密度、可靠性和大客户认证决定价值。",
+      "upstream": "功率器件、磁性元件、电池",
+      "downstream": "服务器、数据中心",
+      "companies": [
+        "中恒电气",
+        "圣阳股份",
+        "欧陆通",
+        "麦格米特"
+      ]
+    },
+    {
+      "id": "solid-transformer",
+      "name": "固态变压器",
+      "chainId": "infrastructure",
+      "stage": "供配电",
+      "description": "以高频功率电子替代部分传统工频变压环节，可支持直流配电和灵活能量管理，目前仍处产业化早期。",
+      "coreProducts": "电力电子变压器、柔性配电、变流器",
+      "valuePosition": "截图公司多具备功率电子或变压器技术储备，不能等同于已形成固态变压器规模收入。",
+      "upstream": "功率半导体、磁性材料",
+      "downstream": "数据中心、微电网、充电设施",
+      "companies": [
+        "四方股份",
+        "中国西电",
+        "伊戈尔",
+        "金盘科技"
+      ],
+      "auditNote": "概念口径：产业处早期，需以产品验证与订单披露为准。"
+    },
+    {
+      "id": "gas-turbine",
+      "name": "燃气轮机",
+      "chainId": "infrastructure",
+      "stage": "能源保障",
+      "description": "在电网容量受限或可靠性要求极高时提供分布式发电与备用电源，可与余热利用组成综合能源系统。",
+      "coreProducts": "燃气轮机部件、压缩机、发电机组、运维",
+      "valuePosition": "设备技术壁垒高，但与 AIDC 的订单映射需逐项核验。",
+      "upstream": "高温合金、叶片、控制系统",
+      "downstream": "电站、工业能源、数据中心备电",
+      "companies": [
+        "杰瑞股份",
+        "联德股份",
+        "应流股份",
+        "东方电气"
+      ],
+      "auditNote": "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。"
+    },
+    {
+      "id": "liquid-cooling",
+      "name": "液冷",
+      "chainId": "infrastructure",
+      "stage": "热管理",
+      "description": "通过冷板或浸没式方案直接带走芯片热量，适合高功率 AI 机柜并可降低制冷能耗。",
+      "coreProducts": "冷板、CDU、冷却液、浸没式系统、机房温控",
+      "valuePosition": "关注方案能力、服务器协同、项目交付和售后服务。",
+      "upstream": "泵阀、换热器、制冷剂",
+      "downstream": "AI 服务器、AIDC",
+      "companies": [
+        "英维克",
+        "高澜股份",
+        "中科曙光",
+        "申菱环境"
+      ],
+      "auditNote": "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。"
+    },
+    {
+      "id": "aidc",
+      "name": "AIDC",
+      "chainId": "infrastructure",
+      "stage": "算力载体",
+      "description": "面向 AI 训练与推理的数据中心，聚合服务器、网络、供配电和冷却，并向客户交付稳定算力环境。",
+      "coreProducts": "数据中心园区、机柜租赁、网络接入、运维服务",
+      "valuePosition": "上架率、电力指标、资本开支、融资成本和客户结构共同影响回报。",
+      "upstream": "服务器、网络、电源、液冷、能源",
+      "downstream": "云厂商、模型公司、行业客户",
+      "companies": [
+        "润泽科技",
+        "网宿科技",
+        "光环新网",
+        "数据港"
+      ]
+    },
+    {
+      "id": "compute-power",
+      "name": "算电协同",
+      "chainId": "operations",
+      "stage": "资源调度",
+      "description": "把算力负荷与电源、电网和储能协调起来，在能源约束下优化选址、时段和运行成本。",
+      "coreProducts": "综合能源、虚拟电厂、绿电交易、算力调度",
+      "valuePosition": "尚无统一商业模式，能源资产、调度能力与真实项目是核验重点。",
+      "upstream": "电源、电网、储能、AIDC",
+      "downstream": "算力运营商与用算客户",
+      "companies": [
+        "豫能控股",
+        "协鑫能科",
+        "南网数字",
+        "韶能股份"
+      ],
+      "auditNote": "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。"
+    },
+    {
+      "id": "compute-rental",
+      "name": "算力租赁",
+      "chainId": "operations",
+      "stage": "服务变现",
+      "description": "将 GPU 服务器或集群算力按时长、任务或资源规格出租，收入取决于利用率、价格和设备折旧。",
+      "coreProducts": "GPU 租赁、智算云、算力调度、托管服务",
+      "valuePosition": "需区分自有算力、转租模式与软件平台收入，警惕高资本开支和设备贬值。",
+      "upstream": "AI 芯片、服务器、AIDC",
+      "downstream": "模型训练、推理与行业应用",
+      "companies": [
+        "利通电子",
+        "协创数据",
+        "宏景科技",
+        "优刻得"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "copper-foil",
+      "to": "pcb",
+      "label": "导电层"
+    },
+    {
+      "from": "resin",
+      "to": "pcb",
+      "label": "绝缘基体"
+    },
+    {
+      "from": "electronic-cloth",
+      "to": "pcb",
+      "label": "增强骨架"
+    },
+    {
+      "from": "optical-chip",
+      "to": "cpo",
+      "label": "光发射/探测"
+    },
+    {
+      "from": "optical-module-equipment",
+      "to": "cpo",
+      "label": "封装与测试"
+    },
+    {
+      "from": "fiber-cable",
+      "to": "ocs",
+      "label": "光路"
+    },
+    {
+      "from": "ai-chip",
+      "to": "ai-server",
+      "label": "计算"
+    },
+    {
+      "from": "storage-chip",
+      "to": "ai-server",
+      "label": "存储"
+    },
+    {
+      "from": "pcb",
+      "to": "ai-server",
+      "label": "系统承载"
+    },
+    {
+      "from": "high-speed-connection",
+      "to": "ai-server",
+      "label": "铜互连"
+    },
+    {
+      "from": "cpo",
+      "to": "ai-server",
+      "label": "高速网络"
+    },
+    {
+      "from": "ocs",
+      "to": "aidc",
+      "label": "光网络重构"
+    },
+    {
+      "from": "ai-server",
+      "to": "aidc",
+      "label": "算力设备"
+    },
+    {
+      "from": "power",
+      "to": "aidc",
+      "label": "供电"
+    },
+    {
+      "from": "solid-transformer",
+      "to": "aidc",
+      "label": "柔性配电"
+    },
+    {
+      "from": "gas-turbine",
+      "to": "aidc",
+      "label": "能源保障"
+    },
+    {
+      "from": "liquid-cooling",
+      "to": "aidc",
+      "label": "散热"
+    },
+    {
+      "from": "aidc",
+      "to": "compute-power",
+      "label": "负荷调度"
+    },
+    {
+      "from": "aidc",
+      "to": "compute-rental",
+      "label": "资源供给"
+    }
+  ],
+  "companies": [
+    {
+      "id": "a-002384",
+      "name": "东山精密",
+      "nodeIds": [
+        "pcb"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002384",
+          "exchange": "SZSE",
+          "name": "东山精密",
+          "peTtm": 224.08,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 317.93,
+          "revenueYoY": 13.2,
+          "netProfit": 18.62,
+          "netProfitYoY": 21.7,
+          "grossMargin": 14.7,
+          "roe": 13.5,
+          "operatingCashFlow": 32.11,
+          "debtRatio": 61.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 315.8,
+          "revenueYoY": -0.7,
+          "netProfit": 23.68,
+          "netProfitYoY": 27.2,
+          "grossMargin": 17.6,
+          "roe": 15.3,
+          "operatingCashFlow": 46.3,
+          "debtRatio": 59.7
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 336.51,
+          "revenueYoY": 6.6,
+          "netProfit": 19.65,
+          "netProfitYoY": -17.1,
+          "grossMargin": 15.2,
+          "roe": 11.4,
+          "operatingCashFlow": 51.72,
+          "debtRatio": 59.0
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 367.7,
+          "revenueYoY": 9.3,
+          "netProfit": 10.86,
+          "netProfitYoY": -44.7,
+          "grossMargin": 14.0,
+          "roe": 5.9,
+          "operatingCashFlow": 49.86,
+          "debtRatio": 59.0
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 401.25,
+          "revenueYoY": 9.1,
+          "netProfit": 13.86,
+          "netProfitYoY": 27.7,
+          "grossMargin": 14.1,
+          "roe": 6.9,
+          "operatingCashFlow": 53.09,
+          "debtRatio": 64.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-600875",
+      "name": "东方电气",
+      "nodeIds": [
+        "gas-turbine"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "600875",
+          "exchange": "SSE",
+          "name": "东方电气",
+          "peTtm": 23.5,
+          "peAsOf": "2026-06-29"
+        },
+        {
+          "market": "H",
+          "code": "01072",
+          "name": "东方电气",
+          "exchange": "HKEX",
+          "peTtm": 15.53,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 478.19,
+          "revenueYoY": 28.3,
+          "netProfit": 22.89,
+          "netProfitYoY": 22.9,
+          "grossMargin": 17.3,
+          "roe": 7.2,
+          "operatingCashFlow": -45.24,
+          "debtRatio": 65.7
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 553.64,
+          "revenueYoY": 15.8,
+          "netProfit": 28.58,
+          "netProfitYoY": 24.9,
+          "grossMargin": 16.5,
+          "roe": 8.4,
+          "operatingCashFlow": 85.92,
+          "debtRatio": 66.5
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 606.77,
+          "revenueYoY": 9.6,
+          "netProfit": 35.5,
+          "netProfitYoY": 24.2,
+          "grossMargin": 15.9,
+          "roe": 9.8,
+          "operatingCashFlow": -35.62,
+          "debtRatio": 66.0
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 696.95,
+          "revenueYoY": 14.9,
+          "netProfit": 29.22,
+          "netProfitYoY": -17.7,
+          "grossMargin": 14.2,
+          "roe": 7.7,
+          "operatingCashFlow": 102.24,
+          "debtRatio": 69.6
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 786.15,
+          "revenueYoY": 12.8,
+          "netProfit": 38.31,
+          "netProfitYoY": 31.1,
+          "grossMargin": 15.9,
+          "roe": 9.0,
+          "operatingCashFlow": 20.44,
+          "debtRatio": 70.4
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-601208",
+      "name": "东材科技",
+      "nodeIds": [
+        "resin"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "601208",
+          "exchange": "SSE",
+          "name": "东材科技",
+          "peTtm": 178.8,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 32.48,
+          "revenueYoY": 72.7,
+          "netProfit": 3.34,
+          "netProfitYoY": 90.5,
+          "grossMargin": 23.4,
+          "roe": 10.5,
+          "operatingCashFlow": -0.58,
+          "debtRatio": 39.4
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 36.4,
+          "revenueYoY": 12.1,
+          "netProfit": 4.15,
+          "netProfitYoY": 24.2,
+          "grossMargin": 20.7,
+          "roe": 10.1,
+          "operatingCashFlow": -6.37,
+          "debtRatio": 51.8
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 37.37,
+          "revenueYoY": 2.7,
+          "netProfit": 3.26,
+          "netProfitYoY": -21.4,
+          "grossMargin": 19.0,
+          "roe": 7.5,
+          "operatingCashFlow": 1.81,
+          "debtRatio": 52.6
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 44.7,
+          "revenueYoY": 19.6,
+          "netProfit": 1.81,
+          "netProfitYoY": -44.5,
+          "grossMargin": 13.9,
+          "roe": 4.0,
+          "operatingCashFlow": 0.91,
+          "debtRatio": 55.4
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 51.81,
+          "revenueYoY": 15.9,
+          "netProfit": 2.85,
+          "netProfitYoY": 57.7,
+          "grossMargin": 15.7,
+          "roe": 5.6,
+          "operatingCashFlow": 0.8,
+          "debtRatio": 45.8
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-600176",
+      "name": "中国巨石",
+      "nodeIds": [
+        "electronic-cloth"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "600176",
+          "exchange": "SSE",
+          "name": "中国巨石",
+          "peTtm": 74.34,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 197.07,
+          "revenueYoY": 68.9,
+          "netProfit": 60.28,
+          "netProfitYoY": 149.5,
+          "grossMargin": 45.3,
+          "roe": 30.1,
+          "operatingCashFlow": 59.81,
+          "debtRatio": 46.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 201.92,
+          "revenueYoY": 2.5,
+          "netProfit": 66.1,
+          "netProfitYoY": 9.6,
+          "grossMargin": 35.6,
+          "roe": 26.5,
+          "operatingCashFlow": 41.23,
+          "debtRatio": 40.8
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 148.76,
+          "revenueYoY": -26.3,
+          "netProfit": 30.44,
+          "netProfitYoY": -53.9,
+          "grossMargin": 28.0,
+          "roe": 10.9,
+          "operatingCashFlow": 8.67,
+          "debtRatio": 42.4
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 158.56,
+          "revenueYoY": 6.6,
+          "netProfit": 24.45,
+          "netProfitYoY": -19.7,
+          "grossMargin": 25.0,
+          "roe": 8.4,
+          "operatingCashFlow": 20.33,
+          "debtRatio": 41.1
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 188.81,
+          "revenueYoY": 19.1,
+          "netProfit": 32.85,
+          "netProfitYoY": 34.4,
+          "grossMargin": 33.1,
+          "roe": 10.6,
+          "operatingCashFlow": 42.01,
+          "debtRatio": 40.4
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-601179",
+      "name": "中国西电",
+      "nodeIds": [
+        "solid-transformer"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：产业处早期，需以产品验证与订单披露为准。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "601179",
+          "exchange": "SSE",
+          "name": "中国西电",
+          "peTtm": 58.19,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 143.85,
+          "revenueYoY": -10.1,
+          "netProfit": 5.44,
+          "netProfitYoY": 123.1,
+          "grossMargin": 21.7,
+          "roe": 2.7,
+          "operatingCashFlow": 16.2,
+          "debtRatio": 42.7
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 187.61,
+          "revenueYoY": 30.4,
+          "netProfit": 6.19,
+          "netProfitYoY": 13.8,
+          "grossMargin": 16.4,
+          "roe": 3.0,
+          "operatingCashFlow": 5.63,
+          "debtRatio": 44.3
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 212.04,
+          "revenueYoY": 13.0,
+          "netProfit": 8.97,
+          "netProfitYoY": 44.9,
+          "grossMargin": 18.1,
+          "roe": 4.2,
+          "operatingCashFlow": 12.77,
+          "debtRatio": 44.3
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 222.81,
+          "revenueYoY": 5.1,
+          "netProfit": 10.54,
+          "netProfitYoY": 17.5,
+          "grossMargin": 20.7,
+          "roe": 4.8,
+          "operatingCashFlow": 35.16,
+          "debtRatio": 46.2
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 238.13,
+          "revenueYoY": 6.9,
+          "netProfit": 12.7,
+          "netProfitYoY": 20.4,
+          "grossMargin": 22.7,
+          "roe": 5.6,
+          "operatingCashFlow": 27.46,
+          "debtRatio": 47.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-600522",
+      "name": "中天科技",
+      "nodeIds": [
+        "fiber-cable"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "600522",
+          "exchange": "SSE",
+          "name": "中天科技",
+          "peTtm": 62.88,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 463.4,
+          "revenueYoY": 10.1,
+          "netProfit": 1.82,
+          "netProfitYoY": -92.0,
+          "grossMargin": 16.1,
+          "roe": 0.7,
+          "operatingCashFlow": -5.19,
+          "debtRatio": 39.1
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 402.71,
+          "revenueYoY": -13.1,
+          "netProfit": 32.14,
+          "netProfitYoY": 1664.0,
+          "grossMargin": 18.3,
+          "roe": 11.2,
+          "operatingCashFlow": 45.63,
+          "debtRatio": 35.7
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 450.65,
+          "revenueYoY": 11.9,
+          "netProfit": 31.17,
+          "netProfitYoY": -3.0,
+          "grossMargin": 16.2,
+          "roe": 9.8,
+          "operatingCashFlow": 45.38,
+          "debtRatio": 36.7
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 480.61,
+          "revenueYoY": 6.6,
+          "netProfit": 28.38,
+          "netProfitYoY": -8.9,
+          "grossMargin": 14.4,
+          "roe": 8.4,
+          "operatingCashFlow": 41.38,
+          "debtRatio": 38.5
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 525.0,
+          "revenueYoY": 9.2,
+          "netProfit": 29.02,
+          "netProfitYoY": 2.3,
+          "grossMargin": 13.9,
+          "roe": 8.0,
+          "operatingCashFlow": 47.51,
+          "debtRatio": 38.1
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002364",
+      "name": "中恒电气",
+      "nodeIds": [
+        "power"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002364",
+          "exchange": "SZSE",
+          "name": "中恒电气",
+          "peTtm": 231.42,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 18.19,
+          "revenueYoY": 26.9,
+          "netProfit": 0.89,
+          "netProfitYoY": 5.0,
+          "grossMargin": 26.3,
+          "roe": 4.0,
+          "operatingCashFlow": 0.12,
+          "debtRatio": 28.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 16.09,
+          "revenueYoY": -11.5,
+          "netProfit": -0.56,
+          "netProfitYoY": -162.5,
+          "grossMargin": 21.2,
+          "roe": -2.5,
+          "operatingCashFlow": 1.56,
+          "debtRatio": 31.2
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 15.55,
+          "revenueYoY": -3.3,
+          "netProfit": 0.39,
+          "netProfitYoY": 170.5,
+          "grossMargin": 26.3,
+          "roe": 1.7,
+          "operatingCashFlow": 2.37,
+          "debtRatio": 29.4
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 19.62,
+          "revenueYoY": 26.1,
+          "netProfit": 1.1,
+          "netProfitYoY": 178.5,
+          "grossMargin": 26.2,
+          "roe": 4.7,
+          "operatingCashFlow": 4.69,
+          "debtRatio": 35.1
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 21.37,
+          "revenueYoY": 8.9,
+          "netProfit": 1.26,
+          "netProfitYoY": 15.3,
+          "grossMargin": 24.8,
+          "roe": 5.2,
+          "operatingCashFlow": 2.43,
+          "debtRatio": 40.8
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002080",
+      "name": "中材科技",
+      "nodeIds": [
+        "electronic-cloth"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002080",
+          "exchange": "SZSE",
+          "name": "中材科技",
+          "peTtm": 77.36,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 202.95,
+          "revenueYoY": 7.6,
+          "netProfit": 33.73,
+          "netProfitYoY": 65.4,
+          "grossMargin": 30.0,
+          "roe": 25.2,
+          "operatingCashFlow": 36.71,
+          "debtRatio": 58.5
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 258.14,
+          "revenueYoY": 27.2,
+          "netProfit": 35.74,
+          "netProfitYoY": 6.0,
+          "grossMargin": 23.5,
+          "roe": 21.9,
+          "operatingCashFlow": 30.31,
+          "debtRatio": 51.1
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 258.93,
+          "revenueYoY": 0.3,
+          "netProfit": 22.23,
+          "netProfitYoY": -37.8,
+          "grossMargin": 24.0,
+          "roe": 12.1,
+          "operatingCashFlow": 48.21,
+          "debtRatio": 53.3
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 239.84,
+          "revenueYoY": -7.4,
+          "netProfit": 8.92,
+          "netProfitYoY": -59.9,
+          "grossMargin": 17.0,
+          "roe": 4.8,
+          "operatingCashFlow": 36.0,
+          "debtRatio": 55.3
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 301.95,
+          "revenueYoY": 25.9,
+          "netProfit": 18.18,
+          "netProfitYoY": 103.8,
+          "grossMargin": 18.9,
+          "roe": 9.5,
+          "operatingCashFlow": 54.02,
+          "debtRatio": 56.8
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-603019",
+      "name": "中科曙光",
+      "nodeIds": [
+        "ai-server",
+        "liquid-cooling"
+      ],
+      "screenshotSlots": 2,
+      "auditNotes": [
+        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "603019",
+          "exchange": "SSE",
+          "name": "中科曙光",
+          "peTtm": 64.31,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 112.69,
+          "revenueYoY": 10.9,
+          "netProfit": 11.76,
+          "netProfitYoY": 43.0,
+          "grossMargin": 23.9,
+          "roe": 9.7,
+          "operatingCashFlow": -5.23,
+          "debtRatio": 50.0
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 130.08,
+          "revenueYoY": 15.4,
+          "netProfit": 15.44,
+          "netProfitYoY": 31.3,
+          "grossMargin": 26.3,
+          "roe": 10.2,
+          "operatingCashFlow": 11.25,
+          "debtRatio": 44.2
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 143.53,
+          "revenueYoY": 10.3,
+          "netProfit": 18.36,
+          "netProfitYoY": 18.9,
+          "grossMargin": 26.3,
+          "roe": 10.3,
+          "operatingCashFlow": 35.09,
+          "debtRatio": 38.4
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 131.48,
+          "revenueYoY": -8.4,
+          "netProfit": 19.11,
+          "netProfitYoY": 4.1,
+          "grossMargin": 29.2,
+          "roe": 9.8,
+          "operatingCashFlow": 27.22,
+          "debtRatio": 41.8
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 149.64,
+          "revenueYoY": 13.8,
+          "netProfit": 21.76,
+          "netProfitYoY": 13.9,
+          "grossMargin": 30.6,
+          "roe": 10.2,
+          "operatingCashFlow": 13.14,
+          "debtRatio": 43.7
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300308",
+      "name": "中际旭创",
+      "nodeIds": [
+        "cpo"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300308",
+          "exchange": "SZSE",
+          "name": "中际旭创",
+          "peTtm": 91.02,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 76.95,
+          "revenueYoY": 9.2,
+          "netProfit": 8.77,
+          "netProfitYoY": 1.3,
+          "grossMargin": 25.6,
+          "roe": 10.0,
+          "operatingCashFlow": 8.13,
+          "debtRatio": 30.0
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 96.42,
+          "revenueYoY": 25.3,
+          "netProfit": 12.24,
+          "netProfitYoY": 39.6,
+          "grossMargin": 29.3,
+          "roe": 10.3,
+          "operatingCashFlow": 24.49,
+          "debtRatio": 27.1
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 107.18,
+          "revenueYoY": 11.2,
+          "netProfit": 21.74,
+          "netProfitYoY": 77.6,
+          "grossMargin": 33.0,
+          "roe": 16.6,
+          "operatingCashFlow": 18.97,
+          "debtRatio": 26.2
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 238.62,
+          "revenueYoY": 122.6,
+          "netProfit": 51.71,
+          "netProfitYoY": 137.9,
+          "grossMargin": 33.8,
+          "roe": 31.2,
+          "operatingCashFlow": 31.64,
+          "debtRatio": 29.7
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 382.4,
+          "revenueYoY": 60.3,
+          "netProfit": 107.97,
+          "netProfitYoY": 108.8,
+          "grossMargin": 42.0,
+          "roe": 43.8,
+          "operatingCashFlow": 108.95,
+          "debtRatio": 30.2
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-600487",
+      "name": "亨通光电",
+      "nodeIds": [
+        "fiber-cable"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "600487",
+          "exchange": "SSE",
+          "name": "亨通光电",
+          "peTtm": 82.53,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 412.71,
+          "revenueYoY": 27.4,
+          "netProfit": 14.36,
+          "netProfitYoY": 35.3,
+          "grossMargin": 16.0,
+          "roe": 7.0,
+          "operatingCashFlow": 13.74,
+          "debtRatio": 53.0
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 464.64,
+          "revenueYoY": 12.6,
+          "netProfit": 15.86,
+          "netProfitYoY": 10.4,
+          "grossMargin": 14.2,
+          "roe": 7.5,
+          "operatingCashFlow": 8.55,
+          "debtRatio": 51.7
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 476.22,
+          "revenueYoY": 2.5,
+          "netProfit": 21.54,
+          "netProfitYoY": 35.8,
+          "grossMargin": 15.2,
+          "roe": 8.7,
+          "operatingCashFlow": 18.57,
+          "debtRatio": 55.0
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 599.84,
+          "revenueYoY": 26.0,
+          "netProfit": 27.69,
+          "netProfitYoY": 28.6,
+          "grossMargin": 13.2,
+          "roe": 10.3,
+          "operatingCashFlow": 32.63,
+          "debtRatio": 53.5
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 668.55,
+          "revenueYoY": 11.5,
+          "netProfit": 26.8,
+          "netProfitYoY": -3.2,
+          "grossMargin": 12.5,
+          "roe": 9.0,
+          "operatingCashFlow": 28.08,
+          "debtRatio": 51.7
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688313",
+      "name": "仕佳光子",
+      "nodeIds": [
+        "optical-chip"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688313",
+          "exchange": "SSE",
+          "name": "仕佳光子",
+          "peTtm": 200.48,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 8.17,
+          "revenueYoY": 21.7,
+          "netProfit": 0.5,
+          "netProfitYoY": 31.8,
+          "grossMargin": 25.3,
+          "roe": 4.3,
+          "operatingCashFlow": 0.34,
+          "debtRatio": 23.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 9.03,
+          "revenueYoY": 10.5,
+          "netProfit": 0.64,
+          "netProfitYoY": 28.1,
+          "grossMargin": 25.2,
+          "roe": 5.3,
+          "operatingCashFlow": 1.35,
+          "debtRatio": 23.7
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 7.55,
+          "revenueYoY": -16.5,
+          "netProfit": -0.48,
+          "netProfitYoY": -174.0,
+          "grossMargin": 18.6,
+          "roe": -4.0,
+          "operatingCashFlow": 0.79,
+          "debtRatio": 23.2
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 10.75,
+          "revenueYoY": 42.4,
+          "netProfit": 0.65,
+          "netProfitYoY": 236.6,
+          "grossMargin": 26.3,
+          "roe": 5.6,
+          "operatingCashFlow": 0.26,
+          "debtRatio": 32.7
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 21.29,
+          "revenueYoY": 98.1,
+          "netProfit": 3.72,
+          "netProfitYoY": 473.2,
+          "grossMargin": 33.2,
+          "roe": 27.1,
+          "operatingCashFlow": 0.75,
+          "debtRatio": 36.2
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002922",
+      "name": "伊戈尔",
+      "nodeIds": [
+        "solid-transformer"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：产业处早期，需以产品验证与订单披露为准。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002922",
+          "exchange": "SZSE",
+          "name": "伊戈尔",
+          "peTtm": 57.75,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 22.3,
+          "revenueYoY": 58.6,
+          "netProfit": 1.95,
+          "netProfitYoY": 278.7,
+          "grossMargin": 17.1,
+          "roe": 12.8,
+          "operatingCashFlow": -0.68,
+          "debtRatio": 40.4
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 28.21,
+          "revenueYoY": 26.5,
+          "netProfit": 1.91,
+          "netProfitYoY": -1.7,
+          "grossMargin": 20.1,
+          "roe": 11.4,
+          "operatingCashFlow": 1.86,
+          "debtRatio": 50.1
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 36.3,
+          "revenueYoY": 28.7,
+          "netProfit": 2.09,
+          "netProfitYoY": 9.3,
+          "grossMargin": 22.1,
+          "roe": 9.3,
+          "operatingCashFlow": 1.74,
+          "debtRatio": 41.4
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 46.42,
+          "revenueYoY": 27.9,
+          "netProfit": 2.92,
+          "netProfitYoY": 39.5,
+          "grossMargin": 20.3,
+          "roe": 9.2,
+          "operatingCashFlow": 1.8,
+          "debtRatio": 56.3
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 52.64,
+          "revenueYoY": 13.4,
+          "netProfit": 2.0,
+          "netProfitYoY": -31.4,
+          "grossMargin": 17.8,
+          "roe": 5.9,
+          "operatingCashFlow": 6.41,
+          "debtRatio": 57.9
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688158",
+      "name": "优刻得",
+      "nodeIds": [
+        "compute-rental"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688158",
+          "exchange": "SSE",
+          "name": "优刻得",
+          "peTtm": null,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 29.01,
+          "revenueYoY": 18.2,
+          "netProfit": -6.33,
+          "netProfitYoY": -84.8,
+          "grossMargin": 3.4,
+          "roe": -21.5,
+          "operatingCashFlow": 1.21,
+          "debtRatio": 42.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 19.72,
+          "revenueYoY": -32.0,
+          "netProfit": -4.13,
+          "netProfitYoY": 34.7,
+          "grossMargin": 8.3,
+          "roe": -13.2,
+          "operatingCashFlow": 0.55,
+          "debtRatio": 26.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 15.15,
+          "revenueYoY": -23.2,
+          "netProfit": -3.43,
+          "netProfitYoY": 17.1,
+          "grossMargin": 11.1,
+          "roe": -12.2,
+          "operatingCashFlow": 1.38,
+          "debtRatio": 30.6
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 15.03,
+          "revenueYoY": -0.8,
+          "netProfit": -2.41,
+          "netProfitYoY": 29.7,
+          "grossMargin": 18.9,
+          "roe": -9.6,
+          "operatingCashFlow": 1.22,
+          "debtRatio": 29.2
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 16.99,
+          "revenueYoY": 13.1,
+          "netProfit": -0.74,
+          "netProfitYoY": 69.5,
+          "grossMargin": 25.7,
+          "roe": -3.1,
+          "operatingCashFlow": 2.42,
+          "debtRatio": 32.6
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688525",
+      "name": "佰维存储",
+      "nodeIds": [
+        "storage-chip"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688525",
+          "exchange": "SSE",
+          "name": "佰维存储",
+          "peTtm": 60.54,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 26.09,
+          "revenueYoY": 58.9,
+          "netProfit": 1.17,
+          "netProfitYoY": 325.7,
+          "grossMargin": 17.5,
+          "roe": 8.6,
+          "operatingCashFlow": -4.88,
+          "debtRatio": 35.2
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 29.86,
+          "revenueYoY": 14.4,
+          "netProfit": 0.71,
+          "netProfitYoY": -38.9,
+          "grossMargin": 13.7,
+          "roe": 3.8,
+          "operatingCashFlow": -6.93,
+          "debtRatio": 45.1
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 35.91,
+          "revenueYoY": 20.3,
+          "netProfit": -6.24,
+          "netProfitYoY": -976.7,
+          "grossMargin": 1.7,
+          "roe": -29.0,
+          "operatingCashFlow": -19.66,
+          "debtRatio": 69.7
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 66.95,
+          "revenueYoY": 86.5,
+          "netProfit": 1.61,
+          "netProfitYoY": 125.8,
+          "grossMargin": 18.2,
+          "roe": 7.4,
+          "operatingCashFlow": 5.32,
+          "debtRatio": 69.5
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 113.02,
+          "revenueYoY": 68.8,
+          "netProfit": 8.53,
+          "netProfitYoY": 429.1,
+          "grossMargin": 21.4,
+          "roe": 19.8,
+          "operatingCashFlow": -19.66,
+          "debtRatio": 64.5
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-603986",
+      "name": "兆易创新",
+      "nodeIds": [
+        "storage-chip"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "603986",
+          "exchange": "SSE",
+          "name": "兆易创新",
+          "peTtm": 205.06,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 85.1,
+          "revenueYoY": 89.2,
+          "netProfit": 23.37,
+          "netProfitYoY": 165.3,
+          "grossMargin": 46.5,
+          "roe": 19.4,
+          "operatingCashFlow": 22.62,
+          "debtRatio": 12.6
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 81.3,
+          "revenueYoY": -4.5,
+          "netProfit": 20.53,
+          "netProfitYoY": -12.1,
+          "grossMargin": 47.7,
+          "roe": 14.4,
+          "operatingCashFlow": 9.5,
+          "debtRatio": 8.8
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 57.61,
+          "revenueYoY": -29.1,
+          "netProfit": 1.61,
+          "netProfitYoY": -92.2,
+          "grossMargin": 34.4,
+          "roe": 1.1,
+          "operatingCashFlow": 11.87,
+          "debtRatio": 7.6
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 73.56,
+          "revenueYoY": 27.7,
+          "netProfit": 11.03,
+          "netProfitYoY": 584.2,
+          "grossMargin": 38.0,
+          "roe": 6.9,
+          "operatingCashFlow": 20.32,
+          "debtRatio": 13.3
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 92.03,
+          "revenueYoY": 25.1,
+          "netProfit": 16.48,
+          "netProfitYoY": 49.5,
+          "grossMargin": 40.2,
+          "roe": 9.3,
+          "operatingCashFlow": 21.29,
+          "debtRatio": 10.2
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300913",
+      "name": "兆龙互连",
+      "nodeIds": [
+        "high-speed-connection"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300913",
+          "exchange": "SZSE",
+          "name": "兆龙互连",
+          "peTtm": 64.02,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 14.65,
+          "revenueYoY": 26.2,
+          "netProfit": 0.88,
+          "netProfitYoY": 20.9,
+          "grossMargin": 14.1,
+          "roe": 10.8,
+          "operatingCashFlow": 0.79,
+          "debtRatio": 22.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 16.11,
+          "revenueYoY": 10.0,
+          "netProfit": 1.3,
+          "netProfitYoY": 47.8,
+          "grossMargin": 16.2,
+          "roe": 14.3,
+          "operatingCashFlow": 1.74,
+          "debtRatio": 18.7
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 15.56,
+          "revenueYoY": -3.5,
+          "netProfit": 0.98,
+          "netProfitYoY": -24.8,
+          "grossMargin": 15.1,
+          "roe": 9.6,
+          "operatingCashFlow": 1.23,
+          "debtRatio": 14.7
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 18.31,
+          "revenueYoY": 17.7,
+          "netProfit": 1.53,
+          "netProfitYoY": 55.9,
+          "grossMargin": 16.4,
+          "roe": 13.4,
+          "operatingCashFlow": 1.39,
+          "debtRatio": 18.2
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 21.24,
+          "revenueYoY": 16.0,
+          "netProfit": 2.31,
+          "netProfitYoY": 51.2,
+          "grossMargin": 22.1,
+          "roe": 17.5,
+          "operatingCashFlow": 2.66,
+          "debtRatio": 12.6
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300620",
+      "name": "光库科技",
+      "nodeIds": [
+        "ocs"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300620",
+          "exchange": "SZSE",
+          "name": "光库科技",
+          "peTtm": 432.18,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 6.68,
+          "revenueYoY": 35.8,
+          "netProfit": 1.31,
+          "netProfitYoY": 120.9,
+          "grossMargin": 42.0,
+          "roe": 8.9,
+          "operatingCashFlow": 0.86,
+          "debtRatio": 13.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 6.42,
+          "revenueYoY": -3.8,
+          "netProfit": 1.18,
+          "netProfitYoY": -9.9,
+          "grossMargin": 37.0,
+          "roe": 7.4,
+          "operatingCashFlow": 0.62,
+          "debtRatio": 15.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 7.1,
+          "revenueYoY": 10.5,
+          "netProfit": 0.6,
+          "netProfitYoY": -49.4,
+          "grossMargin": 34.5,
+          "roe": 3.6,
+          "operatingCashFlow": 1.12,
+          "debtRatio": 14.9
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 9.99,
+          "revenueYoY": 40.7,
+          "netProfit": 0.67,
+          "netProfitYoY": 12.3,
+          "grossMargin": 33.9,
+          "roe": 3.6,
+          "operatingCashFlow": 1.87,
+          "debtRatio": 33.5
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 14.74,
+          "revenueYoY": 47.6,
+          "netProfit": 1.77,
+          "netProfitYoY": 163.8,
+          "grossMargin": 34.7,
+          "roe": 8.7,
+          "operatingCashFlow": 2.31,
+          "debtRatio": 40.4
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300383",
+      "name": "光环新网",
+      "nodeIds": [
+        "aidc"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300383",
+          "exchange": "SZSE",
+          "name": "光环新网",
+          "peTtm": null,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 77.0,
+          "revenueYoY": 3.0,
+          "netProfit": 8.36,
+          "netProfitYoY": -8.4,
+          "grossMargin": 20.6,
+          "roe": 8.7,
+          "operatingCashFlow": 14.41,
+          "debtRatio": 29.9
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 71.91,
+          "revenueYoY": -6.6,
+          "netProfit": -8.8,
+          "netProfitYoY": -205.2,
+          "grossMargin": 15.4,
+          "roe": -7.0,
+          "operatingCashFlow": 14.68,
+          "debtRatio": 34.5
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 78.55,
+          "revenueYoY": 9.2,
+          "netProfit": 3.88,
+          "netProfitYoY": 144.1,
+          "grossMargin": 16.0,
+          "roe": 3.1,
+          "operatingCashFlow": 16.25,
+          "debtRatio": 30.8
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 72.81,
+          "revenueYoY": -7.3,
+          "netProfit": 3.81,
+          "netProfitYoY": -1.7,
+          "grossMargin": 16.5,
+          "roe": 3.0,
+          "operatingCashFlow": 13.11,
+          "debtRatio": 32.6
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 71.78,
+          "revenueYoY": -1.4,
+          "netProfit": -7.59,
+          "netProfitYoY": -299.0,
+          "grossMargin": 14.0,
+          "roe": -6.2,
+          "operatingCashFlow": 16.19,
+          "debtRatio": 39.1
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002281",
+      "name": "光迅科技",
+      "nodeIds": [
+        "optical-chip"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002281",
+          "exchange": "SZSE",
+          "name": "光迅科技",
+          "peTtm": 188.46,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 64.86,
+          "revenueYoY": 7.3,
+          "netProfit": 5.67,
+          "netProfitYoY": 16.4,
+          "grossMargin": 24.2,
+          "roe": 10.7,
+          "operatingCashFlow": 6.73,
+          "debtRatio": 41.7
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 69.12,
+          "revenueYoY": 6.6,
+          "netProfit": 6.08,
+          "netProfitYoY": 7.3,
+          "grossMargin": 23.6,
+          "roe": 10.3,
+          "operatingCashFlow": 6.39,
+          "debtRatio": 38.3
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 60.61,
+          "revenueYoY": -12.3,
+          "netProfit": 6.19,
+          "netProfitYoY": 1.8,
+          "grossMargin": 22.6,
+          "roe": 8.0,
+          "operatingCashFlow": 10.5,
+          "debtRatio": 29.9
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 82.72,
+          "revenueYoY": 36.5,
+          "netProfit": 6.61,
+          "netProfitYoY": 6.8,
+          "grossMargin": 22.5,
+          "roe": 7.5,
+          "operatingCashFlow": -6.41,
+          "debtRatio": 38.1
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 119.29,
+          "revenueYoY": 44.2,
+          "netProfit": 9.46,
+          "netProfitYoY": 43.1,
+          "grossMargin": 23.4,
+          "roe": 9.9,
+          "operatingCashFlow": 16.28,
+          "debtRatio": 37.9
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-603629",
+      "name": "利通电子",
+      "nodeIds": [
+        "compute-rental"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "603629",
+          "exchange": "SSE",
+          "name": "利通电子",
+          "peTtm": 86.81,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 18.05,
+          "revenueYoY": 9.5,
+          "netProfit": 0.58,
+          "netProfitYoY": 24.5,
+          "grossMargin": 15.9,
+          "roe": 5.6,
+          "operatingCashFlow": 0.76,
+          "debtRatio": 49.7
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 20.25,
+          "revenueYoY": 12.2,
+          "netProfit": 0.66,
+          "netProfitYoY": 14.2,
+          "grossMargin": 16.3,
+          "roe": 4.1,
+          "operatingCashFlow": 1.55,
+          "debtRatio": 43.2
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 18.93,
+          "revenueYoY": -6.5,
+          "netProfit": 0.4,
+          "netProfitYoY": -39.0,
+          "grossMargin": 15.8,
+          "roe": 2.5,
+          "operatingCashFlow": 7.32,
+          "debtRatio": 53.9
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 22.48,
+          "revenueYoY": 18.7,
+          "netProfit": 0.25,
+          "netProfitYoY": -38.8,
+          "grossMargin": 18.4,
+          "roe": 1.5,
+          "operatingCashFlow": 0.75,
+          "debtRatio": 72.0
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 33.07,
+          "revenueYoY": 47.2,
+          "netProfit": 2.93,
+          "netProfitYoY": 1088.6,
+          "grossMargin": 24.8,
+          "roe": 16.2,
+          "operatingCashFlow": 9.38,
+          "debtRatio": 69.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-000988",
+      "name": "华工科技",
+      "nodeIds": [
+        "cpo"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "000988",
+          "exchange": "SZSE",
+          "name": "华工科技",
+          "peTtm": 104.75,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 101.67,
+          "revenueYoY": 65.6,
+          "netProfit": 7.61,
+          "netProfitYoY": 38.2,
+          "grossMargin": 17.0,
+          "roe": 10.9,
+          "operatingCashFlow": 0.86,
+          "debtRatio": 46.5
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 120.11,
+          "revenueYoY": 18.1,
+          "netProfit": 9.06,
+          "netProfitYoY": 19.0,
+          "grossMargin": 19.2,
+          "roe": 10.5,
+          "operatingCashFlow": 5.79,
+          "debtRatio": 50.8
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 103.1,
+          "revenueYoY": -14.2,
+          "netProfit": 10.07,
+          "netProfitYoY": 11.2,
+          "grossMargin": 22.5,
+          "roe": 11.6,
+          "operatingCashFlow": 14.88,
+          "debtRatio": 47.3
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 117.09,
+          "revenueYoY": 13.6,
+          "netProfit": 12.21,
+          "netProfitYoY": 21.2,
+          "grossMargin": 21.5,
+          "roe": 12.7,
+          "operatingCashFlow": 7.32,
+          "debtRatio": 50.6
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 143.55,
+          "revenueYoY": 22.6,
+          "netProfit": 14.71,
+          "netProfitYoY": 20.5,
+          "grossMargin": 21.2,
+          "roe": 14.0,
+          "operatingCashFlow": 12.22,
+          "debtRatio": 51.4
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300857",
+      "name": "协创数据",
+      "nodeIds": [
+        "compute-rental"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300857",
+          "exchange": "SZSE",
+          "name": "协创数据",
+          "peTtm": 91.91,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 29.6,
+          "revenueYoY": 31.6,
+          "netProfit": 1.26,
+          "netProfitYoY": 26.0,
+          "grossMargin": 11.6,
+          "roe": 10.1,
+          "operatingCashFlow": 0.94,
+          "debtRatio": 47.6
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 31.48,
+          "revenueYoY": 6.4,
+          "netProfit": 1.31,
+          "netProfitYoY": 3.7,
+          "grossMargin": 11.2,
+          "roe": 9.5,
+          "operatingCashFlow": 1.04,
+          "debtRatio": 49.1
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 46.58,
+          "revenueYoY": 47.9,
+          "netProfit": 2.87,
+          "netProfitYoY": 119.5,
+          "grossMargin": 13.5,
+          "roe": 18.1,
+          "operatingCashFlow": -0.97,
+          "debtRatio": 52.4
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 74.1,
+          "revenueYoY": 59.1,
+          "netProfit": 6.92,
+          "netProfitYoY": 140.8,
+          "grossMargin": 17.4,
+          "roe": 24.3,
+          "operatingCashFlow": 0.99,
+          "debtRatio": 55.7
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 122.36,
+          "revenueYoY": 65.1,
+          "netProfit": 11.64,
+          "netProfitYoY": 68.3,
+          "grossMargin": 19.2,
+          "roe": 30.0,
+          "operatingCashFlow": 11.0,
+          "debtRatio": 81.5
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002015",
+      "name": "协鑫能科",
+      "nodeIds": [
+        "compute-power"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002015",
+          "exchange": "SZSE",
+          "name": "协鑫能科",
+          "peTtm": 60.35,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 113.28,
+          "revenueYoY": -0.6,
+          "netProfit": 10.13,
+          "netProfitYoY": 22.9,
+          "grossMargin": 22.9,
+          "roe": 14.3,
+          "operatingCashFlow": 21.12,
+          "debtRatio": 70.6
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 109.51,
+          "revenueYoY": -3.3,
+          "netProfit": 6.84,
+          "netProfitYoY": -32.5,
+          "grossMargin": 16.2,
+          "roe": 7.2,
+          "operatingCashFlow": 12.44,
+          "debtRatio": 60.8
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 103.58,
+          "revenueYoY": -5.4,
+          "netProfit": 9.21,
+          "netProfitYoY": 34.7,
+          "grossMargin": 22.4,
+          "roe": 8.7,
+          "operatingCashFlow": 23.81,
+          "debtRatio": 59.5
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 97.96,
+          "revenueYoY": -5.4,
+          "netProfit": 4.89,
+          "netProfitYoY": -46.9,
+          "grossMargin": 27.7,
+          "roe": 4.2,
+          "operatingCashFlow": 24.25,
+          "debtRatio": 66.7
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 103.26,
+          "revenueYoY": 5.4,
+          "netProfit": 4.04,
+          "netProfitYoY": -17.4,
+          "grossMargin": 28.4,
+          "roe": 3.5,
+          "operatingCashFlow": 31.67,
+          "debtRatio": 64.7
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-301638",
+      "name": "南网数字",
+      "nodeIds": [
+        "compute-power"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "301638",
+          "exchange": "SZSE",
+          "name": "南网数字",
+          "peTtm": 107.79,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": null,
+          "revenueYoY": null,
+          "netProfit": null,
+          "netProfitYoY": null,
+          "grossMargin": null,
+          "roe": null,
+          "operatingCashFlow": null,
+          "debtRatio": null
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 56.86,
+          "revenueYoY": null,
+          "netProfit": 6.53,
+          "netProfitYoY": null,
+          "grossMargin": 30.6,
+          "roe": 17.9,
+          "operatingCashFlow": 5.13,
+          "debtRatio": 48.0
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 42.34,
+          "revenueYoY": -25.5,
+          "netProfit": 3.77,
+          "netProfitYoY": -42.2,
+          "grossMargin": 32.7,
+          "roe": 7.0,
+          "operatingCashFlow": 24.94,
+          "debtRatio": 31.8
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 60.9,
+          "revenueYoY": 43.8,
+          "netProfit": 5.7,
+          "netProfitYoY": 51.1,
+          "grossMargin": 30.1,
+          "roe": 7.4,
+          "operatingCashFlow": 13.65,
+          "debtRatio": 33.6
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 72.17,
+          "revenueYoY": 18.5,
+          "netProfit": 6.3,
+          "netProfitYoY": 10.4,
+          "grossMargin": 28.6,
+          "roe": 7.5,
+          "operatingCashFlow": 17.32,
+          "debtRatio": 28.6
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002975",
+      "name": "博杰股份",
+      "nodeIds": [
+        "optical-module-equipment"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002975",
+          "exchange": "SZSE",
+          "name": "博杰股份",
+          "peTtm": 123.34,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 12.14,
+          "revenueYoY": -11.8,
+          "netProfit": 2.43,
+          "netProfitYoY": -28.7,
+          "grossMargin": 49.2,
+          "roe": 17.1,
+          "operatingCashFlow": 1.95,
+          "debtRatio": 33.6
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 12.17,
+          "revenueYoY": 0.2,
+          "netProfit": 2.02,
+          "netProfitYoY": -16.9,
+          "grossMargin": 48.7,
+          "roe": 12.3,
+          "operatingCashFlow": 0.74,
+          "debtRatio": 32.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 9.05,
+          "revenueYoY": -25.6,
+          "netProfit": -0.57,
+          "netProfitYoY": -128.3,
+          "grossMargin": 46.0,
+          "roe": -3.4,
+          "operatingCashFlow": 1.18,
+          "debtRatio": 38.1
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 12.33,
+          "revenueYoY": 36.2,
+          "netProfit": 0.22,
+          "netProfitYoY": 138.9,
+          "grossMargin": 42.5,
+          "roe": 1.3,
+          "operatingCashFlow": -2.04,
+          "debtRatio": 33.9
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 18.36,
+          "revenueYoY": 48.9,
+          "netProfit": 1.46,
+          "netProfitYoY": 557.5,
+          "grossMargin": 44.1,
+          "roe": 6.8,
+          "operatingCashFlow": 0.85,
+          "debtRatio": 28.8
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688388",
+      "name": "嘉元科技",
+      "nodeIds": [
+        "copper-foil"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688388",
+          "exchange": "SSE",
+          "name": "嘉元科技",
+          "peTtm": 174.54,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 28.04,
+          "revenueYoY": 133.3,
+          "netProfit": 5.5,
+          "netProfitYoY": 195.0,
+          "grossMargin": 30.0,
+          "roe": 17.9,
+          "operatingCashFlow": 3.19,
+          "debtRatio": 40.5
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 46.41,
+          "revenueYoY": 65.5,
+          "netProfit": 5.21,
+          "netProfitYoY": -5.4,
+          "grossMargin": 19.8,
+          "roe": 12.1,
+          "operatingCashFlow": -5.37,
+          "debtRatio": 31.4
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 49.69,
+          "revenueYoY": 7.1,
+          "netProfit": 0.19,
+          "netProfitYoY": -96.3,
+          "grossMargin": 5.8,
+          "roe": 0.3,
+          "operatingCashFlow": 6.66,
+          "debtRatio": 42.9
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 65.22,
+          "revenueYoY": 31.3,
+          "netProfit": -2.39,
+          "netProfitYoY": -1355.0,
+          "grossMargin": 2.0,
+          "roe": -3.4,
+          "operatingCashFlow": -12.54,
+          "debtRatio": 46.0
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 96.43,
+          "revenueYoY": 47.9,
+          "netProfit": 0.57,
+          "netProfitYoY": 123.9,
+          "grossMargin": 5.0,
+          "roe": 0.8,
+          "operatingCashFlow": -1.16,
+          "debtRatio": 51.9
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-601126",
+      "name": "四方股份",
+      "nodeIds": [
+        "solid-transformer"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：产业处早期，需以产品验证与订单披露为准。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "601126",
+          "exchange": "SSE",
+          "name": "四方股份",
+          "peTtm": 60.72,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 42.98,
+          "revenueYoY": 11.3,
+          "netProfit": 4.52,
+          "netProfitYoY": 31.4,
+          "grossMargin": 36.0,
+          "roe": 11.6,
+          "operatingCashFlow": 6.68,
+          "debtRatio": 47.4
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 50.78,
+          "revenueYoY": 18.2,
+          "netProfit": 5.43,
+          "netProfitYoY": 20.2,
+          "grossMargin": 32.2,
+          "roe": 13.8,
+          "operatingCashFlow": 7.1,
+          "debtRatio": 52.1
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 57.51,
+          "revenueYoY": 13.2,
+          "netProfit": 6.27,
+          "netProfitYoY": 15.5,
+          "grossMargin": 34.4,
+          "roe": 15.5,
+          "operatingCashFlow": 12.32,
+          "debtRatio": 55.5
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 69.51,
+          "revenueYoY": 20.9,
+          "netProfit": 7.16,
+          "netProfitYoY": 14.1,
+          "grossMargin": 32.3,
+          "roe": 16.6,
+          "operatingCashFlow": 12.54,
+          "debtRatio": 58.5
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 81.93,
+          "revenueYoY": 17.9,
+          "netProfit": 8.29,
+          "netProfitYoY": 15.8,
+          "grossMargin": 30.2,
+          "roe": 17.8,
+          "operatingCashFlow": 12.25,
+          "debtRatio": 61.5
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-301526",
+      "name": "国际复材",
+      "nodeIds": [
+        "electronic-cloth"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "301526",
+          "exchange": "SZSE",
+          "name": "国际复材",
+          "peTtm": 368.02,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 83.0,
+          "revenueYoY": 20.1,
+          "netProfit": 10.97,
+          "netProfitYoY": 149.6,
+          "grossMargin": 31.1,
+          "roe": 22.9,
+          "operatingCashFlow": 27.03,
+          "debtRatio": 63.5
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 78.94,
+          "revenueYoY": -4.9,
+          "netProfit": 11.44,
+          "netProfitYoY": 4.3,
+          "grossMargin": 28.3,
+          "roe": 19.6,
+          "operatingCashFlow": 9.22,
+          "debtRatio": 63.0
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 71.56,
+          "revenueYoY": -9.3,
+          "netProfit": 5.46,
+          "netProfitYoY": -52.3,
+          "grossMargin": 21.6,
+          "roe": 8.3,
+          "operatingCashFlow": 5.5,
+          "debtRatio": 58.5
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 73.62,
+          "revenueYoY": 2.9,
+          "netProfit": -3.54,
+          "netProfitYoY": -164.9,
+          "grossMargin": 12.6,
+          "roe": -4.3,
+          "operatingCashFlow": 17.01,
+          "debtRatio": 58.1
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 86.58,
+          "revenueYoY": 17.6,
+          "netProfit": 2.72,
+          "netProfitYoY": 177.0,
+          "grossMargin": 18.7,
+          "roe": 3.4,
+          "operatingCashFlow": 17.31,
+          "debtRatio": 59.5
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-605589",
+      "name": "圣泉集团",
+      "nodeIds": [
+        "resin"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "605589",
+          "exchange": "SSE",
+          "name": "圣泉集团",
+          "peTtm": 54.3,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 88.25,
+          "revenueYoY": 6.1,
+          "netProfit": 6.88,
+          "netProfitYoY": -21.6,
+          "grossMargin": 24.1,
+          "roe": 10.6,
+          "operatingCashFlow": -2.27,
+          "debtRatio": 40.5
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 95.98,
+          "revenueYoY": 8.8,
+          "netProfit": 7.03,
+          "netProfitYoY": 2.3,
+          "grossMargin": 21.1,
+          "roe": 8.5,
+          "operatingCashFlow": 1.29,
+          "debtRatio": 30.1
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 91.2,
+          "revenueYoY": -5.0,
+          "netProfit": 7.89,
+          "netProfitYoY": 12.2,
+          "grossMargin": 23.0,
+          "roe": 9.0,
+          "operatingCashFlow": 8.51,
+          "debtRatio": 28.8
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 100.2,
+          "revenueYoY": 9.9,
+          "netProfit": 8.68,
+          "netProfitYoY": 9.9,
+          "grossMargin": 23.6,
+          "roe": 8.6,
+          "operatingCashFlow": 2.31,
+          "debtRatio": 28.3
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 109.36,
+          "revenueYoY": 9.1,
+          "netProfit": 10.07,
+          "netProfitYoY": 16.0,
+          "grossMargin": 25.2,
+          "roe": 9.9,
+          "operatingCashFlow": 3.06,
+          "debtRatio": 32.6
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002580",
+      "name": "圣阳股份",
+      "nodeIds": [
+        "power"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002580",
+          "exchange": "SZSE",
+          "name": "圣阳股份",
+          "peTtm": 50.49,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 20.91,
+          "revenueYoY": 18.7,
+          "netProfit": 0.34,
+          "netProfitYoY": 18.5,
+          "grossMargin": 14.3,
+          "roe": 2.0,
+          "operatingCashFlow": -1.02,
+          "debtRatio": 30.8
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 27.96,
+          "revenueYoY": 33.8,
+          "netProfit": 1.36,
+          "netProfitYoY": 301.3,
+          "grossMargin": 15.9,
+          "roe": 7.6,
+          "operatingCashFlow": 1.88,
+          "debtRatio": 34.0
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 28.13,
+          "revenueYoY": 0.6,
+          "netProfit": 1.74,
+          "netProfitYoY": 27.4,
+          "grossMargin": 19.2,
+          "roe": 8.9,
+          "operatingCashFlow": -0.57,
+          "debtRatio": 32.0
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 30.15,
+          "revenueYoY": 7.2,
+          "netProfit": 2.05,
+          "netProfitYoY": 18.3,
+          "grossMargin": 19.9,
+          "roe": 9.8,
+          "operatingCashFlow": 1.19,
+          "debtRatio": 36.7
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 34.15,
+          "revenueYoY": 13.3,
+          "netProfit": 1.86,
+          "netProfitYoY": -9.4,
+          "grossMargin": 19.1,
+          "roe": 8.3,
+          "operatingCashFlow": 2.01,
+          "debtRatio": 42.5
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300394",
+      "name": "天孚通信",
+      "nodeIds": [
+        "cpo"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300394",
+          "exchange": "SZSE",
+          "name": "天孚通信",
+          "peTtm": 148.24,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 10.32,
+          "revenueYoY": 18.2,
+          "netProfit": 3.06,
+          "netProfitYoY": 9.8,
+          "grossMargin": 49.7,
+          "roe": 14.1,
+          "operatingCashFlow": 3.7,
+          "debtRatio": 8.4
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 11.96,
+          "revenueYoY": 15.9,
+          "netProfit": 4.03,
+          "netProfitYoY": 31.5,
+          "grossMargin": 51.6,
+          "roe": 16.3,
+          "operatingCashFlow": 4.64,
+          "debtRatio": 9.1
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 19.39,
+          "revenueYoY": 62.0,
+          "netProfit": 7.3,
+          "netProfitYoY": 81.1,
+          "grossMargin": 54.3,
+          "roe": 25.1,
+          "operatingCashFlow": 9.02,
+          "debtRatio": 13.7
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 32.52,
+          "revenueYoY": 67.7,
+          "netProfit": 13.44,
+          "netProfitYoY": 84.1,
+          "grossMargin": 57.2,
+          "roe": 36.7,
+          "operatingCashFlow": 12.63,
+          "debtRatio": 15.8
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 51.63,
+          "revenueYoY": 58.8,
+          "netProfit": 20.17,
+          "netProfitYoY": 50.1,
+          "grossMargin": 54.0,
+          "roe": 41.9,
+          "operatingCashFlow": 18.68,
+          "debtRatio": 14.5
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-603256",
+      "name": "宏和科技",
+      "nodeIds": [
+        "electronic-cloth"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "603256",
+          "exchange": "SSE",
+          "name": "宏和科技",
+          "peTtm": 776.8,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 8.08,
+          "revenueYoY": 30.2,
+          "netProfit": 1.24,
+          "netProfitYoY": 6.1,
+          "grossMargin": 35.9,
+          "roe": 8.3,
+          "operatingCashFlow": 1.11,
+          "debtRatio": 37.9
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 6.12,
+          "revenueYoY": -24.3,
+          "netProfit": 0.52,
+          "netProfitYoY": -57.9,
+          "grossMargin": 28.8,
+          "roe": 3.5,
+          "operatingCashFlow": 2.94,
+          "debtRatio": 42.1
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 6.61,
+          "revenueYoY": 8.0,
+          "netProfit": -0.63,
+          "netProfitYoY": -220.5,
+          "grossMargin": 8.8,
+          "roe": -4.3,
+          "operatingCashFlow": -0.98,
+          "debtRatio": 43.6
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 8.35,
+          "revenueYoY": 26.2,
+          "netProfit": 0.23,
+          "netProfitYoY": 136.1,
+          "grossMargin": 17.4,
+          "roe": 1.6,
+          "operatingCashFlow": 1.79,
+          "debtRatio": 42.2
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 11.71,
+          "revenueYoY": 40.3,
+          "netProfit": 2.02,
+          "netProfitYoY": 785.5,
+          "grossMargin": 35.6,
+          "roe": 13.0,
+          "operatingCashFlow": 2.94,
+          "debtRatio": 49.7
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-603002",
+      "name": "宏昌电子",
+      "nodeIds": [
+        "resin"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "603002",
+          "exchange": "SSE",
+          "name": "宏昌电子",
+          "peTtm": 938.61,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 44.53,
+          "revenueYoY": 77.8,
+          "netProfit": 3.75,
+          "netProfitYoY": 67.2,
+          "grossMargin": 14.6,
+          "roe": 18.5,
+          "operatingCashFlow": 3.37,
+          "debtRatio": 54.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 30.22,
+          "revenueYoY": -32.1,
+          "netProfit": 5.57,
+          "netProfitYoY": 48.6,
+          "grossMargin": 9.1,
+          "roe": 25.0,
+          "operatingCashFlow": 0.5,
+          "debtRatio": 31.8
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 22.4,
+          "revenueYoY": -25.9,
+          "netProfit": 0.87,
+          "netProfitYoY": -84.4,
+          "grossMargin": 8.2,
+          "roe": 3.6,
+          "operatingCashFlow": 2.83,
+          "debtRatio": 26.9
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 21.44,
+          "revenueYoY": -4.3,
+          "netProfit": 0.51,
+          "netProfitYoY": -41.6,
+          "grossMargin": 6.8,
+          "roe": 1.5,
+          "operatingCashFlow": 0.68,
+          "debtRatio": 25.2
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 30.76,
+          "revenueYoY": 43.5,
+          "netProfit": 0.35,
+          "netProfitYoY": -30.1,
+          "grossMargin": 5.7,
+          "roe": 1.0,
+          "operatingCashFlow": 0.19,
+          "debtRatio": 39.4
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-301396",
+      "name": "宏景科技",
+      "nodeIds": [
+        "compute-rental"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "301396",
+          "exchange": "SZSE",
+          "name": "宏景科技",
+          "peTtm": 1802.59,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 7.31,
+          "revenueYoY": 28.8,
+          "netProfit": 0.88,
+          "netProfitYoY": 35.1,
+          "grossMargin": 28.0,
+          "roe": 25.3,
+          "operatingCashFlow": 0.14,
+          "debtRatio": 57.8
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 7.46,
+          "revenueYoY": 2.1,
+          "netProfit": 0.63,
+          "netProfitYoY": -28.4,
+          "grossMargin": 27.6,
+          "roe": 12.8,
+          "operatingCashFlow": -1.74,
+          "debtRatio": 30.7
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 7.71,
+          "revenueYoY": 3.3,
+          "netProfit": 0.42,
+          "netProfitYoY": -33.1,
+          "grossMargin": 23.1,
+          "roe": 1.9,
+          "operatingCashFlow": -0.19,
+          "debtRatio": 40.8
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 6.58,
+          "revenueYoY": -14.6,
+          "netProfit": -0.76,
+          "netProfitYoY": -279.3,
+          "grossMargin": 12.2,
+          "roe": -6.1,
+          "operatingCashFlow": 0.38,
+          "debtRatio": 58.5
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 11.81,
+          "revenueYoY": 79.6,
+          "netProfit": 0.26,
+          "netProfitYoY": 134.9,
+          "grossMargin": 21.3,
+          "roe": 2.2,
+          "operatingCashFlow": 18.86,
+          "debtRatio": 76.4
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688256",
+      "name": "寒武纪",
+      "nodeIds": [
+        "ai-chip"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688256",
+          "exchange": "SSE",
+          "name": "寒武纪",
+          "peTtm": 342.71,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 7.21,
+          "revenueYoY": 57.1,
+          "netProfit": -8.25,
+          "netProfitYoY": -89.9,
+          "grossMargin": 62.4,
+          "roe": -13.5,
+          "operatingCashFlow": -8.73,
+          "debtRatio": 14.4
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 7.29,
+          "revenueYoY": 1.1,
+          "netProfit": -12.56,
+          "netProfitYoY": -52.3,
+          "grossMargin": 65.8,
+          "roe": -23.4,
+          "operatingCashFlow": -13.3,
+          "debtRatio": 14.4
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 7.09,
+          "revenueYoY": -2.7,
+          "netProfit": -8.48,
+          "netProfitYoY": 32.5,
+          "grossMargin": 69.2,
+          "roe": -15.3,
+          "operatingCashFlow": -5.96,
+          "debtRatio": 10.7
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 11.74,
+          "revenueYoY": 65.6,
+          "netProfit": -4.52,
+          "netProfitYoY": 46.7,
+          "grossMargin": 56.7,
+          "roe": -8.2,
+          "operatingCashFlow": -16.18,
+          "debtRatio": 19.2
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 64.97,
+          "revenueYoY": 453.2,
+          "netProfit": 20.59,
+          "netProfitYoY": 555.2,
+          "grossMargin": 55.2,
+          "roe": 27.0,
+          "operatingCashFlow": -4.98,
+          "debtRatio": 11.9
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-601138",
+      "name": "工业富联",
+      "nodeIds": [
+        "ai-server"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "601138",
+          "exchange": "SSE",
+          "name": "工业富联",
+          "peTtm": 33.98,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 4395.57,
+          "revenueYoY": 1.8,
+          "netProfit": 200.1,
+          "netProfitYoY": 14.8,
+          "grossMargin": 8.3,
+          "roe": 18.0,
+          "operatingCashFlow": 87.03,
+          "debtRatio": 55.2
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 5118.5,
+          "revenueYoY": 16.4,
+          "netProfit": 200.73,
+          "netProfitYoY": 0.3,
+          "grossMargin": 7.3,
+          "roe": 16.2,
+          "operatingCashFlow": 153.55,
+          "debtRatio": 54.5
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 4763.4,
+          "revenueYoY": -6.9,
+          "netProfit": 210.4,
+          "netProfitYoY": 4.8,
+          "grossMargin": 8.1,
+          "roe": 15.6,
+          "operatingCashFlow": 430.61,
+          "debtRatio": 51.1
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 6091.35,
+          "revenueYoY": 27.9,
+          "netProfit": 232.16,
+          "netProfitYoY": 10.3,
+          "grossMargin": 7.3,
+          "roe": 15.8,
+          "operatingCashFlow": 238.17,
+          "debtRatio": 51.8
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 9028.87,
+          "revenueYoY": 48.2,
+          "netProfit": 352.86,
+          "netProfitYoY": 52.0,
+          "grossMargin": 7.0,
+          "roe": 21.6,
+          "operatingCashFlow": 52.37,
+          "debtRatio": 63.4
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-603308",
+      "name": "应流股份",
+      "nodeIds": [
+        "gas-turbine"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "603308",
+          "exchange": "SSE",
+          "name": "应流股份",
+          "peTtm": 107.36,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 20.4,
+          "revenueYoY": 11.3,
+          "netProfit": 2.31,
+          "netProfitYoY": 14.7,
+          "grossMargin": 36.4,
+          "roe": 6.0,
+          "operatingCashFlow": 2.24,
+          "debtRatio": 53.9
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 21.98,
+          "revenueYoY": 7.7,
+          "netProfit": 4.02,
+          "netProfitYoY": 73.7,
+          "grossMargin": 36.7,
+          "roe": 9.8,
+          "operatingCashFlow": -0.23,
+          "debtRatio": 51.8
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 24.12,
+          "revenueYoY": 9.7,
+          "netProfit": 3.03,
+          "netProfitYoY": -24.5,
+          "grossMargin": 36.2,
+          "roe": 7.0,
+          "operatingCashFlow": 2.34,
+          "debtRatio": 52.9
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 25.13,
+          "revenueYoY": 4.2,
+          "netProfit": 2.86,
+          "netProfitYoY": -5.6,
+          "grossMargin": 34.2,
+          "roe": 6.3,
+          "operatingCashFlow": 0.99,
+          "debtRatio": 56.1
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 29.19,
+          "revenueYoY": 16.1,
+          "netProfit": 3.49,
+          "netProfitYoY": 21.7,
+          "grossMargin": 35.8,
+          "roe": 7.2,
+          "operatingCashFlow": 2.56,
+          "debtRatio": 58.4
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-001309",
+      "name": "德明利",
+      "nodeIds": [
+        "storage-chip"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "001309",
+          "exchange": "SZSE",
+          "name": "德明利",
+          "peTtm": 53.62,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 10.8,
+          "revenueYoY": 29.4,
+          "netProfit": 0.98,
+          "netProfitYoY": 27.3,
+          "grossMargin": 20.3,
+          "roe": 19.7,
+          "operatingCashFlow": 0.11,
+          "debtRatio": 51.7
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 11.91,
+          "revenueYoY": 10.3,
+          "netProfit": 0.68,
+          "netProfitYoY": -31.2,
+          "grossMargin": 17.2,
+          "roe": 8.3,
+          "operatingCashFlow": -3.31,
+          "debtRatio": 45.3
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 17.76,
+          "revenueYoY": 49.2,
+          "netProfit": 0.25,
+          "netProfitYoY": -63.0,
+          "grossMargin": 16.7,
+          "roe": 2.3,
+          "operatingCashFlow": -10.15,
+          "debtRatio": 65.8
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 47.73,
+          "revenueYoY": 168.7,
+          "netProfit": 3.51,
+          "netProfitYoY": 1302.3,
+          "grossMargin": 17.8,
+          "roe": 26.8,
+          "operatingCashFlow": -12.63,
+          "debtRatio": 62.2
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 107.89,
+          "revenueYoY": 126.1,
+          "netProfit": 6.88,
+          "netProfitYoY": 96.4,
+          "grossMargin": 14.8,
+          "roe": 24.2,
+          "operatingCashFlow": -22.41,
+          "debtRatio": 69.9
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-301511",
+      "name": "德福科技",
+      "nodeIds": [
+        "copper-foil"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "301511",
+          "exchange": "SZSE",
+          "name": "德福科技",
+          "peTtm": 363.9,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 39.86,
+          "revenueYoY": 179.4,
+          "netProfit": 4.66,
+          "netProfitYoY": 2448.1,
+          "grossMargin": 23.2,
+          "roe": 33.4,
+          "operatingCashFlow": -3.1,
+          "debtRatio": 62.0
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 63.81,
+          "revenueYoY": 60.1,
+          "netProfit": 5.03,
+          "netProfitYoY": 8.0,
+          "grossMargin": 16.6,
+          "roe": 23.5,
+          "operatingCashFlow": -3.72,
+          "debtRatio": 68.7
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 65.31,
+          "revenueYoY": 2.4,
+          "netProfit": 1.33,
+          "netProfitYoY": -73.7,
+          "grossMargin": 7.6,
+          "roe": 4.4,
+          "operatingCashFlow": -4.77,
+          "debtRatio": 64.9
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 78.05,
+          "revenueYoY": 19.5,
+          "netProfit": -2.45,
+          "netProfitYoY": -284.8,
+          "grossMargin": 2.1,
+          "roe": -5.9,
+          "operatingCashFlow": -5.5,
+          "debtRatio": 69.3
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 124.37,
+          "revenueYoY": 59.3,
+          "netProfit": 1.13,
+          "netProfitYoY": 145.9,
+          "grossMargin": 7.1,
+          "roe": 2.8,
+          "operatingCashFlow": -3.82,
+          "debtRatio": 72.8
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688205",
+      "name": "德科立",
+      "nodeIds": [
+        "ocs"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688205",
+          "exchange": "SSE",
+          "name": "德科立",
+          "peTtm": 406.07,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 7.31,
+          "revenueYoY": 10.0,
+          "netProfit": 1.26,
+          "netProfitYoY": -11.2,
+          "grossMargin": 34.3,
+          "roe": 21.6,
+          "operatingCashFlow": -0.22,
+          "debtRatio": 28.2
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 7.14,
+          "revenueYoY": -2.3,
+          "netProfit": 1.02,
+          "netProfitYoY": -19.6,
+          "grossMargin": 31.5,
+          "roe": 9.3,
+          "operatingCashFlow": 1.26,
+          "debtRatio": 11.6
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 8.19,
+          "revenueYoY": 14.6,
+          "netProfit": 0.92,
+          "netProfitYoY": -9.4,
+          "grossMargin": 26.1,
+          "roe": 4.6,
+          "operatingCashFlow": 0.17,
+          "debtRatio": 15.2
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 8.41,
+          "revenueYoY": 2.8,
+          "netProfit": 1.0,
+          "netProfitYoY": 9.1,
+          "grossMargin": 30.9,
+          "roe": 4.5,
+          "operatingCashFlow": 2.11,
+          "debtRatio": 14.4
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 9.34,
+          "revenueYoY": 11.0,
+          "netProfit": 0.72,
+          "netProfitYoY": -28.8,
+          "grossMargin": 27.6,
+          "roe": 3.1,
+          "operatingCashFlow": 0.52,
+          "debtRatio": 18.8
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688170",
+      "name": "德龙激光",
+      "nodeIds": [
+        "optical-module-equipment"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688170",
+          "exchange": "SSE",
+          "name": "德龙激光",
+          "peTtm": 541.09,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 5.49,
+          "revenueYoY": 31.1,
+          "netProfit": 0.88,
+          "netProfitYoY": 30.5,
+          "grossMargin": 50.7,
+          "roe": 16.4,
+          "operatingCashFlow": 0.51,
+          "debtRatio": 40.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 5.68,
+          "revenueYoY": 3.5,
+          "netProfit": 0.67,
+          "netProfitYoY": -23.2,
+          "grossMargin": 49.7,
+          "roe": 6.3,
+          "operatingCashFlow": 0.04,
+          "debtRatio": 18.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 5.82,
+          "revenueYoY": 2.3,
+          "netProfit": 0.39,
+          "netProfitYoY": -42.1,
+          "grossMargin": 44.2,
+          "roe": 3.0,
+          "operatingCashFlow": -0.06,
+          "debtRatio": 25.1
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 7.15,
+          "revenueYoY": 22.9,
+          "netProfit": -0.34,
+          "netProfitYoY": -188.3,
+          "grossMargin": 43.2,
+          "roe": -2.7,
+          "operatingCashFlow": -0.49,
+          "debtRatio": 32.8
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 7.87,
+          "revenueYoY": 10.1,
+          "netProfit": 0.26,
+          "netProfitYoY": 174.9,
+          "grossMargin": 40.9,
+          "roe": 2.1,
+          "operatingCashFlow": 0.5,
+          "debtRatio": 29.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688795",
+      "name": "摩尔线程",
+      "nodeIds": [
+        "ai-chip"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688795",
+          "exchange": "SSE",
+          "name": "摩尔线程",
+          "peTtm": null,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": null,
+          "revenueYoY": null,
+          "netProfit": null,
+          "netProfitYoY": null,
+          "grossMargin": null,
+          "roe": null,
+          "operatingCashFlow": null,
+          "debtRatio": null
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 0.46,
+          "revenueYoY": null,
+          "netProfit": -18.94,
+          "netProfitYoY": null,
+          "grossMargin": -70.1,
+          "roe": -141.8,
+          "operatingCashFlow": -14.9,
+          "debtRatio": 18.1
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 1.24,
+          "revenueYoY": 169.0,
+          "netProfit": -17.03,
+          "netProfitYoY": 10.1,
+          "grossMargin": 25.9,
+          "roe": -158.2,
+          "operatingCashFlow": -11.58,
+          "debtRatio": 62.1
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 4.38,
+          "revenueYoY": 253.6,
+          "netProfit": -16.18,
+          "netProfitYoY": 5.0,
+          "grossMargin": 70.7,
+          "roe": -632.6,
+          "operatingCashFlow": -19.55,
+          "debtRatio": 36.6
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 15.06,
+          "revenueYoY": 243.4,
+          "netProfit": -10.01,
+          "netProfitYoY": 38.2,
+          "grossMargin": 65.6,
+          "roe": -22.0,
+          "operatingCashFlow": -29.56,
+          "debtRatio": 25.3
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-603881",
+      "name": "数据港",
+      "nodeIds": [
+        "aidc"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "603881",
+          "exchange": "SSE",
+          "name": "数据港",
+          "peTtm": 147.24,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 12.45,
+          "revenueYoY": 36.9,
+          "netProfit": 1.22,
+          "netProfitYoY": -10.9,
+          "grossMargin": 33.9,
+          "roe": 4.2,
+          "operatingCashFlow": 7.15,
+          "debtRatio": 63.6
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 14.55,
+          "revenueYoY": 16.9,
+          "netProfit": 1.18,
+          "netProfitYoY": -3.3,
+          "grossMargin": 28.8,
+          "roe": 3.9,
+          "operatingCashFlow": 11.84,
+          "debtRatio": 59.4
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 15.42,
+          "revenueYoY": 6.0,
+          "netProfit": 1.23,
+          "netProfitYoY": 4.6,
+          "grossMargin": 29.0,
+          "roe": 4.0,
+          "operatingCashFlow": 11.94,
+          "debtRatio": 55.4
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 17.21,
+          "revenueYoY": 11.6,
+          "netProfit": 1.32,
+          "netProfitYoY": 7.5,
+          "grossMargin": 31.0,
+          "roe": 4.2,
+          "operatingCashFlow": 12.6,
+          "debtRatio": 56.2
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 17.21,
+          "revenueYoY": 0.0,
+          "netProfit": 1.39,
+          "netProfitYoY": 5.0,
+          "grossMargin": 37.6,
+          "roe": 4.2,
+          "operatingCashFlow": 12.51,
+          "debtRatio": 57.3
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300502",
+      "name": "新易盛",
+      "nodeIds": [
+        "cpo"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300502",
+          "exchange": "SZSE",
+          "name": "新易盛",
+          "peTtm": 72.31,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 29.08,
+          "revenueYoY": 45.6,
+          "netProfit": 6.62,
+          "netProfitYoY": 34.6,
+          "grossMargin": 32.2,
+          "roe": 17.9,
+          "operatingCashFlow": 2.18,
+          "debtRatio": 18.6
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 33.11,
+          "revenueYoY": 13.8,
+          "netProfit": 9.04,
+          "netProfitYoY": 36.5,
+          "grossMargin": 36.7,
+          "roe": 20.7,
+          "operatingCashFlow": 8.31,
+          "debtRatio": 17.8
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 30.98,
+          "revenueYoY": -6.4,
+          "netProfit": 6.88,
+          "netProfitYoY": -23.8,
+          "grossMargin": 31.0,
+          "roe": 5.2,
+          "operatingCashFlow": 12.46,
+          "debtRatio": 15.1
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 86.47,
+          "revenueYoY": 179.1,
+          "netProfit": 28.38,
+          "netProfitYoY": 312.3,
+          "grossMargin": 44.7,
+          "roe": 21.7,
+          "operatingCashFlow": 6.41,
+          "debtRatio": 32.1
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 248.42,
+          "revenueYoY": 187.3,
+          "netProfit": 95.32,
+          "netProfitYoY": 235.9,
+          "grossMargin": 47.8,
+          "roe": 72.8,
+          "operatingCashFlow": 77.01,
+          "debtRatio": 30.2
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002353",
+      "name": "杰瑞股份",
+      "nodeIds": [
+        "gas-turbine"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002353",
+          "exchange": "SZSE",
+          "name": "杰瑞股份",
+          "peTtm": 55.04,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 87.76,
+          "revenueYoY": 5.8,
+          "netProfit": 15.86,
+          "netProfitYoY": -6.2,
+          "grossMargin": 34.9,
+          "roe": 13.5,
+          "operatingCashFlow": 8.08,
+          "debtRatio": 34.4
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 114.09,
+          "revenueYoY": 30.0,
+          "netProfit": 22.45,
+          "netProfitYoY": 41.5,
+          "grossMargin": 33.2,
+          "roe": 15.1,
+          "operatingCashFlow": 10.07,
+          "debtRatio": 38.0
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 139.12,
+          "revenueYoY": 21.9,
+          "netProfit": 24.54,
+          "netProfitYoY": 9.3,
+          "grossMargin": 32.8,
+          "roe": 13.4,
+          "operatingCashFlow": 10.49,
+          "debtRatio": 36.6
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 133.55,
+          "revenueYoY": -4.0,
+          "netProfit": 26.27,
+          "netProfitYoY": 7.0,
+          "grossMargin": 33.7,
+          "roe": 13.0,
+          "operatingCashFlow": 25.94,
+          "debtRatio": 38.4
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 162.23,
+          "revenueYoY": 21.5,
+          "netProfit": 26.8,
+          "netProfitYoY": 2.0,
+          "grossMargin": 31.7,
+          "roe": 12.2,
+          "operatingCashFlow": 53.78,
+          "debtRatio": 38.9
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300870",
+      "name": "欧陆通",
+      "nodeIds": [
+        "power"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300870",
+          "exchange": "SZSE",
+          "name": "欧陆通",
+          "peTtm": 279.29,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 25.72,
+          "revenueYoY": 23.4,
+          "netProfit": 1.11,
+          "netProfitYoY": -42.7,
+          "grossMargin": 15.6,
+          "roe": 7.2,
+          "operatingCashFlow": 1.62,
+          "debtRatio": 57.2
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 27.03,
+          "revenueYoY": 5.1,
+          "netProfit": 0.9,
+          "netProfitYoY": -18.6,
+          "grossMargin": 18.2,
+          "roe": 5.7,
+          "operatingCashFlow": 1.37,
+          "debtRatio": 51.4
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 28.7,
+          "revenueYoY": 6.2,
+          "netProfit": 1.96,
+          "netProfitYoY": 116.5,
+          "grossMargin": 19.7,
+          "roe": 10.5,
+          "operatingCashFlow": 3.92,
+          "debtRatio": 50.5
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 37.98,
+          "revenueYoY": 32.3,
+          "netProfit": 2.68,
+          "netProfitYoY": 36.9,
+          "grossMargin": 21.4,
+          "roe": 13.3,
+          "operatingCashFlow": 3.97,
+          "debtRatio": 59.2
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 44.62,
+          "revenueYoY": 17.5,
+          "netProfit": 2.44,
+          "netProfitYoY": -9.0,
+          "grossMargin": 19.8,
+          "roe": 9.9,
+          "operatingCashFlow": 4.29,
+          "debtRatio": 51.1
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-301308",
+      "name": "江波龙",
+      "nodeIds": [
+        "storage-chip"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "301308",
+          "exchange": "SZSE",
+          "name": "江波龙",
+          "peTtm": 56.26,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 97.49,
+          "revenueYoY": 34.0,
+          "netProfit": 10.13,
+          "netProfitYoY": 266.7,
+          "grossMargin": 20.0,
+          "roe": 25.9,
+          "operatingCashFlow": -8.11,
+          "debtRatio": 28.9
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 83.3,
+          "revenueYoY": -14.6,
+          "netProfit": 0.73,
+          "netProfitYoY": -92.8,
+          "grossMargin": 12.4,
+          "roe": 1.4,
+          "operatingCashFlow": -3.27,
+          "debtRatio": 25.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 101.25,
+          "revenueYoY": 21.6,
+          "netProfit": -8.28,
+          "netProfitYoY": -1237.1,
+          "grossMargin": 8.2,
+          "roe": -13.0,
+          "operatingCashFlow": -27.99,
+          "debtRatio": 52.9
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 174.64,
+          "revenueYoY": 72.5,
+          "netProfit": 4.99,
+          "netProfitYoY": 160.2,
+          "grossMargin": 19.1,
+          "roe": 7.9,
+          "operatingCashFlow": -11.89,
+          "debtRatio": 59.2
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 227.66,
+          "revenueYoY": 30.4,
+          "netProfit": 14.23,
+          "netProfitYoY": 185.4,
+          "grossMargin": 19.4,
+          "roe": 19.4,
+          "operatingCashFlow": -12.02,
+          "debtRatio": 63.2
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002130",
+      "name": "沃尔核材",
+      "nodeIds": [
+        "high-speed-connection"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002130",
+          "exchange": "SZSE",
+          "name": "沃尔核材",
+          "peTtm": 21.83,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 54.07,
+          "revenueYoY": 32.0,
+          "netProfit": 5.53,
+          "netProfitYoY": 39.7,
+          "grossMargin": 32.5,
+          "roe": 15.7,
+          "operatingCashFlow": 6.1,
+          "debtRatio": 46.7
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 53.41,
+          "revenueYoY": -1.2,
+          "netProfit": 6.15,
+          "netProfitYoY": 11.2,
+          "grossMargin": 31.5,
+          "roe": 15.1,
+          "operatingCashFlow": 8.7,
+          "debtRatio": 42.4
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 57.23,
+          "revenueYoY": 7.2,
+          "netProfit": 7.0,
+          "netProfitYoY": 14.0,
+          "grossMargin": 32.6,
+          "roe": 15.0,
+          "operatingCashFlow": 8.28,
+          "debtRatio": 39.3
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 69.27,
+          "revenueYoY": 21.0,
+          "netProfit": 8.48,
+          "netProfitYoY": 21.0,
+          "grossMargin": 31.7,
+          "roe": 16.3,
+          "operatingCashFlow": 8.98,
+          "debtRatio": 40.3
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 84.51,
+          "revenueYoY": 22.0,
+          "netProfit": 11.44,
+          "netProfitYoY": 35.0,
+          "grossMargin": 31.7,
+          "roe": 19.1,
+          "operatingCashFlow": 11.6,
+          "debtRatio": 44.8
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688802",
+      "name": "沐曦股份",
+      "nodeIds": [
+        "ai-chip"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688802",
+          "exchange": "SSE",
+          "name": "沐曦股份",
+          "peTtm": null,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": null,
+          "revenueYoY": null,
+          "netProfit": null,
+          "netProfitYoY": null,
+          "grossMargin": null,
+          "roe": null,
+          "operatingCashFlow": null,
+          "debtRatio": null
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 0.0,
+          "revenueYoY": null,
+          "netProfit": -7.77,
+          "netProfitYoY": null,
+          "grossMargin": 24.1,
+          "roe": -96.6,
+          "operatingCashFlow": -6.65,
+          "debtRatio": 11.5
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 0.53,
+          "revenueYoY": 12334.6,
+          "netProfit": -8.71,
+          "netProfitYoY": -12.1,
+          "grossMargin": 62.9,
+          "roe": -99.8,
+          "operatingCashFlow": -10.17,
+          "debtRatio": 25.8
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 7.43,
+          "revenueYoY": 1301.5,
+          "netProfit": -14.09,
+          "netProfitYoY": -61.7,
+          "grossMargin": 53.4,
+          "roe": -99.7,
+          "operatingCashFlow": -21.48,
+          "debtRatio": 69.7
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 16.44,
+          "revenueYoY": 121.3,
+          "netProfit": -7.89,
+          "netProfitYoY": 44.0,
+          "grossMargin": 56.5,
+          "roe": -9.6,
+          "operatingCashFlow": -12.6,
+          "debtRatio": 3.7
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002463",
+      "name": "沪电股份",
+      "nodeIds": [
+        "pcb"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002463",
+          "exchange": "SZSE",
+          "name": "沪电股份",
+          "peTtm": 63.1,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 74.19,
+          "revenueYoY": -0.6,
+          "netProfit": 10.63,
+          "netProfitYoY": -20.8,
+          "grossMargin": 27.2,
+          "roe": 15.8,
+          "operatingCashFlow": 14.1,
+          "debtRatio": 37.9
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 83.36,
+          "revenueYoY": 12.4,
+          "netProfit": 13.62,
+          "netProfitYoY": 28.0,
+          "grossMargin": 30.3,
+          "roe": 17.7,
+          "operatingCashFlow": 15.66,
+          "debtRatio": 33.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 89.38,
+          "revenueYoY": 7.2,
+          "netProfit": 15.13,
+          "netProfitYoY": 11.1,
+          "grossMargin": 31.0,
+          "roe": 16.8,
+          "operatingCashFlow": 22.44,
+          "debtRatio": 38.7
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 133.42,
+          "revenueYoY": 49.3,
+          "netProfit": 25.87,
+          "netProfitYoY": 71.1,
+          "grossMargin": 34.5,
+          "roe": 24.2,
+          "operatingCashFlow": 23.25,
+          "debtRatio": 43.8
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 189.45,
+          "revenueYoY": 42.0,
+          "netProfit": 38.22,
+          "netProfitYoY": 47.7,
+          "grossMargin": 35.5,
+          "roe": 28.6,
+          "operatingCashFlow": 38.72,
+          "debtRatio": 46.5
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-000977",
+      "name": "浪潮信息",
+      "nodeIds": [
+        "ai-server"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "000977",
+          "exchange": "SZSE",
+          "name": "浪潮信息",
+          "peTtm": 37.83,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 670.48,
+          "revenueYoY": 6.4,
+          "netProfit": 20.03,
+          "netProfitYoY": 36.6,
+          "grossMargin": 11.4,
+          "roe": 13.1,
+          "operatingCashFlow": -82.87,
+          "debtRatio": 66.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 696.35,
+          "revenueYoY": 3.9,
+          "netProfit": 20.86,
+          "netProfitYoY": 4.2,
+          "grossMargin": 11.2,
+          "roe": 13.4,
+          "operatingCashFlow": 18.11,
+          "debtRatio": 57.1
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 658.67,
+          "revenueYoY": -5.4,
+          "netProfit": 17.83,
+          "netProfitYoY": -14.5,
+          "grossMargin": 10.0,
+          "roe": 9.7,
+          "operatingCashFlow": 5.2,
+          "debtRatio": 62.0
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 1150.29,
+          "revenueYoY": 74.6,
+          "netProfit": 22.94,
+          "netProfitYoY": 28.7,
+          "grossMargin": 6.9,
+          "roe": 12.1,
+          "operatingCashFlow": 0.81,
+          "debtRatio": 71.5
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 1647.82,
+          "revenueYoY": 43.3,
+          "netProfit": 24.13,
+          "netProfitYoY": 5.2,
+          "grossMargin": 4.9,
+          "roe": 11.6,
+          "operatingCashFlow": 54.54,
+          "debtRatio": 73.6
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688041",
+      "name": "海光信息",
+      "nodeIds": [
+        "ai-chip"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688041",
+          "exchange": "SSE",
+          "name": "海光信息",
+          "peTtm": 302.55,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 23.1,
+          "revenueYoY": 126.1,
+          "netProfit": 3.27,
+          "netProfitYoY": 935.6,
+          "grossMargin": 56.0,
+          "roe": 6.4,
+          "operatingCashFlow": 5.98,
+          "debtRatio": 40.1
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 51.25,
+          "revenueYoY": 121.8,
+          "netProfit": 8.04,
+          "netProfitYoY": 145.7,
+          "grossMargin": 52.4,
+          "roe": 8.5,
+          "operatingCashFlow": -0.43,
+          "debtRatio": 16.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 60.12,
+          "revenueYoY": 17.3,
+          "netProfit": 12.63,
+          "netProfitYoY": 57.2,
+          "grossMargin": 59.7,
+          "roe": 7.1,
+          "operatingCashFlow": 8.13,
+          "debtRatio": 11.3
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 91.62,
+          "revenueYoY": 52.4,
+          "netProfit": 19.31,
+          "netProfitYoY": 52.9,
+          "grossMargin": 63.7,
+          "roe": 9.9,
+          "operatingCashFlow": 9.77,
+          "debtRatio": 20.7
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 143.77,
+          "revenueYoY": 56.9,
+          "netProfit": 25.45,
+          "netProfitYoY": 31.8,
+          "grossMargin": 57.8,
+          "roe": 11.9,
+          "operatingCashFlow": 20.98,
+          "debtRatio": 27.1
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300442",
+      "name": "润泽科技",
+      "nodeIds": [
+        "aidc"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300442",
+          "exchange": "SZSE",
+          "name": "润泽科技",
+          "peTtm": 24.04,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 20.47,
+          "revenueYoY": 345.5,
+          "netProfit": 7.22,
+          "netProfitYoY": 417.7,
+          "grossMargin": 54.4,
+          "roe": 32.9,
+          "operatingCashFlow": 12.71,
+          "debtRatio": 76.0
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 27.15,
+          "revenueYoY": 32.6,
+          "netProfit": 11.98,
+          "netProfitYoY": 66.0,
+          "grossMargin": 53.1,
+          "roe": 38.8,
+          "operatingCashFlow": 17.88,
+          "debtRatio": 81.5
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 43.51,
+          "revenueYoY": 60.3,
+          "netProfit": 17.62,
+          "netProfitYoY": 47.0,
+          "grossMargin": 48.6,
+          "roe": 22.5,
+          "operatingCashFlow": 12.44,
+          "debtRatio": 63.3
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 43.65,
+          "revenueYoY": 0.3,
+          "netProfit": 17.9,
+          "netProfitYoY": 1.6,
+          "grossMargin": 48.9,
+          "roe": 19.5,
+          "operatingCashFlow": 20.94,
+          "debtRatio": 63.1
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 56.74,
+          "revenueYoY": 30.0,
+          "netProfit": 50.5,
+          "netProfitYoY": 182.1,
+          "grossMargin": 46.0,
+          "roe": 41.8,
+          "operatingCashFlow": 32.92,
+          "debtRatio": 62.8
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002916",
+      "name": "深南电路",
+      "nodeIds": [
+        "pcb"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002916",
+          "exchange": "SZSE",
+          "name": "深南电路",
+          "peTtm": 81.37,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 139.43,
+          "revenueYoY": 20.2,
+          "netProfit": 14.81,
+          "netProfitYoY": 3.5,
+          "grossMargin": 23.7,
+          "roe": 18.7,
+          "operatingCashFlow": 23.42,
+          "debtRatio": 49.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 139.92,
+          "revenueYoY": 0.4,
+          "netProfit": 16.41,
+          "netProfitYoY": 10.8,
+          "grossMargin": 25.5,
+          "roe": 14.7,
+          "operatingCashFlow": 31.8,
+          "debtRatio": 40.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 135.26,
+          "revenueYoY": -3.3,
+          "netProfit": 13.98,
+          "netProfitYoY": -14.8,
+          "grossMargin": 23.4,
+          "roe": 11.1,
+          "operatingCashFlow": 25.89,
+          "debtRatio": 41.7
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 179.07,
+          "revenueYoY": 32.4,
+          "netProfit": 18.78,
+          "netProfitYoY": 34.3,
+          "grossMargin": 24.8,
+          "roe": 13.6,
+          "operatingCashFlow": 29.82,
+          "debtRatio": 42.1
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 236.47,
+          "revenueYoY": 32.1,
+          "netProfit": 32.76,
+          "netProfitYoY": 74.5,
+          "grossMargin": 28.3,
+          "roe": 20.8,
+          "operatingCashFlow": 38.38,
+          "debtRatio": 43.8
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688498",
+      "name": "源杰科技",
+      "nodeIds": [
+        "optical-chip"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688498",
+          "exchange": "SSE",
+          "name": "源杰科技",
+          "peTtm": 603.13,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 2.32,
+          "revenueYoY": -0.5,
+          "netProfit": 0.95,
+          "netProfitYoY": 20.9,
+          "grossMargin": 65.2,
+          "roe": 16.9,
+          "operatingCashFlow": 0.36,
+          "debtRatio": 16.6
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 2.83,
+          "revenueYoY": 21.9,
+          "netProfit": 1.0,
+          "netProfitYoY": 5.3,
+          "grossMargin": 61.9,
+          "roe": 15.0,
+          "operatingCashFlow": 0.38,
+          "debtRatio": 8.4
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 1.44,
+          "revenueYoY": -49.0,
+          "netProfit": 0.19,
+          "netProfitYoY": -80.6,
+          "grossMargin": 43.1,
+          "roe": 0.9,
+          "operatingCashFlow": -0.17,
+          "debtRatio": 5.4
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 2.52,
+          "revenueYoY": 74.6,
+          "netProfit": -0.06,
+          "netProfitYoY": -131.5,
+          "grossMargin": 33.3,
+          "roe": -0.3,
+          "operatingCashFlow": 0.19,
+          "debtRatio": 3.5
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 6.01,
+          "revenueYoY": 138.5,
+          "netProfit": 1.91,
+          "netProfitYoY": 3212.6,
+          "grossMargin": 58.1,
+          "roe": 8.7,
+          "operatingCashFlow": 1.5,
+          "debtRatio": 9.5
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-600498",
+      "name": "烽火通信",
+      "nodeIds": [
+        "fiber-cable"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "600498",
+          "exchange": "SSE",
+          "name": "烽火通信",
+          "peTtm": 233.59,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 263.41,
+          "revenueYoY": 25.0,
+          "netProfit": 2.89,
+          "netProfitYoY": 182.2,
+          "grossMargin": 21.9,
+          "roe": 2.5,
+          "operatingCashFlow": -0.9,
+          "debtRatio": 65.2
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 309.18,
+          "revenueYoY": 17.4,
+          "netProfit": 4.06,
+          "netProfitYoY": 40.8,
+          "grossMargin": 22.0,
+          "roe": 3.4,
+          "operatingCashFlow": 0.46,
+          "debtRatio": 64.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 311.3,
+          "revenueYoY": 0.7,
+          "netProfit": 5.05,
+          "netProfitYoY": 24.4,
+          "grossMargin": 20.5,
+          "roe": 4.1,
+          "operatingCashFlow": 0.59,
+          "debtRatio": 64.4
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 285.49,
+          "revenueYoY": -8.3,
+          "netProfit": 7.03,
+          "netProfitYoY": 39.0,
+          "grossMargin": 21.2,
+          "roe": 5.5,
+          "operatingCashFlow": 46.39,
+          "debtRatio": 65.0
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 249.19,
+          "revenueYoY": -12.7,
+          "netProfit": 4.36,
+          "netProfitYoY": -38.0,
+          "grossMargin": 21.1,
+          "roe": 3.1,
+          "operatingCashFlow": 47.72,
+          "debtRatio": 59.5
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-301018",
+      "name": "申菱环境",
+      "nodeIds": [
+        "liquid-cooling"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "301018",
+          "exchange": "SZSE",
+          "name": "申菱环境",
+          "peTtm": 200.4,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 17.98,
+          "revenueYoY": 22.6,
+          "netProfit": 1.4,
+          "netProfitYoY": 12.6,
+          "grossMargin": 27.7,
+          "roe": 0.1,
+          "operatingCashFlow": 0.38,
+          "debtRatio": 55.4
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 22.21,
+          "revenueYoY": 23.5,
+          "netProfit": 1.66,
+          "netProfitYoY": 18.5,
+          "grossMargin": 27.8,
+          "roe": 11.0,
+          "operatingCashFlow": 0.62,
+          "debtRatio": 55.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 25.11,
+          "revenueYoY": 13.1,
+          "netProfit": 1.05,
+          "netProfitYoY": -36.9,
+          "grossMargin": 26.1,
+          "roe": 4.8,
+          "operatingCashFlow": 0.14,
+          "debtRatio": 48.2
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 30.16,
+          "revenueYoY": 20.1,
+          "netProfit": 1.16,
+          "netProfitYoY": 10.2,
+          "grossMargin": 23.8,
+          "roe": 4.7,
+          "operatingCashFlow": 1.35,
+          "debtRatio": 52.5
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 42.09,
+          "revenueYoY": 39.6,
+          "netProfit": 2.17,
+          "netProfitYoY": 87.6,
+          "grossMargin": 24.0,
+          "roe": 8.2,
+          "operatingCashFlow": 3.25,
+          "debtRatio": 56.7
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002222",
+      "name": "福晶科技",
+      "nodeIds": [
+        "ocs"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002222",
+          "exchange": "SZSE",
+          "name": "福晶科技",
+          "peTtm": 135.52,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 6.89,
+          "revenueYoY": 26.0,
+          "netProfit": 1.91,
+          "netProfitYoY": 33.2,
+          "grossMargin": 54.7,
+          "roe": 16.7,
+          "operatingCashFlow": 1.55,
+          "debtRatio": 8.8
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 7.68,
+          "revenueYoY": 11.6,
+          "netProfit": 2.26,
+          "netProfitYoY": 18.3,
+          "grossMargin": 57.8,
+          "roe": 17.4,
+          "operatingCashFlow": 3.11,
+          "debtRatio": 9.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 7.82,
+          "revenueYoY": 1.7,
+          "netProfit": 2.09,
+          "netProfitYoY": -7.6,
+          "grossMargin": 56.2,
+          "roe": 14.8,
+          "operatingCashFlow": 2.17,
+          "debtRatio": 10.4
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 8.76,
+          "revenueYoY": 12.0,
+          "netProfit": 2.19,
+          "netProfitYoY": 4.6,
+          "grossMargin": 53.8,
+          "roe": 14.4,
+          "operatingCashFlow": 2.18,
+          "debtRatio": 14.6
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 11.58,
+          "revenueYoY": 32.2,
+          "netProfit": 2.79,
+          "netProfitYoY": 27.3,
+          "grossMargin": 51.2,
+          "roe": 16.4,
+          "operatingCashFlow": 3.51,
+          "debtRatio": 21.4
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002957",
+      "name": "科瑞技术",
+      "nodeIds": [
+        "optical-module-equipment"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002957",
+          "exchange": "SZSE",
+          "name": "科瑞技术",
+          "peTtm": 75.27,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 21.61,
+          "revenueYoY": 7.3,
+          "netProfit": 0.35,
+          "netProfitYoY": -88.0,
+          "grossMargin": 33.9,
+          "roe": 1.4,
+          "operatingCashFlow": 0.43,
+          "debtRatio": 43.2
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 32.46,
+          "revenueYoY": 50.2,
+          "netProfit": 3.13,
+          "netProfitYoY": 793.4,
+          "grossMargin": 35.9,
+          "roe": 12.0,
+          "operatingCashFlow": 1.09,
+          "debtRatio": 50.2
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 28.57,
+          "revenueYoY": -12.0,
+          "netProfit": 1.74,
+          "netProfitYoY": -44.5,
+          "grossMargin": 32.4,
+          "roe": 6.2,
+          "operatingCashFlow": 3.11,
+          "debtRatio": 46.6
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 24.48,
+          "revenueYoY": -14.3,
+          "netProfit": 1.39,
+          "netProfitYoY": -19.7,
+          "grossMargin": 36.2,
+          "roe": 4.8,
+          "operatingCashFlow": 2.89,
+          "debtRatio": 42.0
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 26.32,
+          "revenueYoY": 7.5,
+          "netProfit": 2.73,
+          "netProfitYoY": 95.9,
+          "grossMargin": 33.4,
+          "roe": 8.9,
+          "operatingCashFlow": 4.82,
+          "debtRatio": 44.9
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002475",
+      "name": "立讯精密",
+      "nodeIds": [
+        "high-speed-connection"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002475",
+          "exchange": "SZSE",
+          "name": "立讯精密",
+          "peTtm": 27.76,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 1539.46,
+          "revenueYoY": 66.4,
+          "netProfit": 70.71,
+          "netProfitYoY": -2.1,
+          "grossMargin": 12.3,
+          "roe": 22.4,
+          "operatingCashFlow": 72.82,
+          "debtRatio": 62.0
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 2140.28,
+          "revenueYoY": 39.0,
+          "netProfit": 91.63,
+          "netProfitYoY": 29.6,
+          "grossMargin": 12.2,
+          "roe": 23.0,
+          "operatingCashFlow": 127.35,
+          "debtRatio": 60.4
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 2319.05,
+          "revenueYoY": 8.4,
+          "netProfit": 109.53,
+          "netProfitYoY": 19.5,
+          "grossMargin": 11.6,
+          "roe": 21.6,
+          "operatingCashFlow": 275.97,
+          "debtRatio": 56.6
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 2687.95,
+          "revenueYoY": 15.9,
+          "netProfit": 133.66,
+          "netProfitYoY": 22.0,
+          "grossMargin": 10.4,
+          "roe": 21.3,
+          "operatingCashFlow": 271.21,
+          "debtRatio": 62.2
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 3323.44,
+          "revenueYoY": 23.6,
+          "netProfit": 166.0,
+          "netProfitYoY": 24.2,
+          "grossMargin": 11.9,
+          "roe": 21.1,
+          "operatingCashFlow": 173.15,
+          "debtRatio": 66.1
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-000938",
+      "name": "紫光股份",
+      "nodeIds": [
+        "ai-server"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "000938",
+          "exchange": "SZSE",
+          "name": "紫光股份",
+          "peTtm": 35.32,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 676.38,
+          "revenueYoY": 12.6,
+          "netProfit": 21.48,
+          "netProfitYoY": 18.5,
+          "grossMargin": 19.5,
+          "roe": 7.4,
+          "operatingCashFlow": -21.78,
+          "debtRatio": 46.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 740.58,
+          "revenueYoY": 9.5,
+          "netProfit": 21.58,
+          "netProfitYoY": 0.5,
+          "grossMargin": 20.6,
+          "roe": 7.0,
+          "operatingCashFlow": 40.21,
+          "debtRatio": 48.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 773.08,
+          "revenueYoY": 4.4,
+          "netProfit": 21.03,
+          "netProfitYoY": -2.5,
+          "grossMargin": 19.6,
+          "roe": 6.4,
+          "operatingCashFlow": -18.55,
+          "debtRatio": 54.1
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 790.24,
+          "revenueYoY": 2.2,
+          "netProfit": 15.72,
+          "netProfitYoY": -25.2,
+          "grossMargin": 17.4,
+          "roe": 5.8,
+          "operatingCashFlow": 24.42,
+          "debtRatio": 81.9
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 967.48,
+          "revenueYoY": 22.4,
+          "netProfit": 16.86,
+          "netProfitYoY": 7.2,
+          "grossMargin": 14.6,
+          "roe": 12.0,
+          "operatingCashFlow": 34.83,
+          "debtRatio": 81.8
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300017",
+      "name": "网宿科技",
+      "nodeIds": [
+        "aidc"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300017",
+          "exchange": "SZSE",
+          "name": "网宿科技",
+          "peTtm": 42.89,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 45.75,
+          "revenueYoY": -19.5,
+          "netProfit": 1.65,
+          "netProfitYoY": -24.9,
+          "grossMargin": 25.3,
+          "roe": 1.9,
+          "operatingCashFlow": 8.36,
+          "debtRatio": 16.4
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 50.84,
+          "revenueYoY": 11.1,
+          "netProfit": 1.91,
+          "netProfitYoY": 15.3,
+          "grossMargin": 26.2,
+          "roe": 2.1,
+          "operatingCashFlow": 9.32,
+          "debtRatio": 13.6
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 47.05,
+          "revenueYoY": -7.4,
+          "netProfit": 6.13,
+          "netProfitYoY": 221.7,
+          "grossMargin": 32.2,
+          "roe": 6.6,
+          "operatingCashFlow": 7.92,
+          "debtRatio": 10.8
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 49.32,
+          "revenueYoY": 4.8,
+          "netProfit": 6.75,
+          "netProfitYoY": 10.0,
+          "grossMargin": 31.4,
+          "roe": 7.0,
+          "operatingCashFlow": 8.69,
+          "debtRatio": 16.3
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 46.61,
+          "revenueYoY": -5.5,
+          "netProfit": 8.0,
+          "netProfitYoY": 18.5,
+          "grossMargin": 35.5,
+          "roe": 7.8,
+          "operatingCashFlow": 9.85,
+          "debtRatio": 13.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300757",
+      "name": "罗博特科",
+      "nodeIds": [
+        "optical-module-equipment"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300757",
+          "exchange": "SZSE",
+          "name": "罗博特科",
+          "peTtm": null,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 10.86,
+          "revenueYoY": 105.6,
+          "netProfit": -0.47,
+          "netProfitYoY": 30.3,
+          "grossMargin": 15.3,
+          "roe": -6.8,
+          "operatingCashFlow": -1.78,
+          "debtRatio": 57.9
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 9.03,
+          "revenueYoY": -16.8,
+          "netProfit": 0.26,
+          "netProfitYoY": 155.8,
+          "grossMargin": 22.2,
+          "roe": 3.0,
+          "operatingCashFlow": 2.69,
+          "debtRatio": 60.1
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 15.72,
+          "revenueYoY": 74.0,
+          "netProfit": 0.77,
+          "netProfitYoY": 195.1,
+          "grossMargin": 21.9,
+          "roe": 8.3,
+          "operatingCashFlow": -0.28,
+          "debtRatio": 61.8
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 11.06,
+          "revenueYoY": -29.6,
+          "netProfit": 0.64,
+          "netProfitYoY": -17.2,
+          "grossMargin": 28.7,
+          "roe": 6.4,
+          "operatingCashFlow": -3.17,
+          "debtRatio": 57.5
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 9.5,
+          "revenueYoY": -14.1,
+          "netProfit": -0.66,
+          "netProfitYoY": -204.0,
+          "grossMargin": 34.5,
+          "roe": -4.7,
+          "operatingCashFlow": 2.08,
+          "debtRatio": 54.1
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300586",
+      "name": "美联新材",
+      "nodeIds": [
+        "resin"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300586",
+          "exchange": "SZSE",
+          "name": "美联新材",
+          "peTtm": null,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 18.81,
+          "revenueYoY": 24.0,
+          "netProfit": 0.63,
+          "netProfitYoY": 51.0,
+          "grossMargin": 17.5,
+          "roe": 6.2,
+          "operatingCashFlow": 1.26,
+          "debtRatio": 38.4
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 23.99,
+          "revenueYoY": 27.5,
+          "netProfit": 3.17,
+          "netProfitYoY": 401.1,
+          "grossMargin": 33.7,
+          "roe": 22.0,
+          "operatingCashFlow": 6.28,
+          "debtRatio": 36.0
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 18.71,
+          "revenueYoY": -22.0,
+          "netProfit": 1.15,
+          "netProfitYoY": -63.7,
+          "grossMargin": 21.5,
+          "roe": 6.3,
+          "operatingCashFlow": 3.76,
+          "debtRatio": 31.1
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 17.3,
+          "revenueYoY": -7.6,
+          "netProfit": 0.36,
+          "netProfitYoY": -68.8,
+          "grossMargin": 14.1,
+          "roe": 1.9,
+          "operatingCashFlow": 1.8,
+          "debtRatio": 36.4
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 16.64,
+          "revenueYoY": -3.8,
+          "netProfit": -0.7,
+          "netProfitYoY": -296.6,
+          "grossMargin": 5.9,
+          "roe": -3.8,
+          "operatingCashFlow": 0.37,
+          "debtRatio": 40.8
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-605060",
+      "name": "联德股份",
+      "nodeIds": [
+        "gas-turbine"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "605060",
+          "exchange": "SSE",
+          "name": "联德股份",
+          "peTtm": 52.88,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 7.99,
+          "revenueYoY": 19.2,
+          "netProfit": 1.61,
+          "netProfitYoY": -4.0,
+          "grossMargin": 34.3,
+          "roe": 9.5,
+          "operatingCashFlow": 1.91,
+          "debtRatio": 16.9
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 11.21,
+          "revenueYoY": 40.3,
+          "netProfit": 2.48,
+          "netProfitYoY": 54.3,
+          "grossMargin": 36.5,
+          "roe": 12.6,
+          "operatingCashFlow": 1.89,
+          "debtRatio": 21.4
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 12.11,
+          "revenueYoY": 8.1,
+          "netProfit": 2.51,
+          "netProfitYoY": 1.4,
+          "grossMargin": 37.3,
+          "roe": 11.7,
+          "operatingCashFlow": 3.25,
+          "debtRatio": 15.9
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 10.98,
+          "revenueYoY": -9.3,
+          "netProfit": 1.87,
+          "netProfitYoY": -25.4,
+          "grossMargin": 34.4,
+          "roe": 8.3,
+          "operatingCashFlow": 2.98,
+          "debtRatio": 18.3
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 12.54,
+          "revenueYoY": 14.2,
+          "netProfit": 2.28,
+          "netProfitYoY": 21.5,
+          "grossMargin": 36.3,
+          "roe": 9.5,
+          "operatingCashFlow": 3.05,
+          "debtRatio": 17.2
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300476",
+      "name": "胜宏科技",
+      "nodeIds": [
+        "pcb"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300476",
+          "exchange": "SZSE",
+          "name": "胜宏科技",
+          "peTtm": 66.23,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 74.32,
+          "revenueYoY": 32.7,
+          "netProfit": 6.7,
+          "netProfitYoY": 29.2,
+          "grossMargin": 20.4,
+          "roe": 16.2,
+          "operatingCashFlow": 7.92,
+          "debtRatio": 53.4
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 78.85,
+          "revenueYoY": 6.1,
+          "netProfit": 7.91,
+          "netProfitYoY": 17.9,
+          "grossMargin": 18.1,
+          "roe": 12.1,
+          "operatingCashFlow": 12.4,
+          "debtRatio": 51.5
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 79.31,
+          "revenueYoY": 0.6,
+          "netProfit": 6.71,
+          "netProfitYoY": -15.1,
+          "grossMargin": 20.7,
+          "roe": 9.3,
+          "operatingCashFlow": 12.8,
+          "debtRatio": 56.1
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 107.31,
+          "revenueYoY": 35.3,
+          "netProfit": 11.54,
+          "netProfitYoY": 72.0,
+          "grossMargin": 22.7,
+          "roe": 13.9,
+          "operatingCashFlow": 13.59,
+          "debtRatio": 53.4
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 192.92,
+          "revenueYoY": 79.8,
+          "netProfit": 43.12,
+          "netProfitYoY": 273.5,
+          "grossMargin": 35.2,
+          "roe": 35.6,
+          "operatingCashFlow": 46.03,
+          "debtRatio": 52.9
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688195",
+      "name": "腾景科技",
+      "nodeIds": [
+        "ocs"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688195",
+          "exchange": "SSE",
+          "name": "腾景科技",
+          "peTtm": 462.56,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 3.03,
+          "revenueYoY": 12.4,
+          "netProfit": 0.52,
+          "netProfitYoY": -26.3,
+          "grossMargin": 32.9,
+          "roe": 7.2,
+          "operatingCashFlow": 0.75,
+          "debtRatio": 17.1
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 3.44,
+          "revenueYoY": 13.7,
+          "netProfit": 0.58,
+          "netProfitYoY": 11.8,
+          "grossMargin": 32.2,
+          "roe": 6.8,
+          "operatingCashFlow": 0.55,
+          "debtRatio": 13.5
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 3.4,
+          "revenueYoY": -1.3,
+          "netProfit": 0.42,
+          "netProfitYoY": -28.7,
+          "grossMargin": 30.8,
+          "roe": 4.7,
+          "operatingCashFlow": 0.67,
+          "debtRatio": 16.1
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 4.45,
+          "revenueYoY": 31.0,
+          "netProfit": 0.69,
+          "netProfitYoY": 66.5,
+          "grossMargin": 37.6,
+          "roe": 7.5,
+          "operatingCashFlow": 0.7,
+          "debtRatio": 25.3
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 5.86,
+          "revenueYoY": 31.5,
+          "netProfit": 0.71,
+          "netProfitYoY": 1.8,
+          "grossMargin": 37.2,
+          "roe": 7.5,
+          "operatingCashFlow": 1.39,
+          "debtRatio": 31.3
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002837",
+      "name": "英维克",
+      "nodeIds": [
+        "liquid-cooling"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002837",
+          "exchange": "SZSE",
+          "name": "英维克",
+          "peTtm": 202.55,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 22.28,
+          "revenueYoY": 30.8,
+          "netProfit": 2.05,
+          "netProfitYoY": 12.9,
+          "grossMargin": 29.4,
+          "roe": 13.2,
+          "operatingCashFlow": 1.8,
+          "debtRatio": 46.4
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 29.23,
+          "revenueYoY": 31.2,
+          "netProfit": 2.8,
+          "netProfitYoY": 36.7,
+          "grossMargin": 29.8,
+          "roe": 14.1,
+          "operatingCashFlow": 1.92,
+          "debtRatio": 48.0
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 35.29,
+          "revenueYoY": 20.7,
+          "netProfit": 3.44,
+          "netProfitYoY": 22.7,
+          "grossMargin": 29.8,
+          "roe": 15.0,
+          "operatingCashFlow": 4.53,
+          "debtRatio": 51.2
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 45.89,
+          "revenueYoY": 30.0,
+          "netProfit": 4.53,
+          "netProfitYoY": 31.6,
+          "grossMargin": 28.7,
+          "roe": 16.9,
+          "operatingCashFlow": 2.0,
+          "debtRatio": 51.6
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 60.68,
+          "revenueYoY": 32.2,
+          "netProfit": 5.22,
+          "netProfitYoY": 15.3,
+          "grossMargin": 27.9,
+          "roe": 16.6,
+          "operatingCashFlow": 1.57,
+          "debtRatio": 55.3
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-600110",
+      "name": "诺德股份",
+      "nodeIds": [
+        "copper-foil"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "600110",
+          "exchange": "SSE",
+          "name": "诺德股份",
+          "peTtm": null,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 44.46,
+          "revenueYoY": 106.3,
+          "netProfit": 4.05,
+          "netProfitYoY": 7421.9,
+          "grossMargin": 24.7,
+          "roe": 11.2,
+          "operatingCashFlow": 10.43,
+          "debtRatio": 55.9
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 47.09,
+          "revenueYoY": 5.9,
+          "netProfit": 3.52,
+          "netProfitYoY": -13.0,
+          "grossMargin": 20.3,
+          "roe": 6.0,
+          "operatingCashFlow": 7.95,
+          "debtRatio": 44.6
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 45.72,
+          "revenueYoY": -2.9,
+          "netProfit": 0.27,
+          "netProfitYoY": -92.2,
+          "grossMargin": 10.4,
+          "roe": 0.4,
+          "operatingCashFlow": -10.72,
+          "debtRatio": 49.9
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 52.77,
+          "revenueYoY": 15.4,
+          "netProfit": -3.52,
+          "netProfitYoY": -1387.6,
+          "grossMargin": 6.3,
+          "roe": -5.9,
+          "operatingCashFlow": 6.16,
+          "debtRatio": 55.3
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 73.28,
+          "revenueYoY": 38.9,
+          "netProfit": -2.99,
+          "netProfitYoY": 15.1,
+          "grossMargin": 9.7,
+          "roe": -5.3,
+          "operatingCashFlow": -4.62,
+          "debtRatio": 62.9
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-001896",
+      "name": "豫能控股",
+      "nodeIds": [
+        "compute-power"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "001896",
+          "exchange": "SZSE",
+          "name": "豫能控股",
+          "peTtm": 67.76,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 119.41,
+          "revenueYoY": 16.2,
+          "netProfit": -20.0,
+          "netProfitYoY": -509.4,
+          "grossMargin": -11.4,
+          "roe": -32.7,
+          "operatingCashFlow": -2.29,
+          "debtRatio": 80.6
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 130.97,
+          "revenueYoY": 9.7,
+          "netProfit": -21.41,
+          "netProfitYoY": -7.0,
+          "grossMargin": -10.2,
+          "roe": -48.4,
+          "operatingCashFlow": -0.34,
+          "debtRatio": 86.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 119.84,
+          "revenueYoY": -8.5,
+          "netProfit": -5.54,
+          "netProfitYoY": 74.1,
+          "grossMargin": 2.7,
+          "roe": -15.9,
+          "operatingCashFlow": 7.54,
+          "debtRatio": 88.7
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 121.55,
+          "revenueYoY": 1.4,
+          "netProfit": -1.21,
+          "netProfitYoY": 78.1,
+          "grossMargin": 7.1,
+          "roe": -3.9,
+          "operatingCashFlow": 23.69,
+          "debtRatio": 89.0
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 112.3,
+          "revenueYoY": -7.6,
+          "netProfit": 3.9,
+          "netProfitYoY": 421.5,
+          "grossMargin": 13.7,
+          "roe": 11.8,
+          "operatingCashFlow": 35.18,
+          "debtRatio": 86.8
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688676",
+      "name": "金盘科技",
+      "nodeIds": [
+        "solid-transformer"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：产业处早期，需以产品验证与订单披露为准。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688676",
+          "exchange": "SSE",
+          "name": "金盘科技",
+          "peTtm": 55.31,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 33.03,
+          "revenueYoY": 36.3,
+          "netProfit": 2.35,
+          "netProfitYoY": 1.3,
+          "grossMargin": 23.5,
+          "roe": 10.3,
+          "operatingCashFlow": 2.53,
+          "debtRatio": 54.2
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 47.46,
+          "revenueYoY": 43.7,
+          "netProfit": 2.83,
+          "netProfitYoY": 20.7,
+          "grossMargin": 20.3,
+          "roe": 10.9,
+          "operatingCashFlow": -1.04,
+          "debtRatio": 61.5
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 66.68,
+          "revenueYoY": 40.5,
+          "netProfit": 5.05,
+          "netProfitYoY": 78.2,
+          "grossMargin": 22.6,
+          "roe": 16.4,
+          "operatingCashFlow": 2.05,
+          "debtRatio": 61.3
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 69.01,
+          "revenueYoY": 3.5,
+          "netProfit": 5.74,
+          "netProfitYoY": 13.8,
+          "grossMargin": 24.3,
+          "roe": 14.5,
+          "operatingCashFlow": -0.37,
+          "debtRatio": 53.8
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 72.95,
+          "revenueYoY": 5.7,
+          "netProfit": 6.6,
+          "netProfitYoY": 14.8,
+          "grossMargin": 25.9,
+          "roe": 14.1,
+          "operatingCashFlow": 6.01,
+          "debtRatio": 57.9
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-301217",
+      "name": "铜冠铜箔",
+      "nodeIds": [
+        "copper-foil"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "301217",
+          "exchange": "SZSE",
+          "name": "铜冠铜箔",
+          "peTtm": 811.02,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 40.82,
+          "revenueYoY": 65.9,
+          "netProfit": 3.67,
+          "netProfitYoY": 412.5,
+          "grossMargin": 15.7,
+          "roe": 19.4,
+          "operatingCashFlow": 1.84,
+          "debtRatio": 39.6
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 38.75,
+          "revenueYoY": -5.1,
+          "netProfit": 2.65,
+          "netProfitYoY": -27.9,
+          "grossMargin": 10.0,
+          "roe": 5.0,
+          "operatingCashFlow": 4.47,
+          "debtRatio": 8.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 37.85,
+          "revenueYoY": -2.3,
+          "netProfit": 0.17,
+          "netProfitYoY": -93.5,
+          "grossMargin": 2.3,
+          "roe": 0.3,
+          "operatingCashFlow": -6.0,
+          "debtRatio": 19.6
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 47.19,
+          "revenueYoY": 24.7,
+          "netProfit": -1.56,
+          "netProfitYoY": -1009.0,
+          "grossMargin": -0.6,
+          "roe": -2.9,
+          "operatingCashFlow": -4.65,
+          "debtRatio": 22.5
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 66.89,
+          "revenueYoY": 41.8,
+          "netProfit": 0.63,
+          "netProfitYoY": 140.1,
+          "grossMargin": 3.6,
+          "roe": 1.2,
+          "operatingCashFlow": -1.71,
+          "debtRatio": 29.6
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688048",
+      "name": "长光华芯",
+      "nodeIds": [
+        "optical-chip"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688048",
+          "exchange": "SSE",
+          "name": "长光华芯",
+          "peTtm": 2185.44,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 4.29,
+          "revenueYoY": 73.6,
+          "netProfit": 1.15,
+          "netProfitYoY": 340.5,
+          "grossMargin": 52.8,
+          "roe": 20.0,
+          "operatingCashFlow": 0.21,
+          "debtRatio": 35.2
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 3.86,
+          "revenueYoY": -10.1,
+          "netProfit": 1.19,
+          "netProfitYoY": 3.4,
+          "grossMargin": 51.6,
+          "roe": 4.7,
+          "operatingCashFlow": -0.55,
+          "debtRatio": 7.4
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 2.9,
+          "revenueYoY": -24.7,
+          "netProfit": -0.92,
+          "netProfitYoY": -177.1,
+          "grossMargin": 30.9,
+          "roe": -2.9,
+          "operatingCashFlow": 0.25,
+          "debtRatio": 9.0
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 2.73,
+          "revenueYoY": -6.1,
+          "netProfit": -1.0,
+          "netProfitYoY": -8.5,
+          "grossMargin": 23.8,
+          "roe": -3.3,
+          "operatingCashFlow": -0.66,
+          "debtRatio": 9.4
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 4.77,
+          "revenueYoY": 75.1,
+          "netProfit": 0.22,
+          "netProfitYoY": 121.8,
+          "grossMargin": 34.5,
+          "roe": 0.7,
+          "operatingCashFlow": 0.22,
+          "debtRatio": 10.3
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-601869",
+      "name": "长飞光纤",
+      "nodeIds": [
+        "fiber-cable"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "601869",
+          "exchange": "SSE",
+          "name": "长飞光纤",
+          "peTtm": 377.12,
+          "peAsOf": "2026-06-29"
+        },
+        {
+          "market": "H",
+          "code": "06869",
+          "name": "长飞光纤光缆",
+          "exchange": "HKEX",
+          "peTtm": 152.9,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 95.36,
+          "revenueYoY": 16.0,
+          "netProfit": 7.09,
+          "netProfitYoY": 30.3,
+          "grossMargin": 19.6,
+          "roe": 7.5,
+          "operatingCashFlow": 5.26,
+          "debtRatio": 45.7
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 138.3,
+          "revenueYoY": 45.0,
+          "netProfit": 11.67,
+          "netProfitYoY": 64.7,
+          "grossMargin": 23.5,
+          "roe": 11.8,
+          "operatingCashFlow": 15.95,
+          "debtRatio": 48.5
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 133.53,
+          "revenueYoY": -3.5,
+          "netProfit": 12.97,
+          "netProfitYoY": 11.2,
+          "grossMargin": 24.5,
+          "roe": 12.1,
+          "operatingCashFlow": 15.14,
+          "debtRatio": 50.6
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 121.97,
+          "revenueYoY": -8.7,
+          "netProfit": 6.76,
+          "netProfitYoY": -47.9,
+          "grossMargin": 27.3,
+          "roe": 5.9,
+          "operatingCashFlow": 17.83,
+          "debtRatio": 50.9
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 142.52,
+          "revenueYoY": 16.8,
+          "netProfit": 8.14,
+          "netProfitYoY": 20.4,
+          "grossMargin": 30.7,
+          "roe": 6.9,
+          "operatingCashFlow": 36.53,
+          "debtRatio": 51.1
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-000601",
+      "name": "韶能股份",
+      "nodeIds": [
+        "compute-power"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "000601",
+          "exchange": "SZSE",
+          "name": "韶能股份",
+          "peTtm": 63.5,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 39.8,
+          "revenueYoY": -19.7,
+          "netProfit": 0.27,
+          "netProfitYoY": -87.5,
+          "grossMargin": 19.0,
+          "roe": 0.6,
+          "operatingCashFlow": 3.32,
+          "debtRatio": 61.2
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 38.49,
+          "revenueYoY": -3.3,
+          "netProfit": -0.74,
+          "netProfitYoY": -376.8,
+          "grossMargin": 15.1,
+          "roe": -1.6,
+          "operatingCashFlow": 5.38,
+          "debtRatio": 62.9
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 41.07,
+          "revenueYoY": 6.7,
+          "netProfit": -2.66,
+          "netProfitYoY": -258.2,
+          "grossMargin": 7.8,
+          "roe": -6.0,
+          "operatingCashFlow": 4.9,
+          "debtRatio": 64.7
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 44.42,
+          "revenueYoY": 8.2,
+          "netProfit": 0.77,
+          "netProfitYoY": 128.8,
+          "grossMargin": 16.9,
+          "roe": 1.8,
+          "operatingCashFlow": 13.88,
+          "debtRatio": 63.6
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 47.96,
+          "revenueYoY": 8.0,
+          "netProfit": 1.07,
+          "netProfitYoY": 39.7,
+          "grossMargin": 14.7,
+          "roe": 2.6,
+          "operatingCashFlow": 3.27,
+          "debtRatio": 65.9
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-300499",
+      "name": "高澜股份",
+      "nodeIds": [
+        "liquid-cooling"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。",
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "300499",
+          "exchange": "SZSE",
+          "name": "高澜股份",
+          "peTtm": 371.0,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 16.79,
+          "revenueYoY": 36.7,
+          "netProfit": 0.65,
+          "netProfitYoY": -20.3,
+          "grossMargin": 26.4,
+          "roe": 6.8,
+          "operatingCashFlow": 0.12,
+          "debtRatio": 53.3
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 19.04,
+          "revenueYoY": 13.4,
+          "netProfit": 2.87,
+          "netProfitYoY": 344.2,
+          "grossMargin": 19.7,
+          "roe": 24.1,
+          "operatingCashFlow": -0.17,
+          "debtRatio": 32.0
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 5.73,
+          "revenueYoY": -69.9,
+          "netProfit": -0.32,
+          "netProfitYoY": -111.1,
+          "grossMargin": 24.4,
+          "roe": -2.2,
+          "operatingCashFlow": 0.49,
+          "debtRatio": 22.7
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 6.91,
+          "revenueYoY": 20.6,
+          "netProfit": -0.5,
+          "netProfitYoY": -58.1,
+          "grossMargin": 24.0,
+          "roe": -3.7,
+          "operatingCashFlow": -0.68,
+          "debtRatio": 27.1
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 9.89,
+          "revenueYoY": 43.1,
+          "netProfit": 0.28,
+          "netProfitYoY": 156.4,
+          "grossMargin": 28.9,
+          "roe": 2.1,
+          "operatingCashFlow": 1.11,
+          "debtRatio": 36.9
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-002851",
+      "name": "麦格米特",
+      "nodeIds": [
+        "power"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "002851",
+          "exchange": "SZSE",
+          "name": "麦格米特",
+          "peTtm": 612.69,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 41.56,
+          "revenueYoY": 23.1,
+          "netProfit": 3.89,
+          "netProfitYoY": -3.5,
+          "grossMargin": 26.6,
+          "roe": 12.4,
+          "operatingCashFlow": -1.13,
+          "debtRatio": 48.6
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 54.78,
+          "revenueYoY": 31.8,
+          "netProfit": 4.73,
+          "netProfitYoY": 21.6,
+          "grossMargin": 23.8,
+          "roe": 14.1,
+          "operatingCashFlow": -0.21,
+          "debtRatio": 54.7
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 67.54,
+          "revenueYoY": 23.3,
+          "netProfit": 6.29,
+          "netProfitYoY": 33.1,
+          "grossMargin": 24.7,
+          "roe": 15.5,
+          "operatingCashFlow": 3.1,
+          "debtRatio": 55.1
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 81.72,
+          "revenueYoY": 21.0,
+          "netProfit": 4.36,
+          "netProfitYoY": -30.7,
+          "grossMargin": 25.2,
+          "roe": 9.2,
+          "operatingCashFlow": 1.37,
+          "debtRatio": 49.0
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 94.03,
+          "revenueYoY": 15.1,
+          "netProfit": 1.46,
+          "netProfitYoY": -66.6,
+          "grossMargin": 22.3,
+          "roe": 2.4,
+          "operatingCashFlow": -1.39,
+          "debtRatio": 53.1
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "a-688668",
+      "name": "鼎通科技",
+      "nodeIds": [
+        "high-speed-connection"
+      ],
+      "screenshotSlots": 1,
+      "auditNotes": [
+        "本次财务接口失败，沿用上次成功快照。"
+      ],
+      "listings": [
+        {
+          "market": "A",
+          "code": "688668",
+          "exchange": "SSE",
+          "name": "鼎通科技",
+          "peTtm": 189.45,
+          "peAsOf": "2026-06-29"
+        }
+      ],
+      "financials": [
+        {
+          "year": 2021,
+          "currency": "CNY",
+          "revenue": 5.68,
+          "revenueYoY": 58.8,
+          "netProfit": 1.09,
+          "netProfitYoY": 50.4,
+          "grossMargin": 34.8,
+          "roe": 14.3,
+          "operatingCashFlow": 0.44,
+          "debtRatio": 20.2
+        },
+        {
+          "year": 2022,
+          "currency": "CNY",
+          "revenue": 8.39,
+          "revenueYoY": 47.7,
+          "netProfit": 1.68,
+          "netProfitYoY": 54.0,
+          "grossMargin": 35.7,
+          "roe": 19.6,
+          "operatingCashFlow": 0.88,
+          "debtRatio": 14.2
+        },
+        {
+          "year": 2023,
+          "currency": "CNY",
+          "revenue": 6.83,
+          "revenueYoY": -18.6,
+          "netProfit": 0.67,
+          "netProfitYoY": -60.5,
+          "grossMargin": 27.3,
+          "roe": 3.9,
+          "operatingCashFlow": 0.8,
+          "debtRatio": 11.4
+        },
+        {
+          "year": 2024,
+          "currency": "CNY",
+          "revenue": 10.32,
+          "revenueYoY": 51.1,
+          "netProfit": 1.1,
+          "netProfitYoY": 65.7,
+          "grossMargin": 27.4,
+          "roe": 6.3,
+          "operatingCashFlow": 1.16,
+          "debtRatio": 17.1
+        },
+        {
+          "year": 2025,
+          "currency": "CNY",
+          "revenue": 15.88,
+          "revenueYoY": 53.9,
+          "netProfit": 2.41,
+          "netProfitYoY": 118.0,
+          "grossMargin": 30.1,
+          "roe": 12.7,
+          "operatingCashFlow": 1.95,
+          "debtRatio": 23.5
+        }
+      ],
+      "status": "ok"
+    }
+  ],
+  "sources": [
+    {
+      "id": "eastmoney",
+      "name": "东方财富财务分析",
+      "url": "https://emweb.securities.eastmoney.com/",
+      "role": "A/H 股财务指标与估值快照"
+    },
+    {
+      "id": "sina",
+      "name": "新浪财经财务指标",
+      "url": "https://money.finance.sina.com.cn/",
+      "role": "资产负债率与经营现金流交叉数据"
+    },
+    {
+      "id": "cninfo",
+      "name": "巨潮资讯",
+      "url": "https://www.cninfo.com.cn/",
+      "role": "A 股法定披露核验入口"
+    },
+    {
+      "id": "hkex",
+      "name": "港交所披露易",
+      "url": "https://www1.hkexnews.hk/index_c.htm",
+      "role": "港股法定披露核验入口"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="中国半导体与 AI 算力产业链交互图谱，覆盖 20 个产业节点、代表性 A/H 股公司及 2021–2025 年核心财务数据。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="中国半导体与 AI 算力产业链">
+  <meta property="og:description" content="从材料与器件、光互连到算力基础设施和算力运营，一张图理解产业链与代表公司。">
+  <title>中国半导体与 AI 算力产业链</title>
+  <style>/*__INLINE_CSS__*/</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回顶部">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span><b>SILICON MAP</b><small>中国科技产业研究</small></span>
+    </a>
+    <nav aria-label="页面导航">
+      <a href="#map">产业链</a><a href="#companies">公司库</a><a href="#method">数据口径</a>
+    </nav>
+    <button class="header-search" id="headerSearch" type="button" aria-label="搜索公司">⌕ <span>搜索</span></button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="kicker"><span>RESEARCH NOTE / 2026</span><span id="updateStamp">数据快照</span></p>
+        <h1>看懂一度电，<br>如何变成一枚 <em>AI Token</em></h1>
+        <p class="hero-lead">从铜箔、光芯片到 AI 服务器，再到数据中心与算力租赁。这不是二十个孤立热点，而是一条由材料、信号、能源和资本共同驱动的产业链。</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#map">进入产业链地图 <span>↘</span></a>
+          <button class="text-btn" id="methodButton" type="button">先看数据口径 <span>→</span></button>
+        </div>
+      </div>
+      <div class="hero-wafer" aria-hidden="true">
+        <div class="wafer-disc">
+          <div class="wafer-grid"></div>
+          <span class="wafer-label">20<br><small>产业节点</small></span>
+          <i class="wafer-cut"></i>
+        </div>
+        <div class="hero-facts">
+          <div><b id="slotCount">80</b><span>截图公司位置</span></div>
+          <div><b id="companyCount">—</b><span>去重公司档案</span></div>
+          <div><b>5Y</b><span>年度财务纵深</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map-section" id="map">
+      <header class="section-head">
+        <div><p class="section-index">01 / INDUSTRY CHAIN</p><h2>产业链不是清单，<br>而是一组约束关系</h2></div>
+        <p>沿着铜色线路点击节点。上游决定性能与成本，中游完成集成，下游把设备变成可调度的算力服务。</p>
+      </header>
+      <div class="chain-shell">
+        <div class="chain-scroll" aria-label="产业链关系图">
+          <svg class="map-underlay" viewBox="0 0 1200 520" preserveAspectRatio="none" aria-hidden="true">
+            <defs><linearGradient id="copperTrace" x1="0" x2="1"><stop stop-color="#d28a4b"/><stop offset=".6" stop-color="#b9652a"/><stop offset="1" stop-color="#1557ff"/></linearGradient></defs>
+            <path d="M45 75H1135Q1170 75 1170 110V185"/>
+            <path d="M45 205H1135Q1170 205 1170 240V315"/>
+            <path d="M45 335H1135Q1170 335 1170 370V445"/>
+            <path class="bus" d="M75 75V445M400 75V445M790 75V445M1125 75V445"/>
+          </svg>
+          <div id="chainMap" class="chain-map"></div>
+        </div>
+        <aside id="nodeInspector" class="node-inspector" aria-live="polite"></aside>
+      </div>
+      <div class="relationship-note">
+        <span class="trace-dot"></span>
+        <p><b>读图提示</b> CPO 与 OCS 不是简单的上下游：前者把光学靠近芯片，后者负责动态切换光路；它们共同服务于 AI 集群网络。</p>
+      </div>
+    </section>
+
+    <section class="companies-section" id="companies">
+      <header class="section-head compact">
+        <div><p class="section-index">02 / COMPANY ATLAS</p><h2>公司库与五年财务</h2></div>
+        <p>公司可同时映射多个节点。点击卡片查看 2021–2025 年经营质量和最新 TTM 市盈率。</p>
+      </header>
+      <div class="company-toolbar">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="companySearch" type="search" placeholder="搜索公司或股票代码" autocomplete="off"></label>
+        <label class="select-box"><span>产业节点</span><select id="nodeFilter"><option value="all">全部节点</option></select></label>
+        <div class="segmented" role="group" aria-label="市场筛选">
+          <button type="button" class="active" data-market="all">全部</button>
+          <button type="button" data-market="A">A 股</button>
+          <button type="button" data-market="H">港股</button>
+        </div>
+        <button id="clearFilters" class="clear-btn" type="button">清除筛选</button>
+      </div>
+      <p class="result-line"><span id="resultCount">—</span><span id="activeFilterText">全部产业节点</span></p>
+      <div id="companyGrid" class="company-grid"></div>
+      <button id="loadMore" class="load-more" type="button">继续展开</button>
+    </section>
+
+    <section class="method-section" id="method">
+      <div class="method-main">
+        <p class="section-index">03 / DATA METHOD</p>
+        <h2>数字有出处，<br>缺口也不藏起来</h2>
+        <p>财务指标按年度报告口径统一到 2021–2025 年。金额转换为亿元但保留报告币种；亏损公司的市盈率不显示负数，新上市公司不足五年则明确留空。</p>
+        <div id="sourceLinks" class="source-links"></div>
+      </div>
+      <div class="method-grid">
+        <article><span>01</span><h3>财务口径</h3><p>营收、归母净利、毛利率和 ROE 来自东方财富财务分析；经营现金流和资产负债率由新浪财务指标交叉补充。</p></article>
+        <article><span>02</span><h3>估值口径</h3><p>PE 为更新日的动态/TTM 快照，A+H 公司分别展示两地估值；净利润为负或接口无值时标记“不适用”。</p></article>
+        <article><span>03</span><h3>纠错策略</h3><p>保留截图原始映射，对概念性较强、重复归类和非独立上市主体增加审计说明，不用静默删除掩盖分歧。</p></article>
+        <article><span>04</span><h3>刷新机制</h3><p>更新脚本缓存精简原始字段。单次接口失败时沿用上次成功快照，并在校验报告中列出异常和缺失年份。</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><b>SILICON MAP</b> · 中国半导体与 AI 算力产业链</p>
+    <p id="footerDisclaimer">仅用于产业研究与信息整理，不构成投资建议。</p>
+  </footer>
+
+  <div id="drawerBackdrop" class="drawer-backdrop" hidden></div>
+  <aside id="companyDrawer" class="company-drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" aria-hidden="true">
+    <button id="closeDrawer" class="drawer-close" type="button" aria-label="关闭公司详情">×</button>
+    <div id="drawerContent"></div>
+  </aside>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script>/*__INLINE_DATA__*/</script>
+  <script>/*__INLINE_APP__*/</script>
+</body>
+</html>

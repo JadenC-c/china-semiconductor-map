@@ -1,0 +1,234 @@
+{
+  "title": "中国半导体与 AI 算力产业链",
+  "subtitle": "从材料、光互连到数据中心与算力运营",
+  "sourceImage": "截图.jpg",
+  "chains": [
+    {
+      "id": "materials",
+      "name": "材料与器件",
+      "eyebrow": "上游 · 物理底座",
+      "summary": "决定信号能否被生成、存储和高速传输。材料先进入 PCB 与连接系统，芯片则提供计算与存储能力。",
+      "nodeIds": ["copper-foil", "resin", "electronic-cloth", "pcb", "optical-chip", "storage-chip", "ai-chip", "high-speed-connection"]
+    },
+    {
+      "id": "optical",
+      "name": "光互连",
+      "eyebrow": "中游 · 数据高速公路",
+      "summary": "把芯片间和服务器间的电信号转成光信号。CPO 解决近距离高带宽密度，OCS 负责动态切换光路。",
+      "nodeIds": ["fiber-cable", "optical-module-equipment", "cpo", "ocs"]
+    },
+    {
+      "id": "infrastructure",
+      "name": "算力基础设施",
+      "eyebrow": "中下游 · 算力工厂",
+      "summary": "服务器把芯片、存储与互连装进系统；供电、备电与液冷保证高功率机柜持续运行，最终汇入 AIDC。",
+      "nodeIds": ["ai-server", "power", "solid-transformer", "gas-turbine", "liquid-cooling", "aidc"]
+    },
+    {
+      "id": "operations",
+      "name": "算力运营",
+      "eyebrow": "下游 · 能力变现",
+      "summary": "将数据中心、能源和算力资源组织成可调度服务。算电协同优化能源约束，算力租赁把设备转化为按需服务。",
+      "nodeIds": ["compute-power", "compute-rental"]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "copper-foil", "name": "铜箔", "chainId": "materials", "stage": "原材料",
+      "description": "覆铜板与高频高速 PCB 的导电层。更薄、更低轮廓的铜箔有助于降低高速信号损耗。",
+      "coreProducts": "电子电路铜箔、锂电铜箔、低轮廓铜箔",
+      "valuePosition": "材料价格和高端规格认证决定盈利弹性。",
+      "upstream": "铜原料、电解设备", "downstream": "覆铜板、PCB",
+      "companies": ["诺德股份", "铜冠铜箔", "嘉元科技", "德福科技"]
+    },
+    {
+      "id": "resin", "name": "树脂", "chainId": "materials", "stage": "原材料",
+      "description": "覆铜板的绝缘与粘结基体。低介电、低损耗和耐高温性能决定高频板材上限。",
+      "coreProducts": "环氧树脂、特种树脂、低介电材料",
+      "valuePosition": "高端电子级产品配方与客户认证构成壁垒。",
+      "upstream": "基础化工原料", "downstream": "覆铜板、电子封装",
+      "companies": ["东材科技", "圣泉集团", "美联新材", "宏昌电子"]
+    },
+    {
+      "id": "electronic-cloth", "name": "电子布", "chainId": "materials", "stage": "原材料",
+      "description": "由电子级玻璃纤维织成，是覆铜板的增强骨架；薄型化和低介电性能直接影响高速 PCB。",
+      "coreProducts": "电子级玻纤布、玻纤纱、低介电玻纤",
+      "valuePosition": "上游玻纤成本与高端布供需共同决定盈利。",
+      "upstream": "玻璃纤维纱", "downstream": "覆铜板、PCB",
+      "companies": ["宏和科技", "中国巨石", "中材科技", "国际复材"]
+    },
+    {
+      "id": "pcb", "name": "PCB", "chainId": "materials", "stage": "核心器件",
+      "description": "承载并连接芯片、存储、连接器和电源器件，是 AI 服务器与交换机内部的电气骨架。",
+      "coreProducts": "高多层板、HDI、服务器板、交换机板",
+      "valuePosition": "层数、材料等级、良率和客户认证决定单机价值量。",
+      "upstream": "铜箔、树脂、电子布、覆铜板", "downstream": "AI 服务器、交换机、光模块",
+      "companies": ["胜宏科技", "东山精密", "深南电路", "沪电股份"]
+    },
+    {
+      "id": "optical-chip", "name": "光芯片", "chainId": "materials", "stage": "核心器件",
+      "description": "完成激光发射、探测与调制，是光模块和 CPO 的核心有源器件。",
+      "coreProducts": "激光器芯片、探测器芯片、调制器、PLC 芯片",
+      "valuePosition": "高速率、高功率和良率决定国产替代价值。",
+      "upstream": "III-V 族材料、晶圆制造", "downstream": "光模块、CPO、光通信设备",
+      "companies": ["源杰科技", "仕佳光子", "光迅科技", "长光华芯"]
+    },
+    {
+      "id": "storage-chip", "name": "存储芯片", "chainId": "materials", "stage": "核心器件",
+      "description": "为 AI 训练、推理和服务器提供数据缓存与持久化能力，容量、带宽与功耗共同决定系统效率。",
+      "coreProducts": "DRAM、NAND、NOR Flash、存储模组与控制器",
+      "valuePosition": "芯片设计、封测、模组与渠道周期属性不同，应分开观察。",
+      "upstream": "晶圆制造、封装测试", "downstream": "服务器、终端、数据中心",
+      "companies": ["德明利", "兆易创新", "佰维存储", "江波龙"]
+    },
+    {
+      "id": "ai-chip", "name": "AI 芯片", "chainId": "materials", "stage": "核心器件",
+      "description": "执行大规模矩阵计算，是训练和推理服务器的算力核心；生态、带宽和能效与峰值算力同样重要。",
+      "coreProducts": "GPU、GPGPU、AI 加速卡、DCU",
+      "valuePosition": "研发投入高，产品迭代、软件生态与量产能力是关键。",
+      "upstream": "EDA、IP、晶圆制造、先进封装", "downstream": "AI 服务器、算力集群",
+      "companies": ["海光信息", "寒武纪", "沐曦股份", "摩尔线程"]
+    },
+    {
+      "id": "high-speed-connection", "name": "高速连接", "chainId": "materials", "stage": "核心器件",
+      "description": "包括高速线缆、连接器与铜缆组件，负责机内、机柜内和短距离数据传输。",
+      "coreProducts": "高速连接器、DAC/AEC、背板连接、线束",
+      "valuePosition": "速率升级带动材料、精密制造和测试难度提升。",
+      "upstream": "铜材、塑胶、精密结构件", "downstream": "服务器、交换机、数据中心",
+      "companies": ["立讯精密", "兆龙互连", "沃尔核材", "鼎通科技"]
+    },
+    {
+      "id": "fiber-cable", "name": "光纤光缆", "chainId": "optical", "stage": "传输介质",
+      "description": "承担园区、数据中心和机房内部的长距离低损耗传输，是光网络的物理通道。",
+      "coreProducts": "光纤预制棒、光纤、光缆、特种光缆",
+      "valuePosition": "规模制造、预制棒自给和特种产品结构决定利润。",
+      "upstream": "石英材料、光纤预制棒", "downstream": "运营商网络、数据中心互联",
+      "companies": ["长飞光纤", "亨通光电", "中天科技", "烽火通信"]
+    },
+    {
+      "id": "optical-module-equipment", "name": "光模块设备", "chainId": "optical", "stage": "制造支撑",
+      "description": "为光模块、硅光和 CPO 提供耦合、贴装、测试与自动化设备，不等同于光模块成品厂。",
+      "coreProducts": "耦合设备、贴装设备、测试设备、自动化产线",
+      "valuePosition": "受益于高速光模块扩产，但订单与客户资本开支相关。",
+      "upstream": "运动控制、视觉、精密零部件", "downstream": "光模块、硅光、CPO 厂商",
+      "companies": ["罗博特科", "科瑞技术", "博杰股份", "德龙激光"]
+    },
+    {
+      "id": "cpo", "name": "CPO", "chainId": "optical", "stage": "光互连方案",
+      "description": "共封装光学把光引擎靠近交换芯片，缩短电连接距离，以降低高带宽网络的功耗和损耗。",
+      "coreProducts": "高速光模块、光引擎、光器件、耦合封装",
+      "valuePosition": "截图公司多为 CPO 相关组件或光模块供应商，并非都已形成 CPO 规模收入。",
+      "upstream": "光芯片、光器件、封装设备", "downstream": "AI 交换机、集群网络",
+      "companies": ["中际旭创", "新易盛", "天孚通信", "华工科技"],
+      "auditNote": "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。"
+    },
+    {
+      "id": "ocs", "name": "OCS", "chainId": "optical", "stage": "光路交换",
+      "description": "光路交换机直接切换光纤路径，可在不经过光电转换的情况下重构数据中心网络拓扑。",
+      "coreProducts": "光开关、准直器、晶体光学、微光学组件",
+      "valuePosition": "国内上市公司多是关键光学器件供应商，纯 OCS 整机收入披露有限。",
+      "upstream": "微光学、晶体、光纤器件", "downstream": "AI 数据中心网络",
+      "companies": ["腾景科技", "福晶科技", "光库科技", "德科立"],
+      "auditNote": "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。"
+    },
+    {
+      "id": "ai-server", "name": "AI 服务器", "chainId": "infrastructure", "stage": "系统集成",
+      "description": "把 AI 芯片、存储、PCB、高速连接和网络装入可部署系统，是算力从器件走向集群的关键环节。",
+      "coreProducts": "训练服务器、推理服务器、整机柜、交换机",
+      "valuePosition": "规模、供应链整合、客户结构与毛利率需要一起观察。",
+      "upstream": "AI 芯片、存储、PCB、连接器", "downstream": "AIDC、云与行业客户",
+      "companies": ["工业富联", "浪潮信息", "紫光股份", "中科曙光"]
+    },
+    {
+      "id": "power", "name": "电源", "chainId": "infrastructure", "stage": "机房基础设施",
+      "description": "完成市电到机柜的变换、稳压与备电。AI 机柜功率密度提升推动高效率、高功率电源升级。",
+      "coreProducts": "UPS、服务器电源、HVDC、储能与配电",
+      "valuePosition": "效率、功率密度、可靠性和大客户认证决定价值。",
+      "upstream": "功率器件、磁性元件、电池", "downstream": "服务器、数据中心",
+      "companies": ["中恒电气", "圣阳股份", "欧陆通", "麦格米特"]
+    },
+    {
+      "id": "solid-transformer", "name": "固态变压器", "chainId": "infrastructure", "stage": "供配电",
+      "description": "以高频功率电子替代部分传统工频变压环节，可支持直流配电和灵活能量管理，目前仍处产业化早期。",
+      "coreProducts": "电力电子变压器、柔性配电、变流器",
+      "valuePosition": "截图公司多具备功率电子或变压器技术储备，不能等同于已形成固态变压器规模收入。",
+      "upstream": "功率半导体、磁性材料", "downstream": "数据中心、微电网、充电设施",
+      "companies": ["四方股份", "中国西电", "伊戈尔", "金盘科技"],
+      "auditNote": "概念口径：产业处早期，需以产品验证与订单披露为准。"
+    },
+    {
+      "id": "gas-turbine", "name": "燃气轮机", "chainId": "infrastructure", "stage": "能源保障",
+      "description": "在电网容量受限或可靠性要求极高时提供分布式发电与备用电源，可与余热利用组成综合能源系统。",
+      "coreProducts": "燃气轮机部件、压缩机、发电机组、运维",
+      "valuePosition": "设备技术壁垒高，但与 AIDC 的订单映射需逐项核验。",
+      "upstream": "高温合金、叶片、控制系统", "downstream": "电站、工业能源、数据中心备电",
+      "companies": ["杰瑞股份", "联德股份", "应流股份", "东方电气"],
+      "auditNote": "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。"
+    },
+    {
+      "id": "liquid-cooling", "name": "液冷", "chainId": "infrastructure", "stage": "热管理",
+      "description": "通过冷板或浸没式方案直接带走芯片热量，适合高功率 AI 机柜并可降低制冷能耗。",
+      "coreProducts": "冷板、CDU、冷却液、浸没式系统、机房温控",
+      "valuePosition": "关注方案能力、服务器协同、项目交付和售后服务。",
+      "upstream": "泵阀、换热器、制冷剂", "downstream": "AI 服务器、AIDC",
+      "companies": ["英维克", "高澜股份", "中科曙光", "申菱环境"],
+      "auditNote": "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。"
+    },
+    {
+      "id": "aidc", "name": "AIDC", "chainId": "infrastructure", "stage": "算力载体",
+      "description": "面向 AI 训练与推理的数据中心，聚合服务器、网络、供配电和冷却，并向客户交付稳定算力环境。",
+      "coreProducts": "数据中心园区、机柜租赁、网络接入、运维服务",
+      "valuePosition": "上架率、电力指标、资本开支、融资成本和客户结构共同影响回报。",
+      "upstream": "服务器、网络、电源、液冷、能源", "downstream": "云厂商、模型公司、行业客户",
+      "companies": ["润泽科技", "网宿科技", "光环新网", "数据港"]
+    },
+    {
+      "id": "compute-power", "name": "算电协同", "chainId": "operations", "stage": "资源调度",
+      "description": "把算力负荷与电源、电网和储能协调起来，在能源约束下优化选址、时段和运行成本。",
+      "coreProducts": "综合能源、虚拟电厂、绿电交易、算力调度",
+      "valuePosition": "尚无统一商业模式，能源资产、调度能力与真实项目是核验重点。",
+      "upstream": "电源、电网、储能、AIDC", "downstream": "算力运营商与用算客户",
+      "companies": ["豫能控股", "协鑫能科", "南网数字", "韶能股份"],
+      "auditNote": "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。"
+    },
+    {
+      "id": "compute-rental", "name": "算力租赁", "chainId": "operations", "stage": "服务变现",
+      "description": "将 GPU 服务器或集群算力按时长、任务或资源规格出租，收入取决于利用率、价格和设备折旧。",
+      "coreProducts": "GPU 租赁、智算云、算力调度、托管服务",
+      "valuePosition": "需区分自有算力、转租模式与软件平台收入，警惕高资本开支和设备贬值。",
+      "upstream": "AI 芯片、服务器、AIDC", "downstream": "模型训练、推理与行业应用",
+      "companies": ["利通电子", "协创数据", "宏景科技", "优刻得"]
+    }
+  ],
+  "edges": [
+    {"from": "copper-foil", "to": "pcb", "label": "导电层"},
+    {"from": "resin", "to": "pcb", "label": "绝缘基体"},
+    {"from": "electronic-cloth", "to": "pcb", "label": "增强骨架"},
+    {"from": "optical-chip", "to": "cpo", "label": "光发射/探测"},
+    {"from": "optical-module-equipment", "to": "cpo", "label": "封装与测试"},
+    {"from": "fiber-cable", "to": "ocs", "label": "光路"},
+    {"from": "ai-chip", "to": "ai-server", "label": "计算"},
+    {"from": "storage-chip", "to": "ai-server", "label": "存储"},
+    {"from": "pcb", "to": "ai-server", "label": "系统承载"},
+    {"from": "high-speed-connection", "to": "ai-server", "label": "铜互连"},
+    {"from": "cpo", "to": "ai-server", "label": "高速网络"},
+    {"from": "ocs", "to": "aidc", "label": "光网络重构"},
+    {"from": "ai-server", "to": "aidc", "label": "算力设备"},
+    {"from": "power", "to": "aidc", "label": "供电"},
+    {"from": "solid-transformer", "to": "aidc", "label": "柔性配电"},
+    {"from": "gas-turbine", "to": "aidc", "label": "能源保障"},
+    {"from": "liquid-cooling", "to": "aidc", "label": "散热"},
+    {"from": "aidc", "to": "compute-power", "label": "负荷调度"},
+    {"from": "aidc", "to": "compute-rental", "label": "资源供给"}
+  ],
+  "listingOverrides": {
+    "长飞光纤": [{"market": "H", "code": "06869", "name": "长飞光纤光缆"}],
+    "东方电气": [{"market": "H", "code": "01072", "name": "东方电气"}]
+  },
+  "codeOverrides": {
+    "亨通光电": "600487",
+    "优刻得": "688158",
+    "摩尔线程": "688795",
+    "沐曦股份": "688802"
+  }
+}

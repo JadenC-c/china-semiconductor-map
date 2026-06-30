@@ -1,0 +1,374 @@
+{
+  "name": "源杰科技",
+  "code": "688498",
+  "fetchedAt": "2026-06-29T15:55:43+08:00",
+  "eastmoney": [
+    {
+      "REPORT_DATE": "2026-03-31 00:00:00",
+      "TOTALOPERATEREVE": 355278486.49,
+      "PARENTNETPROFIT": 179441968.61,
+      "TOTALOPERATEREVETZ": 320.9399426311,
+      "PARENTNETPROFITTZ": 1153.0720107745,
+      "XSMLL": 77.8078616274,
+      "ROEJQ": 7.38,
+      "JYXJLYYSR": 0.1116048637,
+      "ZCFZL": 10.7162393414
+    },
+    {
+      "REPORT_DATE": "2025-12-31 00:00:00",
+      "TOTALOPERATEREVE": 601434509.56,
+      "PARENTNETPROFIT": 190924031.75,
+      "TOTALOPERATEREVETZ": 138.5010643319,
+      "PARENTNETPROFITTZ": 3212.6164535698,
+      "XSMLL": 58.1074785459,
+      "ROEJQ": 8.68,
+      "JYXJLYYSR": 0.2497953537,
+      "ZCFZL": 9.513300643
+    },
+    {
+      "REPORT_DATE": "2025-09-30 00:00:00",
+      "TOTALOPERATEREVE": 383249487.47,
+      "PARENTNETPROFIT": 105892793.49,
+      "TOTALOPERATEREVETZ": 115.0938361371,
+      "PARENTNETPROFITTZ": 19348.6456029375,
+      "XSMLL": 54.7624542163,
+      "ROEJQ": 4.97,
+      "JYXJLYYSR": 0.1746574731,
+      "ZCFZL": 9.0829461447
+    },
+    {
+      "REPORT_DATE": "2025-06-30 00:00:00",
+      "TOTALOPERATEREVE": 204950879.23,
+      "PARENTNETPROFIT": 46263909.26,
+      "TOTALOPERATEREVETZ": 70.5665881143,
+      "PARENTNETPROFITTZ": 330.3102289192,
+      "XSMLL": 48.798021719,
+      "ROEJQ": 2.2,
+      "JYXJLYYSR": 0.2867957843,
+      "ZCFZL": 5.2890587707
+    },
+    {
+      "REPORT_DATE": "2025-03-31 00:00:00",
+      "TOTALOPERATEREVE": 84401229.37,
+      "PARENTNETPROFIT": 14320164.13,
+      "TOTALOPERATEREVETZ": 40.5207571661,
+      "PARENTNETPROFITTZ": 35.9298409319,
+      "XSMLL": 44.6413840903,
+      "ROEJQ": 0.69,
+      "JYXJLYYSR": -0.0647143029,
+      "ZCFZL": 4.6712588172
+    },
+    {
+      "REPORT_DATE": "2024-12-31 00:00:00",
+      "TOTALOPERATEREVE": 252172673.21,
+      "PARENTNETPROFIT": -6133875.94,
+      "TOTALOPERATEREVETZ": 74.6304022692,
+      "PARENTNETPROFITTZ": -131.4883681133,
+      "XSMLL": 33.3205384352,
+      "ROEJQ": -0.29,
+      "JYXJLYYSR": 0.0751905242,
+      "ZCFZL": 3.4820420423
+    },
+    {
+      "REPORT_DATE": "2024-09-30 00:00:00",
+      "TOTALOPERATEREVE": 178177810.37,
+      "PARENTNETPROFIT": -550131.14,
+      "TOTALOPERATEREVETZ": 91.1980292326,
+      "PARENTNETPROFITTZ": -102.5649689738,
+      "XSMLL": 29.6927005894,
+      "ROEJQ": -0.03,
+      "JYXJLYYSR": -0.0496508504,
+      "ZCFZL": 3.6292510902
+    },
+    {
+      "REPORT_DATE": "2024-06-30 00:00:00",
+      "TOTALOPERATEREVE": 120158866.69,
+      "PARENTNETPROFIT": 10751292.01,
+      "TOTALOPERATEREVETZ": 95.9568043169,
+      "PARENTNETPROFITTZ": -44.5554937847,
+      "XSMLL": 33.4165239371,
+      "ROEJQ": 0.5,
+      "JYXJLYYSR": 0.1069187377,
+      "ZCFZL": 4.0888492004
+    },
+    {
+      "REPORT_DATE": "2024-03-31 00:00:00",
+      "TOTALOPERATEREVE": 60063175.77,
+      "PARENTNETPROFIT": 10534967.18,
+      "TOTALOPERATEREVETZ": 72.3288419152,
+      "PARENTNETPROFITTZ": -11.062556941,
+      "XSMLL": 34.8383456615,
+      "ROEJQ": 0.5,
+      "JYXJLYYSR": 0.3730652894,
+      "ZCFZL": 5.3129623092
+    },
+    {
+      "REPORT_DATE": "2023-12-31 00:00:00",
+      "TOTALOPERATEREVE": 144403649.04,
+      "PARENTNETPROFIT": 19479815.27,
+      "TOTALOPERATEREVETZ": -48.9568912088,
+      "PARENTNETPROFITTZ": -80.581733758,
+      "XSMLL": 43.1496799175,
+      "ROEJQ": 0.92,
+      "JYXJLYYSR": -0.1204937243,
+      "ZCFZL": 5.3648430848
+    },
+    {
+      "REPORT_DATE": "2023-09-30 00:00:00",
+      "TOTALOPERATEREVE": 93190191.91,
+      "PARENTNETPROFIT": 21447867.23,
+      "TOTALOPERATEREVETZ": -51.8258038718,
+      "PARENTNETPROFITTZ": -70.9865645148,
+      "XSMLL": 39.0506678269,
+      "ROEJQ": 1.01,
+      "JYXJLYYSR": -0.3350192222,
+      "ZCFZL": 5.6567987189
+    },
+    {
+      "REPORT_DATE": "2023-06-30 00:00:00",
+      "TOTALOPERATEREVE": 61319058.1,
+      "PARENTNETPROFIT": 19391086.23,
+      "TOTALOPERATEREVETZ": -50.0670702176,
+      "PARENTNETPROFITTZ": -60.4661715475,
+      "XSMLL": 39.0056975288,
+      "ROEJQ": 0.91,
+      "JYXJLYYSR": -0.4667176308,
+      "ZCFZL": 5.9483308793
+    },
+    {
+      "REPORT_DATE": "2023-03-31 00:00:00",
+      "TOTALOPERATEREVE": 34853815.01,
+      "PARENTNETPROFIT": 11845367.73,
+      "TOTALOPERATEREVETZ": -40.6012324918,
+      "PARENTNETPROFITTZ": -49.6830013012,
+      "XSMLL": 42.7544276164,
+      "ROEJQ": 0.56,
+      "JYXJLYYSR": -0.7161804839,
+      "ZCFZL": 6.7122959707
+    },
+    {
+      "REPORT_DATE": "2022-12-31 00:00:00",
+      "TOTALOPERATEREVE": 282905278.42,
+      "PARENTNETPROFIT": 100316964.59,
+      "TOTALOPERATEREVETZ": 21.8857897534,
+      "PARENTNETPROFITTZ": 5.2779047046,
+      "XSMLL": 61.9000388427,
+      "ROEJQ": 14.99,
+      "JYXJLYYSR": 0.1333986568,
+      "ZCFZL": 8.4163095499
+    },
+    {
+      "REPORT_DATE": "2022-09-30 00:00:00",
+      "TOTALOPERATEREVE": 193444207.48,
+      "PARENTNETPROFIT": 73923914.46,
+      "TOTALOPERATEREVETZ": 25.7561190069,
+      "PARENTNETPROFITTZ": 22.98237016,
+      "XSMLL": 62.6674294616,
+      "ROEJQ": 11.29,
+      "JYXJLYYSR": 0.2682147912,
+      "ZCFZL": 20.2776792873
+    },
+    {
+      "REPORT_DATE": "2022-06-30 00:00:00",
+      "TOTALOPERATEREVE": 122802844.47,
+      "PARENTNETPROFIT": 49049350.87,
+      "TOTALOPERATEREVETZ": 40.3246690345,
+      "PARENTNETPROFITTZ": 51.0103721725,
+      "XSMLL": 63.8029169912,
+      "ROEJQ": 7.65,
+      "JYXJLYYSR": 0.3018746487,
+      "ZCFZL": 16.1154645584
+    },
+    {
+      "REPORT_DATE": "2022-03-31 00:00:00",
+      "TOTALOPERATEREVE": 58677673.75,
+      "PARENTNETPROFIT": 23541483.07,
+      "TOTALOPERATEREVETZ": 50.0995683315,
+      "PARENTNETPROFITTZ": 68.8650962628,
+      "XSMLL": 66.7075661124,
+      "ROEJQ": null,
+      "JYXJLYYSR": 0.384098446,
+      "ZCFZL": 16.4057029778
+    },
+    {
+      "REPORT_DATE": "2021-12-31 00:00:00",
+      "TOTALOPERATEREVE": 232106859.21,
+      "PARENTNETPROFIT": 95287767.05,
+      "TOTALOPERATEREVETZ": -0.5433392314,
+      "PARENTNETPROFITTZ": 20.8547420501,
+      "XSMLL": 65.162746325,
+      "ROEJQ": 16.87,
+      "JYXJLYYSR": 0.155243914,
+      "ZCFZL": 16.606891742
+    },
+    {
+      "REPORT_DATE": "2021-09-30 00:00:00",
+      "TOTALOPERATEREVE": 153824886.62,
+      "PARENTNETPROFIT": 60109359.06,
+      "TOTALOPERATEREVETZ": null,
+      "PARENTNETPROFITTZ": null,
+      "XSMLL": 62.9326106244,
+      "ROEJQ": null,
+      "JYXJLYYSR": 0.1611587224,
+      "ZCFZL": null
+    },
+    {
+      "REPORT_DATE": "2021-06-30 00:00:00",
+      "TOTALOPERATEREVE": 87513368.33,
+      "PARENTNETPROFIT": 32480782.72,
+      "TOTALOPERATEREVETZ": null,
+      "PARENTNETPROFITTZ": null,
+      "XSMLL": 58.1973040827,
+      "ROEJQ": 6.11,
+      "JYXJLYYSR": 0.134904902,
+      "ZCFZL": 9.354386629
+    },
+    {
+      "REPORT_DATE": "2021-03-31 00:00:00",
+      "TOTALOPERATEREVE": 39092500.0,
+      "PARENTNETPROFIT": 13941000.0,
+      "TOTALOPERATEREVETZ": null,
+      "PARENTNETPROFITTZ": null,
+      "XSMLL": null,
+      "ROEJQ": null,
+      "JYXJLYYSR": null,
+      "ZCFZL": null
+    },
+    {
+      "REPORT_DATE": "2020-12-31 00:00:00",
+      "TOTALOPERATEREVE": 233374876.47,
+      "PARENTNETPROFIT": 78844872.31,
+      "TOTALOPERATEREVETZ": 187.0105889419,
+      "PARENTNETPROFITTZ": 496.9931405373,
+      "XSMLL": 68.1512615178,
+      "ROEJQ": 22.91,
+      "JYXJLYYSR": 0.448944852,
+      "ZCFZL": 7.6479213495
+    },
+    {
+      "REPORT_DATE": "2019-12-31 00:00:00",
+      "TOTALOPERATEREVE": 81312287.93,
+      "PARENTNETPROFIT": 13206998.03,
+      "TOTALOPERATEREVETZ": 15.4821233979,
+      "PARENTNETPROFITTZ": -14.9678062156,
+      "XSMLL": 44.9906926878,
+      "ROEJQ": 7.55,
+      "JYXJLYYSR": 0.1408976626,
+      "ZCFZL": 17.2209842684
+    },
+    {
+      "REPORT_DATE": "2018-12-31 00:00:00",
+      "TOTALOPERATEREVE": 70411147.23,
+      "PARENTNETPROFIT": 15531762.08,
+      "TOTALOPERATEREVETZ": null,
+      "PARENTNETPROFITTZ": null,
+      "XSMLL": 48.6095589214,
+      "ROEJQ": 11.0,
+      "JYXJLYYSR": 0.3787210006,
+      "ZCFZL": 17.4194004851
+    }
+  ],
+  "sina": [
+    {
+      "日期": "2021-06-30",
+      "资产负债率(%)": 9.3544,
+      "经营现金净流量对销售收入比率(%)": 0.1349
+    },
+    {
+      "日期": "2021-09-30",
+      "资产负债率(%)": null,
+      "经营现金净流量对销售收入比率(%)": 0.1612
+    },
+    {
+      "日期": "2021-12-31",
+      "资产负债率(%)": 16.6069,
+      "经营现金净流量对销售收入比率(%)": 0.1552
+    },
+    {
+      "日期": "2022-03-31",
+      "资产负债率(%)": 16.4057,
+      "经营现金净流量对销售收入比率(%)": 0.3841
+    },
+    {
+      "日期": "2022-06-30",
+      "资产负债率(%)": 16.1155,
+      "经营现金净流量对销售收入比率(%)": 0.3019
+    },
+    {
+      "日期": "2022-09-30",
+      "资产负债率(%)": 20.2777,
+      "经营现金净流量对销售收入比率(%)": 0.2682
+    },
+    {
+      "日期": "2022-12-31",
+      "资产负债率(%)": 8.4163,
+      "经营现金净流量对销售收入比率(%)": 0.1334
+    },
+    {
+      "日期": "2023-03-31",
+      "资产负债率(%)": 6.7123,
+      "经营现金净流量对销售收入比率(%)": -0.7162
+    },
+    {
+      "日期": "2023-06-30",
+      "资产负债率(%)": 5.9483,
+      "经营现金净流量对销售收入比率(%)": -0.4667
+    },
+    {
+      "日期": "2023-09-30",
+      "资产负债率(%)": 5.6568,
+      "经营现金净流量对销售收入比率(%)": -0.335
+    },
+    {
+      "日期": "2023-12-31",
+      "资产负债率(%)": 5.3648,
+      "经营现金净流量对销售收入比率(%)": -0.1205
+    },
+    {
+      "日期": "2024-03-31",
+      "资产负债率(%)": 5.313,
+      "经营现金净流量对销售收入比率(%)": 0.3731
+    },
+    {
+      "日期": "2024-06-30",
+      "资产负债率(%)": 4.0888,
+      "经营现金净流量对销售收入比率(%)": 0.1069
+    },
+    {
+      "日期": "2024-09-30",
+      "资产负债率(%)": 3.6293,
+      "经营现金净流量对销售收入比率(%)": -0.0497
+    },
+    {
+      "日期": "2024-12-31",
+      "资产负债率(%)": 3.482,
+      "经营现金净流量对销售收入比率(%)": 0.0752
+    },
+    {
+      "日期": "2025-03-31",
+      "资产负债率(%)": 4.6713,
+      "经营现金净流量对销售收入比率(%)": -0.0647
+    },
+    {
+      "日期": "2025-06-30",
+      "资产负债率(%)": 5.2891,
+      "经营现金净流量对销售收入比率(%)": 0.2868
+    },
+    {
+      "日期": "2025-09-30",
+      "资产负债率(%)": 9.0829,
+      "经营现金净流量对销售收入比率(%)": 0.1747
+    },
+    {
+      "日期": "2025-12-31",
+      "资产负债率(%)": 9.5133,
+      "经营现金净流量对销售收入比率(%)": 0.2498
+    },
+    {
+      "日期": "2026-03-31",
+      "资产负债率(%)": 10.7162,
+      "经营现金净流量对销售收入比率(%)": 0.1116
+    }
+  ],
+  "errors": []
+}
