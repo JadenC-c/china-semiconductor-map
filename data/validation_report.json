@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T16:06:44+08:00",
+  "generatedAt": "2026-06-30T09:00:54+00:00",
   "summary": {
     "nodes": 20,
     "screenshotSlots": 80,
@@ -9,7 +9,11 @@
     "partialFinancials": 0,
     "unresolved": 0
   },
-  "marketErrors": [],
+  "marketErrors": [
+    "A股代码表：ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "A/H 股估值快照：ReadTimeout: HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=20)",
+    "行情代码表未返回 75 家公司，已沿用上次成功代码。"
+  ],
   "fetchErrors": [],
   "unresolvedCompanies": [],
   "missingYears": {
