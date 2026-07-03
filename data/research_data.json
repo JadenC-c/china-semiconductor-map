@@ -2,7 +2,7 @@
   "meta": {
     "title": "中国半导体与 AI 算力产业链",
     "subtitle": "从材料、光互连到数据中心与算力运营",
-    "updatedAt": "2026-07-02T11:45:02+00:00",
+    "updatedAt": "2026-07-03T11:43:19+00:00",
     "financialYears": [
       2021,
       2022,
@@ -523,17 +523,15 @@
         "pcb"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "002384",
           "exchange": "SZSE",
           "name": "东山精密",
-          "peTtm": 221.14,
-          "peAsOf": "2026-07-01"
+          "peTtm": 208.95,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -608,8 +606,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。"
       ],
       "listings": [
         {
@@ -617,16 +614,16 @@
           "code": "600875",
           "exchange": "SSE",
           "name": "东方电气",
-          "peTtm": 23.45,
-          "peAsOf": "2026-07-01"
+          "peTtm": 23.44,
+          "peAsOf": "2026-07-03"
         },
         {
           "market": "H",
           "code": "01072",
           "name": "东方电气",
           "exchange": "HKEX",
-          "peTtm": 15.33,
-          "peAsOf": "2026-07-02"
+          "peTtm": 16.28,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -700,17 +697,15 @@
         "resin"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "601208",
           "exchange": "SSE",
           "name": "东材科技",
-          "peTtm": 178.67,
-          "peAsOf": "2026-07-01"
+          "peTtm": 169.16,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -784,17 +779,15 @@
         "electronic-cloth"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "600176",
           "exchange": "SSE",
           "name": "中国巨石",
-          "peTtm": 73.6,
-          "peAsOf": "2026-07-01"
+          "peTtm": 74.26,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -869,8 +862,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：产业处早期，需以产品验证与订单披露为准。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：产业处早期，需以产品验证与订单披露为准。"
       ],
       "listings": [
         {
@@ -878,8 +870,8 @@
           "code": "601179",
           "exchange": "SSE",
           "name": "中国西电",
-          "peTtm": 56.25,
-          "peAsOf": "2026-07-01"
+          "peTtm": 55.43,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -953,17 +945,15 @@
         "fiber-cable"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "600522",
           "exchange": "SSE",
           "name": "中天科技",
-          "peTtm": 59.23,
-          "peAsOf": "2026-07-01"
+          "peTtm": 53.67,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -1037,17 +1027,15 @@
         "power"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "002364",
           "exchange": "SZSE",
           "name": "中恒电气",
-          "peTtm": 222.98,
-          "peAsOf": "2026-07-01"
+          "peTtm": 227.54,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -1121,17 +1109,15 @@
         "electronic-cloth"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "002080",
           "exchange": "SZSE",
           "name": "中材科技",
-          "peTtm": 75.82,
-          "peAsOf": "2026-07-01"
+          "peTtm": 72.74,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -1207,8 +1193,7 @@
       ],
       "screenshotSlots": 2,
       "auditNotes": [
-        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。"
       ],
       "listings": [
         {
@@ -1216,8 +1201,8 @@
           "code": "603019",
           "exchange": "SSE",
           "name": "中科曙光",
-          "peTtm": 67.59,
-          "peAsOf": "2026-07-01"
+          "peTtm": 61.15,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -1292,8 +1277,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。"
       ],
       "listings": [
         {
@@ -1301,8 +1285,8 @@
           "code": "300308",
           "exchange": "SZSE",
           "name": "中际旭创",
-          "peTtm": 91.25,
-          "peAsOf": "2026-07-01"
+          "peTtm": 83.26,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -1376,17 +1360,15 @@
         "fiber-cable"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "600487",
           "exchange": "SSE",
           "name": "亨通光电",
-          "peTtm": 77.86,
-          "peAsOf": "2026-07-01"
+          "peTtm": 68.3,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -1460,17 +1442,15 @@
         "optical-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "688313",
           "exchange": "SSE",
           "name": "仕佳光子",
-          "peTtm": 195.34,
-          "peAsOf": "2026-07-01"
+          "peTtm": 181.35,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -1545,8 +1525,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：产业处早期，需以产品验证与订单披露为准。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：产业处早期，需以产品验证与订单披露为准。"
       ],
       "listings": [
         {
@@ -1554,8 +1533,8 @@
           "code": "002922",
           "exchange": "SZSE",
           "name": "伊戈尔",
-          "peTtm": 58.23,
-          "peAsOf": "2026-07-01"
+          "peTtm": 55.22,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -1629,9 +1608,7 @@
         "compute-rental"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
@@ -1639,7 +1616,7 @@
           "exchange": "SSE",
           "name": "优刻得",
           "peTtm": null,
-          "peAsOf": "2026-06-30"
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -1713,17 +1690,15 @@
         "storage-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "688525",
           "exchange": "SSE",
           "name": "佰维存储",
-          "peTtm": 55.29,
-          "peAsOf": "2026-07-01"
+          "peTtm": 51.09,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -1797,17 +1772,15 @@
         "storage-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "603986",
           "exchange": "SSE",
           "name": "兆易创新",
-          "peTtm": 188.46,
-          "peAsOf": "2026-07-01"
+          "peTtm": 165.46,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -1881,17 +1854,15 @@
         "high-speed-connection"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "300913",
           "exchange": "SZSE",
           "name": "兆龙互连",
-          "peTtm": 61.34,
-          "peAsOf": "2026-07-01"
+          "peTtm": 57.5,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -1966,8 +1937,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。"
       ],
       "listings": [
         {
@@ -1975,8 +1945,8 @@
           "code": "300620",
           "exchange": "SZSE",
           "name": "光库科技",
-          "peTtm": 415.25,
-          "peAsOf": "2026-07-01"
+          "peTtm": 369.51,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -2050,9 +2020,7 @@
         "aidc"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
@@ -2060,7 +2028,7 @@
           "exchange": "SZSE",
           "name": "光环新网",
           "peTtm": null,
-          "peAsOf": "2026-07-01"
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -2134,17 +2102,15 @@
         "optical-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "002281",
           "exchange": "SZSE",
           "name": "光迅科技",
-          "peTtm": 193.64,
-          "peAsOf": "2026-07-01"
+          "peTtm": 173.59,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -2218,17 +2184,15 @@
         "compute-rental"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "603629",
           "exchange": "SSE",
           "name": "利通电子",
-          "peTtm": 94.93,
-          "peAsOf": "2026-07-01"
+          "peTtm": 81.78,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -2303,8 +2267,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。"
       ],
       "listings": [
         {
@@ -2312,8 +2275,8 @@
           "code": "000988",
           "exchange": "SZSE",
           "name": "华工科技",
-          "peTtm": 102.69,
-          "peAsOf": "2026-07-01"
+          "peTtm": 91.09,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -2387,17 +2350,15 @@
         "compute-rental"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "300857",
           "exchange": "SZSE",
           "name": "协创数据",
-          "peTtm": 92.88,
-          "peAsOf": "2026-07-01"
+          "peTtm": 84.22,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -2472,8 +2433,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。"
       ],
       "listings": [
         {
@@ -2481,8 +2441,8 @@
           "code": "002015",
           "exchange": "SZSE",
           "name": "协鑫能科",
-          "peTtm": 62.2,
-          "peAsOf": "2026-07-01"
+          "peTtm": 57.5,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -2557,8 +2517,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。"
       ],
       "listings": [
         {
@@ -2566,8 +2525,8 @@
           "code": "301638",
           "exchange": "SZSE",
           "name": "南网数字",
-          "peTtm": 108.57,
-          "peAsOf": "2026-07-01"
+          "peTtm": 107.01,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -2641,17 +2600,15 @@
         "optical-module-equipment"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "002975",
           "exchange": "SZSE",
           "name": "博杰股份",
-          "peTtm": 121.01,
-          "peAsOf": "2026-07-01"
+          "peTtm": 109.39,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -2725,17 +2682,15 @@
         "copper-foil"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "688388",
           "exchange": "SSE",
           "name": "嘉元科技",
-          "peTtm": 180.36,
-          "peAsOf": "2026-07-01"
+          "peTtm": 169.28,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -2810,8 +2765,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：产业处早期，需以产品验证与订单披露为准。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：产业处早期，需以产品验证与订单披露为准。"
       ],
       "listings": [
         {
@@ -2819,8 +2773,8 @@
           "code": "601126",
           "exchange": "SSE",
           "name": "四方股份",
-          "peTtm": 56.87,
-          "peAsOf": "2026-07-01"
+          "peTtm": 56.31,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -2894,17 +2848,15 @@
         "electronic-cloth"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "301526",
           "exchange": "SZSE",
           "name": "国际复材",
-          "peTtm": 359.78,
-          "peAsOf": "2026-07-01"
+          "peTtm": 361.63,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -2978,17 +2930,15 @@
         "resin"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "605589",
           "exchange": "SSE",
           "name": "圣泉集团",
-          "peTtm": 54.33,
-          "peAsOf": "2026-07-01"
+          "peTtm": 48.24,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -3062,17 +3012,15 @@
         "power"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "002580",
           "exchange": "SZSE",
           "name": "圣阳股份",
-          "peTtm": 49.15,
-          "peAsOf": "2026-07-01"
+          "peTtm": 50.05,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -3147,8 +3095,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。"
       ],
       "listings": [
         {
@@ -3156,8 +3103,8 @@
           "code": "300394",
           "exchange": "SZSE",
           "name": "天孚通信",
-          "peTtm": 143.14,
-          "peAsOf": "2026-07-01"
+          "peTtm": 125.61,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -3231,17 +3178,15 @@
         "electronic-cloth"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "603256",
           "exchange": "SSE",
           "name": "宏和科技",
-          "peTtm": 743.88,
-          "peAsOf": "2026-07-01"
+          "peTtm": 691.65,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -3315,17 +3260,15 @@
         "resin"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "603002",
           "exchange": "SSE",
           "name": "宏昌电子",
-          "peTtm": 917.77,
-          "peAsOf": "2026-07-01"
+          "peTtm": 863.74,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -3399,17 +3342,15 @@
         "compute-rental"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "301396",
           "exchange": "SZSE",
           "name": "宏景科技",
-          "peTtm": 2007.99,
-          "peAsOf": "2026-07-01"
+          "peTtm": 1795.97,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -3483,17 +3424,15 @@
         "ai-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "688256",
           "exchange": "SSE",
           "name": "寒武纪",
-          "peTtm": 343.48,
-          "peAsOf": "2026-07-01"
+          "peTtm": 312.88,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -3567,17 +3506,15 @@
         "ai-server"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "601138",
           "exchange": "SSE",
           "name": "工业富联",
-          "peTtm": 34.17,
-          "peAsOf": "2026-07-01"
+          "peTtm": 31.59,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -3652,8 +3589,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。"
       ],
       "listings": [
         {
@@ -3661,8 +3597,8 @@
           "code": "603308",
           "exchange": "SSE",
           "name": "应流股份",
-          "peTtm": 110.52,
-          "peAsOf": "2026-07-01"
+          "peTtm": 109.55,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -3736,17 +3672,15 @@
         "storage-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "001309",
           "exchange": "SZSE",
           "name": "德明利",
-          "peTtm": 49.38,
-          "peAsOf": "2026-07-01"
+          "peTtm": 48.75,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -3820,17 +3754,15 @@
         "copper-foil"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "301511",
           "exchange": "SZSE",
           "name": "德福科技",
-          "peTtm": 404.53,
-          "peAsOf": "2026-07-01"
+          "peTtm": 399.52,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -3905,8 +3837,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。"
       ],
       "listings": [
         {
@@ -3914,8 +3845,8 @@
           "code": "688205",
           "exchange": "SSE",
           "name": "德科立",
-          "peTtm": 420.17,
-          "peAsOf": "2026-07-01"
+          "peTtm": 369.97,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -3989,17 +3920,15 @@
         "optical-module-equipment"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "688170",
           "exchange": "SSE",
           "name": "德龙激光",
-          "peTtm": 561.72,
-          "peAsOf": "2026-07-01"
+          "peTtm": 462.03,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -4073,9 +4002,7 @@
         "ai-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
@@ -4083,7 +4010,7 @@
           "exchange": "SSE",
           "name": "摩尔线程",
           "peTtm": null,
-          "peAsOf": "2026-06-30"
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -4157,17 +4084,15 @@
         "aidc"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "603881",
           "exchange": "SSE",
           "name": "数据港",
-          "peTtm": 159.48,
-          "peAsOf": "2026-07-01"
+          "peTtm": 155.83,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -4242,8 +4167,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。"
       ],
       "listings": [
         {
@@ -4251,8 +4175,8 @@
           "code": "300502",
           "exchange": "SZSE",
           "name": "新易盛",
-          "peTtm": 74.72,
-          "peAsOf": "2026-07-01"
+          "peTtm": 68.29,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -4327,8 +4251,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。"
       ],
       "listings": [
         {
@@ -4336,8 +4259,8 @@
           "code": "002353",
           "exchange": "SZSE",
           "name": "杰瑞股份",
-          "peTtm": 56.48,
-          "peAsOf": "2026-07-01"
+          "peTtm": 58.98,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -4411,17 +4334,15 @@
         "power"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "300870",
           "exchange": "SZSE",
           "name": "欧陆通",
-          "peTtm": 272.5,
-          "peAsOf": "2026-07-01"
+          "peTtm": 248.32,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -4495,17 +4416,15 @@
         "storage-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "301308",
           "exchange": "SZSE",
           "name": "江波龙",
-          "peTtm": 51.96,
-          "peAsOf": "2026-07-01"
+          "peTtm": 48.09,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -4579,17 +4498,15 @@
         "high-speed-connection"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "002130",
           "exchange": "SZSE",
           "name": "沃尔核材",
-          "peTtm": 22.84,
-          "peAsOf": "2026-07-01"
+          "peTtm": 22.75,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -4663,9 +4580,7 @@
         "ai-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
@@ -4673,7 +4588,7 @@
           "exchange": "SSE",
           "name": "沐曦股份",
           "peTtm": null,
-          "peAsOf": "2026-06-30"
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -4747,17 +4662,15 @@
         "pcb"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "002463",
           "exchange": "SZSE",
           "name": "沪电股份",
-          "peTtm": 64.87,
-          "peAsOf": "2026-07-01"
+          "peTtm": 60.55,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -4831,17 +4744,15 @@
         "ai-server"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "000977",
           "exchange": "SZSE",
           "name": "浪潮信息",
-          "peTtm": 38.66,
-          "peAsOf": "2026-07-01"
+          "peTtm": 38.13,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -4915,17 +4826,15 @@
         "ai-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "688041",
           "exchange": "SSE",
           "name": "海光信息",
-          "peTtm": 298.33,
-          "peAsOf": "2026-07-01"
+          "peTtm": 277.44,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -4999,17 +4908,15 @@
         "aidc"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "300442",
           "exchange": "SZSE",
           "name": "润泽科技",
-          "peTtm": 28.41,
-          "peAsOf": "2026-07-01"
+          "peTtm": 26.95,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -5083,17 +4990,15 @@
         "pcb"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "002916",
           "exchange": "SZSE",
           "name": "深南电路",
-          "peTtm": 83.97,
-          "peAsOf": "2026-07-01"
+          "peTtm": 85.18,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -5167,17 +5072,15 @@
         "optical-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "688498",
           "exchange": "SSE",
           "name": "源杰科技",
-          "peTtm": 615.78,
-          "peAsOf": "2026-07-01"
+          "peTtm": 580.19,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -5251,17 +5154,15 @@
         "fiber-cable"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "600498",
           "exchange": "SSE",
           "name": "烽火通信",
-          "peTtm": 224.78,
-          "peAsOf": "2026-07-01"
+          "peTtm": 200.66,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -5336,8 +5237,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。"
       ],
       "listings": [
         {
@@ -5345,8 +5245,8 @@
           "code": "301018",
           "exchange": "SZSE",
           "name": "申菱环境",
-          "peTtm": 215.46,
-          "peAsOf": "2026-07-01"
+          "peTtm": 230.86,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -5421,8 +5321,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。"
       ],
       "listings": [
         {
@@ -5430,8 +5329,8 @@
           "code": "002222",
           "exchange": "SZSE",
           "name": "福晶科技",
-          "peTtm": 139.51,
-          "peAsOf": "2026-07-01"
+          "peTtm": 131.68,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -5505,17 +5404,15 @@
         "optical-module-equipment"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "002957",
           "exchange": "SZSE",
           "name": "科瑞技术",
-          "peTtm": 72.28,
-          "peAsOf": "2026-07-01"
+          "peTtm": 67.73,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -5589,17 +5486,15 @@
         "high-speed-connection"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "002475",
           "exchange": "SZSE",
           "name": "立讯精密",
-          "peTtm": 28.16,
-          "peAsOf": "2026-07-01"
+          "peTtm": 27.4,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -5673,17 +5568,15 @@
         "ai-server"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "000938",
           "exchange": "SZSE",
           "name": "紫光股份",
-          "peTtm": 40.29,
-          "peAsOf": "2026-07-01"
+          "peTtm": 40.76,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -5757,17 +5650,15 @@
         "aidc"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "300017",
           "exchange": "SZSE",
           "name": "网宿科技",
-          "peTtm": 45.74,
-          "peAsOf": "2026-07-01"
+          "peTtm": 43.61,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -5841,9 +5732,7 @@
         "optical-module-equipment"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
@@ -5851,7 +5740,7 @@
           "exchange": "SZSE",
           "name": "罗博特科",
           "peTtm": null,
-          "peAsOf": "2026-07-01"
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -5925,9 +5814,7 @@
         "resin"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
@@ -5935,7 +5822,7 @@
           "exchange": "SZSE",
           "name": "美联新材",
           "peTtm": null,
-          "peAsOf": "2026-07-01"
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -6010,8 +5897,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。"
       ],
       "listings": [
         {
@@ -6019,8 +5905,8 @@
           "code": "605060",
           "exchange": "SSE",
           "name": "联德股份",
-          "peTtm": 56.4,
-          "peAsOf": "2026-07-01"
+          "peTtm": 51.93,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -6094,17 +5980,15 @@
         "pcb"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "300476",
           "exchange": "SZSE",
           "name": "胜宏科技",
-          "peTtm": 68.64,
-          "peAsOf": "2026-07-01"
+          "peTtm": 64.7,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -6179,8 +6063,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。"
       ],
       "listings": [
         {
@@ -6188,8 +6071,8 @@
           "code": "688195",
           "exchange": "SSE",
           "name": "腾景科技",
-          "peTtm": 476.51,
-          "peAsOf": "2026-07-01"
+          "peTtm": 413.9,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -6264,8 +6147,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。"
       ],
       "listings": [
         {
@@ -6273,8 +6155,8 @@
           "code": "002837",
           "exchange": "SZSE",
           "name": "英维克",
-          "peTtm": 197.35,
-          "peAsOf": "2026-07-01"
+          "peTtm": 188.63,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -6348,9 +6230,7 @@
         "copper-foil"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
@@ -6358,7 +6238,7 @@
           "exchange": "SSE",
           "name": "诺德股份",
           "peTtm": null,
-          "peAsOf": "2026-07-01"
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -6433,8 +6313,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。"
       ],
       "listings": [
         {
@@ -6442,8 +6321,8 @@
           "code": "001896",
           "exchange": "SZSE",
           "name": "豫能控股",
-          "peTtm": 70.85,
-          "peAsOf": "2026-07-01"
+          "peTtm": 64.1,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -6518,8 +6397,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：产业处早期，需以产品验证与订单披露为准。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：产业处早期，需以产品验证与订单披露为准。"
       ],
       "listings": [
         {
@@ -6527,8 +6405,8 @@
           "code": "688676",
           "exchange": "SSE",
           "name": "金盘科技",
-          "peTtm": 58.4,
-          "peAsOf": "2026-07-01"
+          "peTtm": 55.02,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -6602,17 +6480,15 @@
         "copper-foil"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "301217",
           "exchange": "SZSE",
           "name": "铜冠铜箔",
-          "peTtm": 832.02,
-          "peAsOf": "2026-07-01"
+          "peTtm": 780.48,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -6686,17 +6562,15 @@
         "optical-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "688048",
           "exchange": "SSE",
           "name": "长光华芯",
-          "peTtm": 2478.1,
-          "peAsOf": "2026-07-01"
+          "peTtm": 2145.05,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -6770,25 +6644,23 @@
         "fiber-cable"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "601869",
           "exchange": "SSE",
           "name": "长飞光纤",
-          "peTtm": 363.82,
-          "peAsOf": "2026-07-01"
+          "peTtm": 339.9,
+          "peAsOf": "2026-07-03"
         },
         {
           "market": "H",
           "code": "06869",
           "name": "长飞光纤光缆",
           "exchange": "HKEX",
-          "peTtm": 126.55,
-          "peAsOf": "2026-07-02"
+          "peTtm": 128.4,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -6863,8 +6735,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。"
       ],
       "listings": [
         {
@@ -6872,8 +6743,8 @@
           "code": "000601",
           "exchange": "SZSE",
           "name": "韶能股份",
-          "peTtm": 68.85,
-          "peAsOf": "2026-07-01"
+          "peTtm": 70.56,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -6948,8 +6819,7 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。",
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。"
       ],
       "listings": [
         {
@@ -6957,8 +6827,8 @@
           "code": "300499",
           "exchange": "SZSE",
           "name": "高澜股份",
-          "peTtm": 372.4,
-          "peAsOf": "2026-07-01"
+          "peTtm": 365.9,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -7032,17 +6902,15 @@
         "power"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "002851",
           "exchange": "SZSE",
           "name": "麦格米特",
-          "peTtm": 594.19,
-          "peAsOf": "2026-07-01"
+          "peTtm": 560.66,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
@@ -7116,17 +6984,15 @@
         "high-speed-connection"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [
-        "本次估值接口未返回该公司，沿用上次成功估值快照。"
-      ],
+      "auditNotes": [],
       "listings": [
         {
           "market": "A",
           "code": "688668",
           "exchange": "SSE",
           "name": "鼎通科技",
-          "peTtm": 186.22,
-          "peAsOf": "2026-07-01"
+          "peTtm": 167.79,
+          "peAsOf": "2026-07-03"
         }
       ],
       "financials": [
