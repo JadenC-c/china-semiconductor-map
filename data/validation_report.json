@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T11:20:23+00:00",
+  "generatedAt": "2026-07-09T12:18:02+00:00",
   "summary": {
     "nodes": 20,
     "screenshotSlots": 80,
@@ -11,7 +11,8 @@
   },
   "marketErrors": [
     "A股代码表：ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "行情代码表未返回 75 家公司，已沿用上次成功代码。"
+    "行情代码表未返回 75 家公司，已沿用上次成功代码。",
+    "定向估值快照：ReadTimeout: HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Read timed out. (read timeout=20)"
   ],
   "fetchErrors": [],
   "unresolvedCompanies": [],

@@ -2,7 +2,7 @@
   "meta": {
     "title": "中国半导体与 AI 算力产业链",
     "subtitle": "从材料、光互连到数据中心与算力运营",
-    "updatedAt": "2026-07-08T11:20:23+00:00",
+    "updatedAt": "2026-07-09T12:18:02+00:00",
     "financialYears": [
       2021,
       2022,
@@ -523,7 +523,9 @@
         "pcb"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -606,7 +608,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。"
+        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -622,8 +625,8 @@
           "code": "01072",
           "name": "东方电气",
           "exchange": "HKEX",
-          "peTtm": 16.36,
-          "peAsOf": "2026-07-08"
+          "peTtm": 16.23,
+          "peAsOf": "2026-07-09"
         }
       ],
       "financials": [
@@ -697,7 +700,9 @@
         "resin"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -779,7 +784,9 @@
         "electronic-cloth"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -862,7 +869,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：产业处早期，需以产品验证与订单披露为准。"
+        "概念口径：产业处早期，需以产品验证与订单披露为准。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -945,7 +953,9 @@
         "fiber-cable"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -1027,7 +1037,9 @@
         "power"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -1109,7 +1121,9 @@
         "electronic-cloth"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -1193,7 +1207,8 @@
       ],
       "screenshotSlots": 2,
       "auditNotes": [
-        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。"
+        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -1277,7 +1292,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。"
+        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -1360,7 +1376,9 @@
         "fiber-cable"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -1442,7 +1460,9 @@
         "optical-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -1525,7 +1545,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：产业处早期，需以产品验证与订单披露为准。"
+        "概念口径：产业处早期，需以产品验证与订单披露为准。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -1608,7 +1629,9 @@
         "compute-rental"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -1690,7 +1713,9 @@
         "storage-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -1772,7 +1797,9 @@
         "storage-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -1854,7 +1881,9 @@
         "high-speed-connection"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -1937,7 +1966,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。"
+        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -2020,7 +2050,9 @@
         "aidc"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -2102,7 +2134,9 @@
         "optical-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -2184,7 +2218,9 @@
         "compute-rental"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -2267,7 +2303,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。"
+        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -2350,7 +2387,9 @@
         "compute-rental"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -2433,7 +2472,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。"
+        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -2517,7 +2557,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。"
+        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -2600,7 +2641,9 @@
         "optical-module-equipment"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -2682,7 +2725,9 @@
         "copper-foil"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -2765,7 +2810,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：产业处早期，需以产品验证与订单披露为准。"
+        "概念口径：产业处早期，需以产品验证与订单披露为准。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -2848,7 +2894,9 @@
         "electronic-cloth"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -2930,7 +2978,9 @@
         "resin"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -3012,7 +3062,9 @@
         "power"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -3095,7 +3147,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。"
+        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -3178,7 +3231,9 @@
         "electronic-cloth"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -3260,7 +3315,9 @@
         "resin"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -3342,7 +3399,9 @@
         "compute-rental"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -3424,7 +3483,9 @@
         "ai-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -3506,7 +3567,9 @@
         "ai-server"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -3589,7 +3652,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。"
+        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -3672,7 +3736,9 @@
         "storage-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -3754,7 +3820,9 @@
         "copper-foil"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -3837,7 +3905,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。"
+        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -3920,7 +3989,9 @@
         "optical-module-equipment"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -4002,7 +4073,9 @@
         "ai-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -4084,7 +4157,9 @@
         "aidc"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -4167,7 +4242,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。"
+        "概念口径：按 CPO 相关供应链保留，实际收入应以公司披露为准。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -4251,7 +4327,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。"
+        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -4334,7 +4411,9 @@
         "power"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -4416,7 +4495,9 @@
         "storage-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -4498,7 +4579,9 @@
         "high-speed-connection"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -4580,7 +4663,9 @@
         "ai-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -4662,7 +4747,9 @@
         "pcb"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -4744,7 +4831,9 @@
         "ai-server"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -4826,7 +4915,9 @@
         "ai-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -4908,7 +4999,9 @@
         "aidc"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -4990,7 +5083,9 @@
         "pcb"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -5072,7 +5167,9 @@
         "optical-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -5154,7 +5251,9 @@
         "fiber-cable"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -5237,7 +5336,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。"
+        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -5321,7 +5421,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。"
+        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -5404,7 +5505,9 @@
         "optical-module-equipment"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -5486,7 +5589,9 @@
         "high-speed-connection"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -5568,7 +5673,9 @@
         "ai-server"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -5650,7 +5757,9 @@
         "aidc"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -5732,7 +5841,9 @@
         "optical-module-equipment"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -5814,7 +5925,9 @@
         "resin"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -5897,7 +6010,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。"
+        "概念口径：部分公司主要提供零部件或能源装备，并非数据中心燃机整机供应商。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -5980,7 +6094,9 @@
         "pcb"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -6063,7 +6179,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。"
+        "概念口径：德科立等公司与 OCS 的关系偏供应链映射，不等同于 OCS 整机龙头。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -6147,7 +6264,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。"
+        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -6230,7 +6348,9 @@
         "copper-foil"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -6313,7 +6433,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。"
+        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -6397,7 +6518,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：产业处早期，需以产品验证与订单披露为准。"
+        "概念口径：产业处早期，需以产品验证与订单披露为准。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -6480,7 +6602,9 @@
         "copper-foil"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -6562,7 +6686,9 @@
         "optical-chip"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -6644,7 +6770,9 @@
         "fiber-cable"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -6659,8 +6787,8 @@
           "code": "06869",
           "name": "长飞光纤光缆",
           "exchange": "HKEX",
-          "peTtm": 96.94,
-          "peAsOf": "2026-07-08"
+          "peTtm": 102.23,
+          "peAsOf": "2026-07-09"
         }
       ],
       "financials": [
@@ -6735,7 +6863,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。"
+        "概念口径：截图中的“南网数字”按“南网数字集团相关概念”保留，但该简称不对应独立 A/H 上市公司，需标记异常。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -6819,7 +6948,8 @@
       ],
       "screenshotSlots": 1,
       "auditNotes": [
-        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。"
+        "截图文字辨识为“申菱环境”，已按上市公司标准简称校正。",
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
       ],
       "listings": [
         {
@@ -6902,7 +7032,9 @@
         "power"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
@@ -6984,7 +7116,9 @@
         "high-speed-connection"
       ],
       "screenshotSlots": 1,
-      "auditNotes": [],
+      "auditNotes": [
+        "本次估值接口未返回该公司，沿用上次成功估值快照。"
+      ],
       "listings": [
         {
           "market": "A",
