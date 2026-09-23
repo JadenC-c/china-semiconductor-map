@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T14:04:38+00:00",
+  "generatedAt": "2026-09-23T14:17:04+00:00",
   "summary": {
     "nodes": 20,
     "screenshotSlots": 80,
@@ -10,7 +10,7 @@
     "unresolved": 0
   },
   "marketErrors": [
-    "A股代码表：HTTPError: 502 Server Error: Bad Gateway for url: https://82.push2delay.eastmoney.com/api/qt/clist/get?pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&fid=f12&fs=m%3A0+t%3A6%2Cm%3A0+t%3A80%2Cm%3A1+t%3A2%2Cm%3A1+t%3A23%2Cm%3A0+t%3A81+s%3A2048&fields=f12%2Cf14&pn=3",
+    "A股代码表：ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "行情代码表未返回 75 家公司，已沿用上次成功代码。"
   ],
   "fetchErrors": [],
