@@ -2,7 +2,7 @@
   "meta": {
     "title": "中国半导体与 AI 算力产业链",
     "subtitle": "从材料、光互连到数据中心与算力运营",
-    "updatedAt": "2026-10-05T18:34:54+00:00",
+    "updatedAt": "2026-10-06T16:02:05+00:00",
     "financialYears": [
       2021,
       2022,
@@ -625,8 +625,8 @@
           "code": "01072",
           "name": "东方电气",
           "exchange": "HKEX",
-          "peTtm": 11.85,
-          "peAsOf": "2026-10-05"
+          "peTtm": 11.81,
+          "peAsOf": "2026-10-06"
         }
       ],
       "financials": [
@@ -6787,8 +6787,8 @@
           "code": "06869",
           "name": "长飞光纤光缆",
           "exchange": "HKEX",
-          "peTtm": 37.6,
-          "peAsOf": "2026-10-05"
+          "peTtm": 37.79,
+          "peAsOf": "2026-10-06"
         }
       ],
       "financials": [
