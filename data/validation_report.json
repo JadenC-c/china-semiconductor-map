@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T17:28:39+00:00",
+  "generatedAt": "2026-11-06T16:50:20+00:00",
   "summary": {
     "nodes": 20,
     "screenshotSlots": 80,
@@ -9,7 +9,9 @@
     "partialFinancials": 0,
     "unresolved": 0
   },
-  "marketErrors": [],
+  "marketErrors": [
+    "行情代码表未返回 1 家公司，已沿用上次成功代码。"
+  ],
   "fetchErrors": [],
   "unresolvedCompanies": [],
   "missingYears": {
